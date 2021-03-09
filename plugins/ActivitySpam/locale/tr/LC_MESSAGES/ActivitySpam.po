@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Uğur KUYU <ukuyu34@gmail.com>, 2015
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -21,8 +21,8 @@ msgstr ""
 #: ActivitySpamPlugin.php:208
 msgctxt "MENU"
 msgid "Spam"
-msgstr "Spam"
+msgstr "İstenmeyen ileti"
 
 #: ActivitySpamPlugin.php:225
 msgid "Test notices against the Activity Spam service."
-msgstr "Spam faaliyetlerine karşı sınama bildirimleri"
+msgstr "Activity İstenmeyen Posta hizmeti bildirimlerini sınayın."
