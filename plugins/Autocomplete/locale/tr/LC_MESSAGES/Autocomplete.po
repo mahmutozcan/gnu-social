@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,4 +21,4 @@ msgstr ""
 #. TRANS: Plugin description.
 #: AutocompletePlugin.php:63
 msgid "The autocomplete plugin adds autocompletion for @ replies."
-msgstr ""
+msgstr "Otomatik tamamlama eklentisi @ yanıtlarını otomatik olarak tamamlar."
