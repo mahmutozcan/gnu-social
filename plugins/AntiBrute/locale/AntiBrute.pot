@@ -20,4 +20,4 @@ msgstr ""
 #. TRANS: Plugin description.
 #: AntiBrutePlugin.php:75
 msgid "Anti bruteforce method(s)."
-msgstr ""
+msgstr "Kaba kuvvet karşıtı yöntem(ler)."
