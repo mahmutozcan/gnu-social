@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Uğur KUYU <ukuyu34@gmail.com>, 2015
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -22,65 +23,66 @@ msgstr ""
 #: actions/anonfavor.php:58
 msgid ""
 "Could not favor notice! Please make sure your browser has cookies enabled."
-msgstr ""
+msgstr "Bildirim kabul edilemedi! Lütfen çerezlerin etkin olduğundan emin olun."
 
 #. TRANS: Client error.
 #: actions/anonfavor.php:67
 msgid "This notice is already a favorite!"
-msgstr ""
+msgstr "Bu bildirim zaten sık gözde bildirim olarak işaretli"
 
 #. TRANS: Server error.
 #: actions/anonfavor.php:73
 msgid "Could not create favorite."
-msgstr "Favori oluşturulamadı."
+msgstr "Gözde bildirim oluşturulamadı."
 
 #. TRANS: Title.
 #: actions/anonfavor.php:82
 msgid "Disfavor favorite"
-msgstr ""
+msgstr "Gözden düşen gözde bildirimler"
 
 #. TRANS: Client error.
 #: actions/anondisfavor.php:59
 msgid ""
 "Could not disfavor notice! Please make sure your browser has cookies "
 "enabled."
-msgstr ""
+msgstr "Gözden düşen bildirim yapılamadı! Lütfen şundan emin olun. Tarayıcı çerezleri"
+"etkin mi"
 
 #. TRANS: Server error.
 #: actions/anondisfavor.php:80
 msgid "Could not delete favorite."
-msgstr ""
+msgstr "Gözde bildirim silinemedi."
 
 #. TRANS: Title.
 #: actions/anondisfavor.php:89
 msgid "Add to favorites"
-msgstr ""
+msgstr "Gözde bildirimlere ekle"
 
 #. TRANS: Server exception.
 #. TRANS: %d is the notice ID (number).
 #: classes/Fave_tally.php:96 classes/Fave_tally.php:125
 #, php-format
 msgid "Could not update favorite tally for notice ID %d."
-msgstr ""
+msgstr "%d bildirim kimliği için gözde bildirimler çizelgesi güncellenemedi."
 
 #. TRANS: Server exception.
 #. TRANS: %d is the notice ID (number).
 #: classes/Fave_tally.php:156
 #, php-format
 msgid "Could not create favorite tally for notice ID %d."
-msgstr ""
+msgstr "%d bildirim kimliği için gözde bildirimler çizelgesi oluşturulamadı. "
 
 #. TRANS: Label for tally for number of times a notice was favored.
 #: AnonymousFavePlugin.php:165
 msgid "Favored"
-msgstr ""
+msgstr "Gözde bildirimde"
 
 #. TRANS: Server exception.
 #: AnonymousFavePlugin.php:198 AnonymousFavePlugin.php:209
 msgid "Could not create anonymous user session."
-msgstr ""
+msgstr "Adı bilinmeyen kullanıcı oturumu oluşturulamadı."
 
 #. TRANS: Plugin description.
 #: AnonymousFavePlugin.php:284
 msgid "Allow anonymous users to favorite notices."
-msgstr ""
+msgstr "Adı bilinmeyen kullanıcıların gözde bildirimlerine izin ver."
