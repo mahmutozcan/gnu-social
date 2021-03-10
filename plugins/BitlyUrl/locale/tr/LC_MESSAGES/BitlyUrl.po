@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,7 +21,7 @@ msgstr ""
 #. TRANS: Title of administration panel.
 #: actions/bitlyadminpanel.php:53
 msgid "bit.ly URL shortening"
-msgstr ""
+msgstr "bit.ly internet adresi kısaltma"
 
 #. TRANS: Instructions for administration panel.
 #. TRANS: This message contains Markdown links in the form
@@ -36,39 +37,39 @@ msgstr ""
 #. TRANS: Client error displayed when using too long a key.
 #: actions/bitlyadminpanel.php:131
 msgid "Invalid login. Maximum length is 255 characters."
-msgstr ""
+msgstr "Geçersiz giriş. Uzunluk en çok 255 karakterdir. "
 
 #. TRANS: Client error displayed when using too long a key.
 #: actions/bitlyadminpanel.php:138
 msgid "Invalid API key. Maximum length is 255 characters."
-msgstr ""
+msgstr "Geçersiz API anahtarı. Uzunluk en çok 255 karakterdir."
 
 #. TRANS: Fieldset legend in administration panel for bit.ly username and API
 #. key.
 #: actions/bitlyadminpanel.php:188
 msgctxt "LEGEND"
 msgid "Credentials"
-msgstr ""
+msgstr "Kimlik Bilgileri"
 
 #. TRANS: Form guide in administration panel for bit.ly URL shortening.
 #: actions/bitlyadminpanel.php:197
 msgid "Leave these empty to use global default credentials."
-msgstr ""
+msgstr "Küresel öntanımlı kimlik bilgilerini kullanmak için buraları boş bırakın."
 
 #. TRANS: Form guide in administration panel for bit.ly URL shortening.
 #: actions/bitlyadminpanel.php:201
 msgid "If you leave these empty, bit.ly will be unavailable to users."
-msgstr ""
+msgstr "Bunları boş bırakırsanız, bit.ly kullanıcılar tarafından kullanılamayacaktır. "
 
 #. TRANS: Field label in administration panel for bit.ly URL shortening.
 #: actions/bitlyadminpanel.php:209
 msgid "Login name"
-msgstr ""
+msgstr "Kullanıcı adı"
 
 #. TRANS: Field label in administration panel for bit.ly URL shortening.
 #: actions/bitlyadminpanel.php:219
 msgid "API key"
-msgstr ""
+msgstr "API anahtarı"
 
 #. TRANS: Button text to save setting in administration panel for bit.ly URL
 #. shortening.
@@ -81,29 +82,30 @@ msgstr "Kaydet"
 #. shortening.
 #: actions/bitlyadminpanel.php:242
 msgid "Save bit.ly settings"
-msgstr ""
+msgstr "bit.ly ayarlarını kaydet"
 
 #. TRANS: Exception thrown when bit.ly URL shortening plugin was configured
 #. incorrectly.
 #: BitlyUrlPlugin.php:47
 msgid "You must specify a serviceUrl for bit.ly URL shortening."
-msgstr ""
+msgstr "Bit.ly internet adresi kısaltması için bir serviceUrl belirtmelisiniz. "
+
 
 #. TRANS: Plugin description. %1$s is the URL shortening service base URL (for
 #. example "bit.ly").
 #: BitlyUrlPlugin.php:156
 #, php-format
 msgid "Uses <a href=\"http://%1$s/\">%1$s</a> URL-shortener service."
-msgstr ""
+msgstr "<a href=\"http://%1$s/\">%1$s</a> adres kısaltıcı hizmeti kullanıyor."
 
 #. TRANS: Menu item in administration menus for bit.ly URL shortening
 #. settings.
 #: BitlyUrlPlugin.php:198
 msgid "bit.ly"
-msgstr ""
+msgstr "bit.ly"
 
 #. TRANS: Title for menu item in administration menus for bit.ly URL
 #. shortening settings.
 #: BitlyUrlPlugin.php:200
 msgid "bit.ly URL shortening."
-msgstr ""
+msgstr "bit.ly internet adresi kısaltma."
