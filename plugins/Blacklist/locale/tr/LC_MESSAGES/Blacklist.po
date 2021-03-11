@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -21,32 +22,32 @@ msgstr ""
 #: actions/blacklistadminpanel.php:53
 msgctxt "TITLE"
 msgid "Blacklist"
-msgstr ""
+msgstr "Kara liste"
 
 #. TRANS: Instructions for blacklist plugin administration panel.
 #: actions/blacklistadminpanel.php:64
 msgid "Blacklisted URLs and nicknames"
-msgstr ""
+msgstr "Adresler ve takma adlar kara listeye alındı"
 
 #. TRANS: Field label in blacklist plugin administration panel.
 #: actions/blacklistadminpanel.php:177
 msgid "Nicknames"
-msgstr ""
+msgstr "Takma adlar"
 
 #. TRANS: Field title in blacklist plugin administration panel.
 #: actions/blacklistadminpanel.php:180
 msgid "Patterns of nicknames to block, one per line."
-msgstr ""
+msgstr "Her satıra bir tane olmak üzere engellenecek takma adların örüntüleri. "
 
 #. TRANS: Field label in blacklist plugin administration panel.
 #: actions/blacklistadminpanel.php:187
 msgid "URLs"
-msgstr ""
+msgstr "İnternet adresleri"
 
 #. TRANS: Field title in blacklist plugin administration panel.
 #: actions/blacklistadminpanel.php:190
 msgid "Patterns of URLs to block, one per line."
-msgstr ""
+msgstr "Her satıra bir tane olmak üzere engellenecek internet adreslerinin örüntüleri."
 
 #. TRANS: Button text in blacklist plugin administration panel to save
 #. settings.
@@ -59,71 +60,71 @@ msgstr "Kaydet"
 #. settings.
 #: actions/blacklistadminpanel.php:209
 msgid "Save site settings."
-msgstr ""
+msgstr "Site ayarlarını kaydet."
 
 #. TRANS: Exception thrown if the Blacklist plugin configuration is incorrect.
 #. TRANS: %1$s is a configuration section, %2$s is a configuration setting.
 #: BlacklistPlugin.php:112
 #, php-format
 msgid "Unknown data type for config %1$s + %2$s."
-msgstr ""
+msgstr "%1$s + %2$s yapılandırması için bilinmeyen dosya türü."
 
 #. TRANS: Validation failure for URL. %s is the URL.
 #: BlacklistPlugin.php:132
 #, php-format
 msgid "You may not register with homepage \"%s\"."
-msgstr ""
+msgstr "Ana sayfa \"%s\" ile kaydolamazsınız."
 
 #. TRANS: Validation failure for nickname. %s is the nickname.
 #: BlacklistPlugin.php:143
 #, php-format
 msgid "You may not register with nickname \"%s\"."
-msgstr ""
-
+msgstr "\"%s\" takma adı ile kaydolamazsınız."
+  
 #. TRANS: Validation failure for URL. %s is the URL.
 #: BlacklistPlugin.php:168
 #, php-format
 msgid "You may not use homepage \"%s\"."
-msgstr ""
+msgstr "\"%s\ ana sayfasını kullanamazsınız."
 
 #. TRANS: Validation failure for nickname. %s is the nickname.
 #: BlacklistPlugin.php:179
 #, php-format
 msgid "You may not use nickname \"%s\"."
-msgstr ""
+msgstr "\"%s\" takma adını kullanamazsınız."
 
 #. TRANS: Validation failure for URL. %s is the URL.
 #: BlacklistPlugin.php:222
 #, php-format
 msgid "You may not use URL \"%s\" in notices."
-msgstr ""
+msgstr "Bildirimlerde \"%s\ adresini kullanamazsınız."
 
 #. TRANS: Plugin description.
 #: BlacklistPlugin.php:303
 msgid "Keeps a blacklist of forbidden nickname and URL patterns."
-msgstr ""
+msgstr "Yasaklanmış takma ad ve URL internet adresi örüntülerinden oluşan bir kara liste tutar. "
 
 #. TRANS: Menu item in admin panel.
 #: BlacklistPlugin.php:341
 msgctxt "MENU"
 msgid "Blacklist"
-msgstr ""
+msgstr "Kara Liste"
 
 #. TRANS: Tooltip for menu item in admin panel.
 #: BlacklistPlugin.php:343
 msgctxt "TOOLTIP"
 msgid "Blacklist configuration."
-msgstr ""
+msgstr "Kara liste yapılandırması."
 
 #. TRANS: Checkbox label in the blacklist user form.
 #: BlacklistPlugin.php:370
 msgid "Add this nickname pattern to blacklist"
-msgstr ""
+msgstr "Bu takma ad örüntüsünü kara listeye ekle"
 
 #. TRANS: Checkbox label in the blacklist user form.
 #: BlacklistPlugin.php:380
 msgid "Add this homepage pattern to blacklist"
-msgstr ""
+msgstr "Bu ana sayfa örüntüsünü kara listeye ekle"
 
 #. TRANS: Exception thrown trying to post a notice while having set a blocked
 #. homepage URL. %s is the blocked URL.
@@ -132,18 +133,18 @@ msgstr ""
 #: BlacklistPlugin.php:459 BlacklistPlugin.php:496
 #, php-format
 msgid "Users from \"%s\" are blocked."
-msgstr ""
+msgstr "\"%s\" kullanıcıları engellendi. "
 
 #. TRANS: Exception thrown trying to post a notice while having a blocked
 #. nickname. %s is the blocked nickname.
 #: BlacklistPlugin.php:471
 #, php-format
 msgid "Notices from nickname \"%s\" are disallowed."
-msgstr ""
+msgstr "\"%s\" takma adından gelen bildirimlere izin verilmiyor."
 
 #. TRANS: Client exception thrown trying to subscribe to a person with a
 #. blocked nickname. %s is the blocked nickname.
 #: BlacklistPlugin.php:507
 #, php-format
 msgid "Cannot subscribe to nickname \"%s\"."
-msgstr ""
+msgstr "\"%s\" takma adına üye olamazsınız."
