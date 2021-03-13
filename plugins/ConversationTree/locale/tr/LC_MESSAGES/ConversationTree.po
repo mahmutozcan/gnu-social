@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,4 +21,4 @@ msgstr ""
 #. TRANS: Plugin description.
 #: ConversationTreePlugin.php:42
 msgid "Enables conversation tree view."
-msgstr ""
+msgstr "Konuşma ağacı görünümünü etkinleştirir."
