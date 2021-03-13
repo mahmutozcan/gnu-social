@@ -20,4 +20,4 @@ msgstr ""
 #. TRANS: Plugin description.
 #: DomainStatusNetworkPlugin.php:201
 msgid "A plugin that maps a single status_network to an email domain."
-msgstr ""
+msgstr "Bir e-posta alan adına tek bir status_network eşleyen eklenti"
