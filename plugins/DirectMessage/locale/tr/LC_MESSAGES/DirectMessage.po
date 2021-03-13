@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -21,13 +22,13 @@ msgstr ""
 #: DirectMessagePlugin.php:122
 msgctxt "MENU"
 msgid "Messages"
-msgstr ""
+msgstr "İletiler"
 
 #. TRANS: Link text for link on user profile.
 #: DirectMessagePlugin.php:142
 msgctxt "BUTTON"
 msgid "Message"
-msgstr ""
+msgstr "İleti"
 
 #. TRANS: Plugin description.
 #: DirectMessagePlugin.php:168
@@ -40,20 +41,20 @@ msgstr ""
 #, php-format
 msgid "That's too long. Maximum message size is %d character."
 msgid_plural "That's too long. Maximum message size is %d characters."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bu çok uzun. İleti boyutu en çok %d karakterdir."
+msgstr[1] "Bu çok uzun. İleti boyutu en çok %d karakterdir."
 
 #. TRANS: Menu item in mailbox menu. Leads to incoming private messages.
 #: lib/mailboxmenu.php:59
 msgctxt "MENU"
 msgid "Inbox"
-msgstr ""
+msgstr "Gelen kutusu"
 
 #. TRANS: Menu item in mailbox menu. Leads to outgoing private messages.
 #: lib/mailboxmenu.php:66
 msgctxt "MENU"
 msgid "Outbox"
-msgstr ""
+msgstr "Gönderilen"
 
 #. TRANS: Message given if content is too long. %1$sd is used for plural.
 #. TRANS: %1$d is the maximum number of characters, %2$d is the number of
@@ -62,8 +63,8 @@ msgstr ""
 #, php-format
 msgid "Message too long - maximum is %1$d character, you sent %2$d."
 msgid_plural "Message too long - maximum is %1$d characters, you sent %2$d."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "İleti çok uzun - en çok %1$d karakter olmalı, siz %2$d gönderdiniz."
+msgstr[1] "İleti çok uzun - en çok %1$d karakter olmalı, siz %2$d gönderdiniz."
 
 #. TRANS: Button text for sending a direct notice.
 #: lib/messageform.php:175
@@ -75,19 +76,19 @@ msgstr "Gönder"
 #: lib/messagelistitem.php:137
 msgctxt "SOURCE"
 msgid "web"
-msgstr ""
+msgstr "web"
 
 #. TRANS: A possible notice source (XMPP).
 #: lib/messagelistitem.php:139
 msgctxt "SOURCE"
 msgid "xmpp"
-msgstr ""
+msgstr "xmpp"
 
 #. TRANS: A possible notice source (e-mail).
 #: lib/messagelistitem.php:141
 msgctxt "SOURCE"
 msgid "mail"
-msgstr ""
+msgstr "posta"
 
 #. TRANS: A possible notice source (OpenMicroBlogging).
 #: lib/messagelistitem.php:143
