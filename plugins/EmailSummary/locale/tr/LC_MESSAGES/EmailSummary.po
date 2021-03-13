@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -21,7 +22,7 @@ msgstr ""
 #: lib/useremailsummaryhandler.php:125
 #, php-format
 msgid "Your latest updates from %s"
-msgstr ""
+msgstr "%s'den en son güncellemeleriniz"
 
 #. TRANS: Text in e-mail summary.
 #. TRANS: %1$s is the StatusNet sitename, %2$s is the recipient's profile
@@ -29,12 +30,12 @@ msgstr ""
 #: lib/useremailsummaryhandler.php:140
 #, php-format
 msgid "Recent updates from %1$s for %2$s:"
-msgstr ""
+msgstr "%2$s için %1$s'den son güncellemeler"
 
 #. TRANS: Link text for link to conversation view.
 #: lib/useremailsummaryhandler.php:188
 msgid "in context"
-msgstr ""
+msgstr "bağlamda"
 
 #. TRANS: Link text for link to e-mail settings.
 #. TRANS: %1$s is a link to the e-mail settings, %2$s is the StatusNet
@@ -42,14 +43,14 @@ msgstr ""
 #: lib/useremailsummaryhandler.php:198
 #, php-format
 msgid "<a href=\"%1$s\">change your email settings for %2$s</a>"
-msgstr ""
+msgstr "<a href=\"1$s\">%2$s</a> e-posta ayarlarını dğiştirin"
 
 #. TRANS: Plugin description.
 #: EmailSummaryPlugin.php:77
 msgid "Send an email summary of the inbox to users."
-msgstr ""
+msgstr "Gelen kutusunun e-posta özetini kullanıcılara gönder."
 
 #. TRANS: Checkbox label in e-mail preferences form.
 #: EmailSummaryPlugin.php:108
 msgid "Send me a periodic summary of updates from my network"
-msgstr ""
+msgstr "Kendi ağımdan güncellemelerin özetini belirli aralıklarla düzenli olarak bana gönder"
