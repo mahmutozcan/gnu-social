@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -21,4 +22,4 @@ msgstr ""
 #: CronishPlugin.php:56
 msgid ""
 "Cronish plugin that executes events on a near-minutely/hour/day/week basis."
-msgstr ""
+msgstr "Cronish plugin etkinlikleri saat/gün/hafta temelinde yürütür."
