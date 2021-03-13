@@ -23,40 +23,40 @@ msgstr ""
 
 #: actions/choosethemesettings.php:38
 msgid "Choose theme settings"
-msgstr ""
+msgstr "Tema ayarlarını seçin"
 
 #: actions/choosethemesettings.php:47
 msgid "Choose theme"
-msgstr ""
+msgstr "Tema seçin"
 
 #: actions/choosethemesettings.php:83
 msgid "Settings saved."
-msgstr ""
+msgstr "Ayarlar kaydedildi."
 
 #: actions/choosethemesettings.php:87
 msgid "No valid theme chosen."
-msgstr ""
+msgstr "Geçerli bit tema seçilmedi."
 
 #: actions/choosethemesettings.php:134
 msgid "Themes"
-msgstr ""
+msgstr "Temalar"
 
 #: actions/choosethemesettings.php:134
 msgid "Select a theme"
-msgstr ""
+msgstr "Bir tema seçin"
 
 #: actions/choosethemesettings.php:151
 msgid "Save"
-msgstr ""
+msgstr "Kaydet"
 
 #: ChooseThemePlugin.php:39
 msgid "Allowing user to select the preferred theme."
-msgstr ""
+msgstr "Kullanıcının istediği temayı seçmesine izin verir."
 
 #: ChooseThemePlugin.php:55
 msgid "MENU"
-msgstr ""
+msgstr "MENÜ"
 
 #: ChooseThemePlugin.php:57
 msgid "Choose Theme"
-msgstr ""
+msgstr "Tema Seç"
