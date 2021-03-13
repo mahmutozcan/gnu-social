@@ -20,7 +20,7 @@ msgstr ""
 #. TRANS: Client exception thrown when a text argument is not present.
 #: actions/shorten.php:56
 msgid "\"text\" argument must be specified."
-msgstr ""
+msgstr "\"text\" savı belirtilmelidir."
 
 #. TRANS: Plugin description.
 #: ClientSideShortenPlugin.php:65
