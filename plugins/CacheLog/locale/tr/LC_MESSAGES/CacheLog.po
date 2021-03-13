@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandx.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,4 +21,4 @@ msgstr ""
 #. TRANS: Plugin description.
 #: CacheLogPlugin.php:107
 msgid "Log reads and writes to the cache."
-msgstr ""
+msgstr "Günlüğü okur ve önbelleğe yazar."
