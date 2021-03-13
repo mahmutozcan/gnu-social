@@ -5,6 +5,7 @@
 # Translators:
 # Furkan Kalkan <furkan.kalkan3@gmail.com>, 2015
 # Uğur KUYU <ukuyu34@gmail.com>, 2015
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -73,7 +74,7 @@ msgstr "Kayıt"
 #. TRANS: Checkbox instructions for admin setting "Private".
 #: actions/accessadminpanel.php:155
 msgid "Prohibit anonymous users (not logged in) from viewing site?"
-msgstr "Anonim kullanıcıların (giriş yapmayanların) siteyi görmesi engellensin mi?"
+msgstr "Anonim kullanıcıların (oturum açmamış) siteyi görmesi önlensin mi?"
 
 #. TRANS: Checkbox label for prohibiting anonymous users from viewing site.
 #. TRANS: Checkbox label to show private tags.
@@ -184,7 +185,7 @@ msgstr "Oturum belirtecinizde bir sorun var. Lütfen, tekrar deneyin."
 #: lib/action.php:1510 lib/adminpanelaction.php:71
 #: lib/profileformaction.php:63 lib/settingsaction.php:73
 msgid "Not logged in."
-msgstr "Giriş yapılmadı."
+msgstr "Oturum açılmadı."
 
 #. TRANS: Client error displayed trying to perform an action related to a non-
 #. existing profile.
@@ -261,13 +262,13 @@ msgstr "%s kullanıcısının zaman çizelgesi"
 #: actions/all.php:90 actions/showprofiletag.php:181
 #, php-format
 msgid "Feed for friends of %s (Activity Streams JSON)"
-msgstr "%s kullanıcısının arkadaşları için besleme (Aktivite Akışı JSON)"
+msgstr "%s kullanıcısının arkadaşları için kaynak (Aktivite Akışı JSON)"
 
 #. TRANS: %s is user nickname.
 #: actions/all.php:98
 #, php-format
 msgid "Feed for friends of %s (RSS 1.0)"
-msgstr "%s ve arkadaşları için besleme (RSS 1.0)"
+msgstr "%s ve arkadaşları için kaynak (RSS 1.0)"
 
 #. TRANS: %s is user nickname.
 #. TRANS: Feed title.
@@ -275,13 +276,13 @@ msgstr "%s ve arkadaşları için besleme (RSS 1.0)"
 #: actions/all.php:107 actions/showprofiletag.php:192
 #, php-format
 msgid "Feed for friends of %s (RSS 2.0)"
-msgstr "%s ve arkadaşları için besleme (RSS 2.0)"
+msgstr "%s ve arkadaşları için kaynak (RSS 2.0)"
 
 #. TRANS: %s is user nickname.
 #: actions/all.php:116
 #, php-format
 msgid "Feed for friends of %s (Atom)"
-msgstr "%s ve arkadaşları için besleme (Atom)"
+msgstr "%s ve arkadaşları için kaynak (Atom)"
 
 #. TRANS: Empty list message. %s is a user nickname.
 #: actions/all.php:123
@@ -440,7 +441,7 @@ msgstr "%s ve arkadaşları"
 #: actions/apitimelinehome.php:112
 #, php-format
 msgid "Updates from %1$s and friends on %2$s!"
-msgstr "%2$s üzerindeki %1$s ve arkadaşlarından güncellemeler!"
+msgstr "%1$s ve %2$s'deki arkadaşlarından güncellemeler!"
 
 #. TRANS: Client error displayed when coming across a non-supported API
 #. method.
@@ -527,7 +528,7 @@ msgstr "Eposta adresi zaten var."
 #: actions/newgroup.php:107 actions/profilesettings.php:270
 #: actions/register.php:212
 msgid "Homepage is not a valid URL."
-msgstr "Başlangıç sayfası adresi geçerli bir URL değil."
+msgstr "Anasayfa adresi geçerli bir URL değil."
 
 #. TRANS: Form validation error displayed when trying to register with a too
 #. long full name.
@@ -559,8 +560,8 @@ msgstr "Tam isim çok uzun (en fazla: 255 karakter)."
 #, php-format
 msgid "Bio is too long (maximum %d character)."
 msgid_plural "Bio is too long (maximum %d characters)."
-msgstr[0] "Profil tanımlası çok uzun (en fazla %d karakter)."
-msgstr[1] "Profil tanımlası çok uzun (en fazla %d karakter)."
+msgstr[0] "Özgeçmiş çok uzun (en fazla %d karakter)."
+msgstr[1] "Özgeçmiş çok uzun (en fazla %d karakter)."
 
 #. TRANS: Form validation error displayed when trying to register with a too
 #. long location.
@@ -610,7 +611,7 @@ msgstr "Geçersiz kullanıcı adı veya parola."
 #: actions/apiaccountupdatebackgroundcolor.php:72
 #: actions/apiaccountupdatelinkcolor.php:73
 msgid "Not a valid hex color."
-msgstr "Geçerli bir onaltılık renk değil."
+msgstr "Geçerli bir renk kodu değil."
 
 #: actions/apiaccountupdatebackgroundcolor.php:79
 #: actions/apiaccountupdatelinkcolor.php:80
@@ -623,7 +624,7 @@ msgstr "Kullanıcı güncelleştirme hatası."
 msgid ""
 "You must specify a parameter named 'device' with a value of one of: sms, im,"
 " none."
-msgstr "sms, im, none değerlerinden birine sahip 'device' isimli bir parametre belirtmelisiniz."
+msgstr "'Aygıt' adlı bir parametreyi şunlardan birinin değeri ile belirtmelisiniz: sms, anlık ileti, hiçbiri."
 
 #. TRANS: Server error displayed when a user's delivery device cannot be
 #. updated.
@@ -672,8 +673,8 @@ msgid ""
 msgid_plural ""
 "The server was unable to handle that much POST data (%s bytes) due to its "
 "current configuration."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Sunucu, mevcut yapılandırması nedeniyle bu kadar çok POST verisini (% s bayt) işleyemedi."
+msgstr[1] "Sunucu, mevcut yapılandırması nedeniyle bu kadar çok POST verisini (% s bayt) işleyemedi."
 
 #. TRANS: Title for Atom feed.
 #: actions/apiatomservice.php:86
@@ -743,23 +744,23 @@ msgstr "Geçersiz URL."
 
 #: actions/apicheckhub.php:86
 msgid "No feed found"
-msgstr "Besleme bulunamadı"
+msgstr "Kaynak bulunamadı"
 
 #: actions/apicheckhub.php:88
 msgid "No hub found"
-msgstr ""
+msgstr "Ana merkez bulunamadı"
 
 #. TRANS: Client exception thrown when no conversation ID is given.
 #: actions/apiconversation.php:67
 msgid "No conversation ID."
-msgstr ""
+msgstr "İletişim kimliği yok"
 
 #. TRANS: Client exception thrown when referring to a non-existing
 #. conversation ID (%d).
 #: actions/apiconversation.php:74
 #, php-format
 msgid "No conversation with ID %d."
-msgstr ""
+msgstr "%d kimliği ile konuşma yok"
 
 #. TRANS: Title for conversion timeline.
 #: actions/apiconversation.php:101
@@ -808,7 +809,7 @@ msgstr "Kendinizi izlemeyi bırakamazsınız."
 #. call checking if a friendship exists.
 #: actions/apifriendshipsexists.php:86
 msgid "Two valid IDs or nick names must be supplied."
-msgstr "İki geçerli ID veya takma ad verilmelidir."
+msgstr "İki geçerli kimlik veya takma ad sağlanmalıdır."
 
 #. TRANS: Client error displayed when a source user could not be determined
 #. showing friendship.
@@ -843,7 +844,7 @@ msgstr "Hedef kullanıcı bulunamadı."
 #: actions/apigroupmembership.php:69 actions/apigroupprofileupdate.php:95
 #: actions/apigroupshow.php:78 actions/apitimelinegroup.php:85
 msgid "Group not found."
-msgstr "Onay kodu bulunamadı."
+msgstr "Grup bulunamadı."
 
 #. TRANS: Client error shown when providing too long a description during
 #. group creation.
@@ -868,8 +869,8 @@ msgstr "Onay kodu bulunamadı."
 #, php-format
 msgid "Description is too long (maximum %d character)."
 msgid_plural "Description is too long (maximum %d characters)."
-msgstr[0] "Tanımlayıcı çok uzun (maksimum %d karakter)."
-msgstr[1] "Tanımlayıcı çok uzun (maksimum %d karakter)."
+msgstr[0] "Tanımlama çok uzun (en çok %d karakter)."
+msgstr[1] "Tanımlama çok uzun (en çok %d karakter)."
 
 #. TRANS: Client error shown when providing too many aliases during group
 #. creation.
@@ -885,8 +886,8 @@ msgstr[1] "Tanımlayıcı çok uzun (maksimum %d karakter)."
 #, php-format
 msgid "Too many aliases! Maximum %d allowed."
 msgid_plural "Too many aliases! Maximum %d allowed."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Takma adlar çok fazla! İzin verilen en çok %d."
+msgstr[1] "Takma adlar çok fazla! İzin verilen en çok %d."
 
 #. TRANS: Server error displayed when trying to join a group the user is
 #. already a member of.
@@ -896,7 +897,7 @@ msgstr[1] ""
 #. member of.
 #: actions/apigroupjoin.php:95 actions/joingroup.php:94 lib/command.php:296
 msgid "You are already a member of that group."
-msgstr "Bize o profili yollamadınız"
+msgstr "Zaten bu grubun bir üyesisiniz."
 
 #. TRANS: Server error displayed when trying to join a group the user is
 #. blocked from joining.
@@ -946,7 +947,7 @@ msgstr "%s kullanıcısının grupları"
 #: actions/apigrouplist.php:101
 #, php-format
 msgid "%1$s groups %2$s is a member of."
-msgstr "%2$s kullanıcısının üye olduğu %1$s grupları."
+msgstr "%2$s'nin üye olduğu %1$s grupları."
 
 #. TRANS: Message is used as a title when listing the lastest 20 groups. %s is
 #. a site name.
@@ -973,7 +974,7 @@ msgstr "%s üzerindeki gruplar"
 #: actions/apigroupprofileupdate.php:100 actions/editgroup.php:106
 #: actions/editgroup.php:163 actions/grouplogo.php:107
 msgid "You must be an admin to edit the group."
-msgstr "Bir grubu düzenlemek için bir yönetici olmalısınız."
+msgstr "Bir grubu düzenlemek için yönetici olmalısınız."
 
 #. TRANS: Server error displayed when group update fails.
 #. TRANS: Server error displayed when editing a group fails.
@@ -1002,7 +1003,7 @@ msgstr "Liste bulunamadı."
 #. TRANS: Client error displayed when trying to update another user's list.
 #: actions/apilist.php:136
 msgid "You cannot update lists that do not belong to you."
-msgstr ""
+msgstr "Size ait olmayan listeleri güncelleyemezsiniz."
 
 #. TRANS: Client error displayed when an unknown error occurs updating a list.
 #. TRANS: Client error displayed when an unknown error occurs viewing list
@@ -1020,18 +1021,18 @@ msgstr "Bir hata oluştu. "
 #. TRANS: Client error displayed when trying to delete another user's list.
 #: actions/apilist.php:173
 msgid "You cannot delete lists that do not belong to you."
-msgstr "Sana ait olmayan bir listeyi silemezsin."
+msgstr "Size ait olmayan bir listeyi silemezsiniz."
 
 #. TRANS: Client error displayed when referring to a non-list member.
 #: actions/apilistmember.php:94
 msgid "The specified user is not a member of this list."
-msgstr "Belirtilen kullanıcı listenin üyesi değil."
+msgstr "Belirtilen kullanıcı bu listenin üyesi değil."
 
 #. TRANS: Client error displayed when trying to add members to a list without
 #. having the right to do so.
 #: actions/apilistmembers.php:46
 msgid "You are not allowed to add members to this list."
-msgstr "Bu listeye üye atamanıza izin yok."
+msgstr "Bu listeye üye ekleme izniniz yok."
 
 #. TRANS: Client error displayed when trying to modify list members without
 #. specifying them.
@@ -1043,13 +1044,13 @@ msgstr "Bir üye belirtmelisiniz."
 #. without having the right to do so.
 #: actions/apilistmembers.php:84
 msgid "You are not allowed to remove members from this list."
-msgstr "Bu listeden üye çıkarmaya yetkiniz yok."
+msgstr "Bu listeden üye çıkarma izniniz yok."
 
 #. TRANS: Client error displayed when trying to remove a list member that is
 #. not part of a list.
 #: actions/apilistmembers.php:99
 msgid "The user you are trying to remove from the list is not a member."
-msgstr "Listeden çıkartmaya çalıştığınız kullanıcı zaten üye değil."
+msgstr "Listeden çıkarmaya çalıştığınız kullanıcı zaten üye değil."
 
 #. TRANS: Client error displayed when trying to create a list without a name.
 #: actions/apilists.php:137
@@ -1060,24 +1061,24 @@ msgstr "Liste bir isme sahip olmalıdır. "
 #. nagative.
 #: actions/apilistsubscriber.php:65
 msgid "The specified user is not a subscriber of this list."
-msgstr "Belirtilen kullanıcı listenin takipçisi değil."
+msgstr "Belirtilen kullanıcı bu listenin takipçisi değil."
 
 #. TRANS: Client error displayed when trying to unsubscribe from a non-
 #. subscribed list.
 #: actions/apilistsubscribers.php:72
 msgid "You are not subscribed to this list."
-msgstr "Bu listeyi takipleyemezsiniz."
+msgstr "Bu listeye üye değilsiniz."
 
 #. TRANS: Client error displayed when uploading a media file has failed.
 #: actions/apimediaupload.php:95
 msgid "Upload failed."
-msgstr "Yükleme başarısız."
+msgstr "Karşıya yükleme başarısız."
 
 #. TRANS: Client error given from the OAuth API when the request token or
 #. verifier is invalid.
 #: actions/apioauthaccesstoken.php:97
 msgid "Invalid request token or verifier."
-msgstr "Geçersiz istek belirteci veya sağlayıcı."
+msgstr "Geçersiz istek belirteci veya doğrulayıcı."
 
 #. TRANS: Client error given when no oauth_token was passed to the OAuth API.
 #: actions/apioauthauthorize.php:104
@@ -1105,7 +1106,7 @@ msgstr "Geçersiz kullanıcı adı / parola!"
 #. TRANS: Server error displayed when a database action fails.
 #: actions/apioauthauthorize.php:208
 msgid "Database error inserting oauth_token_association."
-msgstr "oauth_token_association eklerken veritabanı hatası."
+msgstr "oauth_token_association eklenirken veritabanı hatası."
 
 #. TRANS: Client error given on when invalid data was passed through a form in
 #. the OAuth API.
@@ -1130,7 +1131,7 @@ msgstr "oauth_token_association eklerken veritabanı hatası."
 #: actions/newapplication.php:65 actions/oauthconnectionssettings.php:144
 #: actions/recoverpassword.php:45 actions/smssettings.php:271
 msgid "Unexpected form submission."
-msgstr "Beklenmeğen form girdisi."
+msgstr "Beklenmeyen gönderim biçimi."
 
 #. TRANS: Title for a page where a user can confirm/deny account access by an
 #. external application.
