@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,13 +21,13 @@ msgstr ""
 #. TRANS: Form instructions.
 #: forms/confirmregistration.php:65
 msgid "Enter a password to confirm your new account."
-msgstr ""
+msgstr "Yeni hesabınızı onaylamak için bir parola girin."
 
 #. TRANS: Field label in e-mail registration form.
 #: forms/confirmregistration.php:74
 msgctxt "LABEL"
 msgid "User name"
-msgstr ""
+msgstr "Kullanıcı adı"
 
 #. TRANS: Field label.
 #: forms/confirmregistration.php:87
@@ -53,7 +54,7 @@ msgstr "Onayla"
 #. TRANS: Field title on account registration page.
 #: forms/confirmregistration.php:107
 msgid "Same as password above."
-msgstr "Yukarıdaki şifrenin aynısını giriniz."
+msgstr "Yukarıdaki parolanın aynısı."
 
 #. TRANS: Checkbox title for terms of service and privacy policy.
 #: forms/confirmregistration.php:123
@@ -79,7 +80,7 @@ msgstr ""
 #: forms/emailregistration.php:69
 msgctxt "LABEL"
 msgid "E-mail address"
-msgstr ""
+msgstr "E-posta adresi"
 
 #. TRANS: Client exception trown when registration by e-mail is not allowed.
 #: actions/emailregister.php:84
@@ -100,12 +101,12 @@ msgstr "Onay kodu yok."
 #. TRANS: Client exception trown when using an invitation multiple times.
 #: actions/emailregister.php:115 actions/emailregister.php:146
 msgid "Invitation already used."
-msgstr ""
+msgstr "Davetiye zaten kullanıldı."
 
 #. TRANS: Client exception thrown when given confirmation code was not issued.
 #: actions/emailregister.php:123 actions/emailregister.php:155
 msgid "No such confirmation code."
-msgstr ""
+msgstr "Böyle bir onay kodu yok."
 
 #. TRANS: Title for registration page.
 #: actions/emailregister.php:170
@@ -117,7 +118,7 @@ msgstr "Kayıt"
 #: actions/emailregister.php:176
 msgctxt "TITLE"
 msgid "Complete registration"
-msgstr ""
+msgstr "Tam kayıt"
 
 #. TRANS: Confirmation text after initial registration.
 #. TRANS: %s an e-mail address.
@@ -132,17 +133,17 @@ msgstr ""
 #. confirmation code.
 #: actions/emailregister.php:270
 msgid "No confirmation thing."
-msgstr ""
+msgstr "Onaylanacak birşey yok."
 
 #. TRANS: Error text when trying to register without agreeing to the terms.
 #: actions/emailregister.php:275
 msgid "You must accept the terms of service and privacy policy to register."
-msgstr ""
+msgstr "Kaydolmak için hizmet koşullarını ve gizlilik politikasını kabul etmelisiniz."
 
 #. TRANS: Error text when trying to register without a password.
 #: actions/emailregister.php:278
 msgid "You must set a password"
-msgstr ""
+msgstr "Bir parola ayarlamalısınız"
 
 #. TRANS: Error text when trying to register with too short a password.
 #: actions/emailregister.php:281
@@ -158,14 +159,14 @@ msgstr "Parolalar uyuşmuyor."
 #. TRANS: Exception trown when using an invitation multiple times.
 #: actions/emailregister.php:316
 msgid "Failed to register user."
-msgstr ""
+msgstr "Kullanıcı kaydı başarısız oldu."
 
 #. TRANS: Subject for confirmation e-mail.
 #. TRANS: %s is the StatusNet sitename.
 #: actions/emailregister.php:350
 #, php-format
 msgid "Confirm your registration on %s"
-msgstr ""
+msgstr "% S üzerinde kaydınızı onaylayın "
 
 #. TRANS: Body for confirmation e-mail.
 #. TRANS: %1$s is the StatusNet sitename, %2$s is the confirmation URL.
@@ -198,9 +199,9 @@ msgstr "Geçersiz bir eposta adresi."
 #: EmailRegistrationPlugin.php:150
 #, php-format
 msgid "Welcome to %s"
-msgstr ""
+msgstr "%s'ye hoşgeldiniz"
 
 #. TRANS: Plugin description.
 #: EmailRegistrationPlugin.php:183
 msgid "Use email only for registration."
-msgstr ""
+msgstr "Yalnızca kayıt için e-posta kullanın."
