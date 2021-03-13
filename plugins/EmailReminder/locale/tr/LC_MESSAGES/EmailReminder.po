@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -21,37 +22,37 @@ msgstr ""
 #. into the database.
 #: classes/Email_reminder.php:88
 msgid "Database error inserting reminder record."
-msgstr ""
+msgstr "Anımsatıcı kaydı ekleme veritabanı hatası"
 
 #. TRANS: Subject for reminder e-mail. %s is the StatusNet sitename.
 #: lib/userinvitereminderhandler.php:102
 #, php-format
 msgid "Reminder - You have been invited to join %s!"
-msgstr ""
+msgstr "Anımsatma - %s'e katılmaya davet edildin!"
 
 #. TRANS: Subject for reminder e-mail. %s is the StatusNet sitename.
 #: lib/userinvitereminderhandler.php:116
 #, php-format
 msgid "Final reminder - you have been invited to join %s!"
-msgstr ""
+msgstr "Son anımsatma - %s'e katılmaya davet edildin!"
 
 #. TRANS: Subject for reminder e-mail.
 #: lib/userconfirmregreminderhandler.php:86
 #: lib/userconfirmregreminderhandler.php:103
 msgid "Reminder - please confirm your registration!"
-msgstr ""
+msgstr "Anımsatma - lütfen kaydınızı onaylayın!"
 
 #. TRANS: Subject for reminder e-mail.
 #: lib/userconfirmregreminderhandler.php:118
 msgid "Second reminder - please confirm your registration!"
-msgstr ""
+msgstr "İkinci anımsatma - lütfen kaydınızı onaylayın!"
 
 #. TRANS: Subject for reminder e-mail.
 #: lib/userconfirmregreminderhandler.php:133
 msgid "Final reminder - please confirm your registration!"
-msgstr ""
+msgstr "Son anımsatma - lütfen kaydınızı onaylayın!"
 
 #. TRANS: Plugin description.
 #: EmailReminderPlugin.php:190
 msgid "Send email reminders for various things."
-msgstr ""
+msgstr "Çeşitli şeyler için anımsatma e-postaları gönder."
