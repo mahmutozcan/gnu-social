@@ -25,17 +25,17 @@ msgstr "Arkadaşlarınızı davet edin"
 #. TRANS: Field label for a personal message to send to invitees.
 #: forms/whitelistinvite.php:106
 msgid "Personal message"
-msgstr "Kişisel mesaj"
+msgstr "Kişisel ileti"
 
 #. TRANS: Field title for a personal message to send to invitees.
 #: forms/whitelistinvite.php:109
 msgid "Optionally add a personal message to the invitation."
-msgstr "Seçimli olarak davetiyeye kişisel bir mesaj ekle. "
+msgstr "Davetiyeye kişisel bir mesaj eklemek isteğe bağlıdır. "
 
 #. TRANS: Link description to action to add another item to a list.
 #: forms/whitelistinvite.php:158
 msgid "Add another item"
-msgstr ""
+msgstr "Başka bir öğe ekle"
 
 #. TRANS: Send button for inviting friends.
 #: forms/whitelistinvite.php:172
@@ -54,7 +54,7 @@ msgstr "Davetiyeleri yolla."
 #: DomainWhitelistPlugin.php:90
 #, php-format
 msgid "Email address must be in this domain: %s."
-msgstr ""
+msgstr "E-posta adresi bu alan adında olmalı: %s."
 
 #. TRANS: Client exception thrown when a given e-mailaddress is not in the
 #. domain whitelist.
@@ -63,7 +63,7 @@ msgstr ""
 #: DomainWhitelistPlugin.php:95
 #, php-format
 msgid "Email address must be in one of these domains: %s."
-msgstr ""
+msgstr "E-posta adresi bu alan adlarından birinden olmalı: %s."
 
 #. TRANS: Separator for whitelisted domains.
 #: DomainWhitelistPlugin.php:97
@@ -75,19 +75,19 @@ msgstr ""
 #. domain whitelist.
 #: DomainWhitelistPlugin.php:109
 msgid "That email address is not allowed on this site."
-msgstr ""
+msgstr "Bu eposta adresine bu sitede izin verilmiyor."
 
 #. TRANS: Title for invitiation deletion dialog.
 #: DomainWhitelistPlugin.php:238
 msgid "Confirmation Required"
-msgstr ""
+msgstr "Doğrulama Gerekiyor"
 
 #. TRANS: Confirmation text for invitation deletion dialog.
 #: DomainWhitelistPlugin.php:241
 msgid "Really delete this invitation?"
-msgstr ""
+msgstr "Bu davetiye gerçekten silinsin mi?"
 
 #. TRANS: Plugin description.
 #: DomainWhitelistPlugin.php:278
 msgid "Restrict domains for email users."
-msgstr ""
+msgstr "E-posta kullanıcıları için alan adlarını kısıtlar."
