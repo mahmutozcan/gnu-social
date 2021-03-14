@@ -79,25 +79,25 @@ msgstr "Ana sayfa \"%s\" ile kaydolamazsınız."
 #: BlacklistPlugin.php:143
 #, php-format
 msgid "You may not register with nickname \"%s\"."
-msgstr "\"%s\" takma adı ile kaydolamazsınız."
+msgstr " <<%s>> takma adı ile kaydolamazsınız."
   
 #. TRANS: Validation failure for URL. %s is the URL.
 #: BlacklistPlugin.php:168
 #, php-format
 msgid "You may not use homepage \"%s\"."
-msgstr "\"%s\ ana sayfasını kullanamazsınız."
+msgstr "<<%s>> ana sayfasını kullanamazsınız."
 
 #. TRANS: Validation failure for nickname. %s is the nickname.
 #: BlacklistPlugin.php:179
 #, php-format
 msgid "You may not use nickname \"%s\"."
-msgstr "\"%s\" takma adını kullanamazsınız."
+msgstr "<<%s>> takma adını kullanamazsınız."
 
 #. TRANS: Validation failure for URL. %s is the URL.
 #: BlacklistPlugin.php:222
 #, php-format
 msgid "You may not use URL \"%s\" in notices."
-msgstr "Bildirimlerde \"%s\ adresini kullanamazsınız."
+msgstr "Bildirimlerde <<%s>> adresini kullanamazsınız."
 
 #. TRANS: Plugin description.
 #: BlacklistPlugin.php:303
