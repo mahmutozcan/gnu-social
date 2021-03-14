@@ -93,7 +93,7 @@ msgid ""
 msgstr "* Tüm sözcüklerin doğru hecelendiğinden emin olun.\n"
 "* Farklı anahtar sözcükler deneyin.\n"
 "* Daha genel anahtar sözcükler deneyin.\n"
-"* Daha az anahtar sözcük deneyin.\n"
+"* Daha az anahtar sözcük deneyin."
 
 #. TRANS: Title for group directory page. %d is a page number.
 #: actions/groupdirectory.php:95
