@@ -988,7 +988,7 @@ msgstr "Grup güncellenemedi."
 #: actions/apigroupprofileupdate.php:170 actions/editgroup.php:263
 #: classes/User_group.php:664
 msgid "Could not create aliases."
-msgstr "Kullanıcı güncellenemedi."
+msgstr "Takma adlar oluşturulamadı."
 
 #. TRANS: Client error displayed when referring to a non-existing list.
 #. TRANS: Client error displayed trying to perform an action related to a non-
@@ -1153,7 +1153,7 @@ msgid ""
 "An application would like the ability to <strong>%3$s</strong> your %4$s "
 "account data. You should only give access to your %4$s account to third "
 "parties you trust."
-msgstr ""
+msgstr "Bir uygulama %4$s hesabınızın verisini <strong>%3$s</strong> yapmak istiyor. %4$s hesabınıza sadece güvendiğiniz üçüncü tarafları erişimine izin vermelisiniz"
 
 #. TRANS: User notification of external application requesting account access.
 #. TRANS: %1$s is the application name requesting access, %2$s is the
@@ -1216,7 +1216,7 @@ msgstr "İzin Ver"
 #. TRANS: Form instructions.
 #: actions/apioauthauthorize.php:469
 msgid "Authorize access to your account information."
-msgstr "Hesap bilgilerinize erişim için izin verin."
+msgstr "Hesap bilgilerinize erişim yetkisi verin."
 
 #. TRANS: Header for user notification after revoking OAuth access to an
 #. application.
@@ -1252,7 +1252,7 @@ msgstr "Lütfen uygulamaya geri dönün ve işlemi tamamlamak için aşağıdaki
 #: actions/apioauthauthorize.php:599
 #, php-format
 msgid "You have successfully authorized %s"
-msgstr "Başarıyla %s uygulamasını yetkilendirdiniz"
+msgstr "%s'yi başarıyla yetkilendirdiniz"
 
 #. TRANS: Message notifying the user that the client application was
 #. successfully authorized to access the user's account with OAuth.
@@ -1274,12 +1274,12 @@ msgstr " Bu yöntem bir POST veya DELETE gerektirir."
 #. TRANS: Client error displayed trying to delete a status with an invalid ID.
 #: actions/apistatusesdestroy.php:119
 msgid "No status found with that ID."
-msgstr "Bu ID'ye sahip durum mesajı bulunamadı."
+msgstr "Bu kimliğe sahip durum bulunamadı."
 
 #. TRANS: Client error displayed trying to delete a status of another user.
 #: actions/apistatusesdestroy.php:134
 msgid "You may not delete another user's status."
-msgstr "Başka bir kullanıcının durum mesajını silemezsiniz."
+msgstr "Başka bir kullanıcının durumunu silemezsiniz."
 
 #. TRANS: Client error displayed trying to repeat a non-existing notice
 #. through the API.
@@ -1290,7 +1290,7 @@ msgstr "Başka bir kullanıcının durum mesajını silemezsiniz."
 #: actions/apistatusesretweet.php:64 actions/apistatusesretweets.php:67
 #: actions/deletenotice.php:61 actions/shownotice.php:129
 msgid "No such notice."
-msgstr "Böyle bir durum mesajı yok."
+msgstr "Böyle bir bildirim yok."
 
 #. TRANS: Client error displayed calling an unsupported HTTP error in API
 #. status show.
@@ -1315,7 +1315,7 @@ msgstr "Durum silindi."
 #. TRANS: Client error displayed requesting a status with an invalid ID.
 #: actions/apistatusesshow.php:158
 msgid "No status with that ID found."
-msgstr "Bu ID'li bir durum mesajı bulunamadı."
+msgstr "Bu kimlikle bir durum bulunamadı."
 
 #. TRANS: Client error displayed when trying to delete a notice not using the
 #. Atom format.
@@ -1329,14 +1329,14 @@ msgstr "Yalnızca Atom biçimi kullanılarak silinebilir."
 #. by the current user.
 #: actions/apistatusesshow.php:230 actions/deletenotice.php:78
 msgid "Cannot delete this notice."
-msgstr "Bu durum mesajı silinemiyor."
+msgstr "Bu durum bildirim silinemiyor."
 
 #. TRANS: Confirmation of notice deletion in API. %d is the ID (number) of the
 #. deleted notice.
 #: actions/apistatusesshow.php:243
 #, php-format
 msgid "Deleted notice %d"
-msgstr "%d durum mesajını sil"
+msgstr "%d bildirimi silindi"
 
 #. TRANS: Client error displayed when the parameter "status" is missing.
 #: actions/apistatusesupdate.php:206
@@ -1346,7 +1346,7 @@ msgstr "İstemci, bir değere sahip 'status' parametresi sağlamalı."
 #. TRANS: Client error displayed when replying to a non-existing notice.
 #: actions/apistatusesupdate.php:243
 msgid "Parent notice not found."
-msgstr "Üst durum mesajı bulunamadı."
+msgstr "Ana bildirim bulunamadı."
 
 #. TRANS: Client error displayed exceeding the maximum notice length.
 #. TRANS: %d is the maximum lenth for a notice.
