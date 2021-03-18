@@ -2723,7 +2723,7 @@ msgstr "Yerel kullanıcı değil."
 #. created.
 #: actions/editpeopletag.php:121
 msgid "You must be the creator of the tag to edit it."
-msgstr "Etiketi düzenlemek için onun yaratıcısı olmalısınız."
+msgstr "Etiketi düzenlemek için onu siz oluşturmalısınız."
 
 #. TRANS: Form instruction for edit list form.
 #: actions/editpeopletag.php:217
