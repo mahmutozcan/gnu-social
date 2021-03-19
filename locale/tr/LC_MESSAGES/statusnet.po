@@ -4097,7 +4097,7 @@ msgstr "Uygulama erişimi iptal edilemiyor: %s."
 msgid ""
 "You have successfully revoked access for %1$s and the access token starting "
 "with %2$s."
-msgstr "%1$s erişimini ve %2$s ile başlayan erişim belirtecini başarıyla iptal ettiniz. " "
+msgstr "%1$s erişimini ve %2$s ile başlayan erişim belirtecini başarıyla iptal ettiniz." 
 
 #. TRANS: Empty list message when no applications have been authorised yet.
 #: actions/oauthconnectionssettings.php:207
