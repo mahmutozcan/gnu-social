@@ -3194,7 +3194,7 @@ msgstr "Grup imleği"
 #, php-format
 msgid ""
 "You can upload a logo image for your group. The maximum file size is %s."
-msgstr "Grubunuz için bir imlek resmi yükleyebilirsiniz. Dosya boyutu en çok %s'dir. "
+msgstr "Grubunuz için bir imlek resmi yükleyebilirsiniz. Dosya boyutu en çok %s'dir."
 
 #. TRANS: Submit button for uploading a group logo.
 #: actions/grouplogo.php:237
@@ -3319,7 +3319,7 @@ msgstr "Yeni bir grup oluştur"
 msgid ""
 "Search for groups on %%site.name%% by their name, location, or description. "
 "Separate the terms by spaces; they must be 3 characters or more."
-msgstr "%% site.name %%'deki grupları adlarına, konumlarına veya açıklamalarına göre arayın. Terimleri boşluklarla ayırın; 3 veya daha fazla karakter olmalıdır. "
+msgstr "%% site.name %%'deki grupları adlarına, konumlarına veya açıklamalarına göre arayın. Terimleri boşluklarla ayırın; 3 veya daha fazla karakter olmalıdır."
 
 #. TRANS: Title for page where groups can be searched.
 #: actions/groupsearch.php:60
@@ -3410,7 +3410,7 @@ msgstr "Geçerli onaylanmış %s adresi."
 msgid ""
 "Awaiting confirmation on this address. Check your %1$s account for a message"
 " with further instructions. (Did you add %2$s to your buddy list?)"
-msgstr "Bu adresde onay bekleniyor.Daha ileri yönergeler içeren bir ileti için %1$s adresinizi kontrol edin. %2$s'yi yakın arkadaş listenize eklemişmiydiniz?"
+msgstr "Bu adresde onay bekleniyor.Daha ileri yönergeler içeren bir ileti için %1$s adresinizi kontrol edin. (%2$s'yi yakın arkadaş listenize eklemişmiydiniz?)"
 
 #. TRANS: Field label for IM address.
 #: actions/imsettings.php:141
@@ -3421,7 +3421,7 @@ msgstr "Anlık ileti adresi"
 #: actions/imsettings.php:144
 #, php-format
 msgid "%s screenname."
-msgstr "%s takma ad"
+msgstr "%s takma adı."
 
 #. TRANS: Header for IM preferences form.
 #: actions/imsettings.php:165
@@ -3622,7 +3622,7 @@ msgstr "Arkadaşlarınızı ve meslektaşlarınızı bu hizmeti kullanmaya davet
 #: actions/invite.php:282
 #, php-format
 msgid "%1$s has invited you to join them on %2$s"
-msgstr "%1$s sizi %2$s'de onlara katılmaya davet etti "
+msgstr "%1$s sizi %2$s'de onlara katılmaya davet etti"
 
 #. TRANS: Cliet error displayed when trying to join a group while not logged
 #. in.
@@ -3872,14 +3872,14 @@ msgstr "Sadece bir yönetici, başka bir kullanıcıyı yönetici yapabilir."
 #: actions/makeadmin.php:98
 #, php-format
 msgid "%1$s is already an admin for group \"%2$s\"."
-msgstr "%1$s zaten <<%2$s>> grubunun bir yöneticisi"
+msgstr "%1$s zaten <<%2$s>> grubunun bir yöneticisi."
 #. TRANS: because the group membership record could not be gotten.
 #. TRANS: %1$s is the to be admin user, %2$s is the group user should be admin
 #. for.
 #: actions/makeadmin.php:137
 #, php-format
 msgid "Can't get membership record for %1$s in group %2$s."
-msgstr "%2$s grubunda %1$s için üyelik kaydı alınamıyor"
+msgstr "%2$s grubunda %1$s için üyelik kaydı alınamıyor."
 
 #. TRANS: Server error displayed when trying to make another user admin on the
 #. Make Admin page fails
@@ -4122,7 +4122,7 @@ msgstr "Eski tarz kullanıcı arayüzü ayarları"
 #. TRANS: Usage instructions for profile settings.
 #: actions/oldschoolsettings.php:69
 msgid "If you like it \"the old way\", you can set that here."
-msgstr "Eğer <<eski yol>> isterseniz, burada ayarlayabilirsiniz"
+msgstr "Eğer <<eski yol>> isterseniz, burada ayarlayabilirsiniz."
 
 #. TRANS: Confirmation shown when user profile settings are saved.
 #. TRANS: Message after successful saving of administrative settings.
@@ -4928,7 +4928,7 @@ msgstr ""
 #. TRANS: Checkbox label in form for profile settings.
 #: actions/profilesettings.php:149
 msgid "Share my current location when posting notices"
-msgstr "Bildirim gönderirken mevcut konumumu paylaş "
+msgstr "Bildirim gönderirken mevcut konumumu paylaş"
 
 #. TRANS: Field label in form for profile settings.
 #. TRANS: Title for group tag cloud section.
@@ -7767,7 +7767,7 @@ msgstr "Durum"
 #: lib/action.php:729
 msgctxt "TAB"
 msgid "Share your:"
-msgstr "Paylaşın"
+msgstr "Paylaşın:"
 
 #. TRANS: First sentence of the GNU social site license. Used if 'broughtby'
 #. is set.
@@ -8301,7 +8301,7 @@ msgstr "Bilinmeyen uygulama"
 #. organisation that manages it.
 #: lib/applicationlist.php:205
 msgid " by "
-msgstr "tarafından"
+msgstr " tarafından "
 
 #. TRANS: Application access type
 #: lib/applicationlist.php:213
