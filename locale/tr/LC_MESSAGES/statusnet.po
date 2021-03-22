@@ -4967,8 +4967,7 @@ msgstr "Hangi zaman dilimindesiniz?"
 
 #. TRANS: Checkbox label in form for profile settings.
 #: actions/profilesettings.php:185
-msgid ""
-"Automatically subscribe to whoever subscribes to me (best for non-humans)"
+msgid "Automatically subscribe to whoever subscribes to me (best for non-humans)"
 msgstr "Her kim bana abone olursa otomatik olarak abone ol (insan olmayanlar için en iyisi)"
 
 #. TRANS: Dropdown field label on profile settings, for what policies to apply
@@ -4990,7 +4989,7 @@ msgstr "Önce bana sor"
 #. TRANS: Dropdown field title on group edit form.
 #: actions/profilesettings.php:199
 msgid "Automatically subscribe to whoever subscribes to me (best for non-humans)"
-msgstr "Her kim bana abone olursa otomatik olarak abone ol (insan olmayanlar için en iyisi)"
+msgstr "Kim bana abone olursa otomatik olarak abone ol (insan olmayanlar için en iyisi)"
 
 #. TRANS: Checkbox label in profile settings.
 #: actions/profilesettings.php:207
