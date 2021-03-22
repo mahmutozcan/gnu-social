@@ -4969,7 +4969,7 @@ msgstr "Hangi zaman dilimindesiniz?"
 #: actions/profilesettings.php:185
 msgid ""
 "Automatically subscribe to whoever subscribes to me (best for non-humans)"
-msgstr "Her kim bana abone olursa otomatik olarak abone ol (insan olmayanlar için en iyisi)"
+msgstr "Her kim bana abone olursa otomatik olarak abone ol (insan olmayanlar için en iyisi)."
 
 #. TRANS: Dropdown field label on profile settings, for what policies to apply
 #. when someone else tries to subscribe to your updates.
@@ -4989,8 +4989,8 @@ msgstr "Önce bana sor"
 
 #. TRANS: Dropdown field title on group edit form.
 #: actions/profilesettings.php:199
-msgid "Automatically subscribe to whoever subscribes to me (best for non-humans)"
-msgstr "Kim bana abone olursa otomatik olarak abone ol (insan olmayanlar için en iyisi)"
+msgid "Whether other users need your permission to follow your updates."
+msgstr "Diğer kullanıcıların sizin güncellemelerinizi takip etmek için izninize ihtiyacı olup olmadığı."
 
 #. TRANS: Checkbox label in profile settings.
 #: actions/profilesettings.php:207
