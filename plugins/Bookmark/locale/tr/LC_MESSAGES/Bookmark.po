@@ -70,7 +70,7 @@ msgstr "Bilinmeyen İnternet adresi."
 #: actions/noticebyurl.php:92
 #, php-format
 msgid "Notices linking to %s"
-msgstr "%s'ye bağlanan bildirimler"
+msgstr "%s'e bağlanan bildirimler"
 
 #. TRANS: Title of notice stream of notices with a given attachment (all but
 #. first page).
@@ -78,7 +78,7 @@ msgstr "%s'ye bağlanan bildirimler"
 #: actions/noticebyurl.php:96
 #, php-format
 msgid "Notices linking to %1$s, page %2$d"
-msgstr ""
+msgstr "%1$s'ye bağlanan bildirimler"
 
 #. TRANS: Page title for sample plugin.
 #: actions/bookmarks.php:128
@@ -189,7 +189,7 @@ msgstr "Dosya karşıya yüklenirken sistem hatası."
 #: actions/importdelicious.php:177 scripts/importbookmarks.php:68
 #, php-format
 msgid "No such file \"%s\"."
-msgstr "Böyle bir dosya yok \"%s"."
+msgstr "Böyle bir dosya yok <<%s>>."
 
 #. TRANS: Server exception thrown when a file upload is incorrect.
 #. TRANS: %s is the irregular file.
@@ -198,7 +198,7 @@ msgstr "Böyle bir dosya yok \"%s"."
 #: actions/importdelicious.php:183 scripts/importbookmarks.php:74
 #, php-format
 msgid "Not a regular file: \"%s\"."
-msgstr "Normal bir dosya değil: \"%s\"."
+msgstr "Normal bir dosya değil: <<%s>>."
 
 #. TRANS: Server exception thrown when a file upload is not readable.
 #. TRANS: %s is the file that could not be read.
@@ -207,7 +207,7 @@ msgstr "Normal bir dosya değil: \"%s\"."
 #: actions/importdelicious.php:189 scripts/importbookmarks.php:80
 #, php-format
 msgid "File \"%s\" not readable."
-msgstr "\"%s\" dosyası okunabilir değil."
+msgstr "<<%s>> dosyası okunabilir değil."
 
 #. TRANS: Success message after importing bookmarks.
 #: actions/importdelicious.php:228
@@ -215,7 +215,7 @@ msgid ""
 "Bookmarks have been imported. Your bookmarks should now appear in search and"
 " your profile page."
 msgstr ""
-
+"Yer imleri içe aktarıldı. Yer imleriniz artık aramada ve profil sayfanızda görünmelidir."
 #. TRANS: Busy message for importing bookmarks.
 #: actions/importdelicious.php:232
 msgid "Bookmarks are being imported. Please wait a few minutes for results."
@@ -254,7 +254,7 @@ msgstr "Böyle bir yer imi yok"
 #: actions/showbookmark.php:84
 #, php-format
 msgid "%1$s's bookmark for \"%2$s\""
-msgstr ""
+msgstr "<<%2$s>> için %1$s'nin yer imi"
 
 #: classes/Bookmark.php:138
 msgid "Only web bookmarks can be posted (HTTP or HTTPS)."
