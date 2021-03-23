@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,17 +21,17 @@ msgstr ""
 #. TRANS: Possible status for RSVP ("please respond") item.
 #: forms/cancelrsvp.php:101
 msgid "You will attend this event."
-msgstr ""
+msgstr "Bu etkinliğe katılacaksınız."
 
 #. TRANS: Possible status for RSVP ("please respond") item.
 #: forms/cancelrsvp.php:105
 msgid "You will not attend this event."
-msgstr ""
+msgstr "Bu etkinliğe katılmayacaksınız."
 
 #. TRANS: Possible status for RSVP ("please respond") item.
 #: forms/cancelrsvp.php:109
 msgid "You might attend this event."
-msgstr ""
+msgstr "Bu etkinliğe katılabilirsiniz."
 
 #. TRANS: Button text to cancel responding to an RSVP ("please respond") item.
 #: forms/cancelrsvp.php:124
@@ -41,7 +42,7 @@ msgstr "İptal"
 #. TRANS: Field label on form to RSVP ("please respond") for an event.
 #: forms/rsvp.php:97
 msgid "RSVP:"
-msgstr ""
+msgstr "Lütfen Yanıt Verin"
 
 #. TRANS: Button text for RSVP ("please respond") reply to confirm attendence.
 #: forms/rsvp.php:113
@@ -71,63 +72,63 @@ msgstr "Başlık"
 #. TRANS: Field title on event form.
 #: forms/event.php:106
 msgid "Title of the event."
-msgstr ""
+msgstr "Etkinliğin başlığı."
 
 #. TRANS: Field label on event form.
 #: forms/event.php:118
 msgctxt "LABEL"
 msgid "Start date"
-msgstr ""
+msgstr "Başlama tarihi"
 
 #. TRANS: Field title on event form.
 #: forms/event.php:121
 msgid "Date the event starts."
-msgstr ""
+msgstr "Etkinliğin başladığı tarih."
 
 #. TRANS: Field label on event form.
 #: forms/event.php:134
 msgctxt "LABEL"
 msgid "Start time"
-msgstr ""
+msgstr "Başlama saati"
 
 #. TRANS: Field title on event form. %s is the abbreviated timezone
 #: forms/event.php:137
 #, php-format
 msgid "Time the event starts (%s)."
-msgstr ""
+msgstr "Etkinliğin başlama zamanı (%s)."
 
 #. TRANS: Field label on event form.
 #: forms/event.php:151
 msgctxt "LABEL"
 msgid "End date"
-msgstr ""
+msgstr "Bitiş tarihi"
 
 #. TRANS: Field title on event form.
 #: forms/event.php:154
 msgid "Date the event ends."
-msgstr ""
+msgstr "Etkinliğin bitiş tarihi."
 
 #. TRANS: Field label on event form.
 #: forms/event.php:163
 msgctxt "LABEL"
 msgid "End time"
-msgstr ""
+msgstr "Bitiş saati"
 
 #. TRANS: Field title on event form.
 #: forms/event.php:166
 msgid "Time the event ends."
-msgstr ""
+msgstr "Etkinliğin bitiş saati."
 
 #. TRANS: Field label on event form.
 #: forms/event.php:175
 msgctxt "LABEL"
 msgid "Where?"
-msgstr ""
+msgstr "Nerede?"
 
 #. TRANS: Field title on event form.
 #: forms/event.php:178
 msgid "Event location."
-msgstr ""
+msgstr "Etkinlik yeri."
 
 #. TRANS: Field label on event form.
 #: forms/event.php:185
@@ -138,18 +139,18 @@ msgstr "URL"
 #. TRANS: Field title on event form.
 #: forms/event.php:188
 msgid "URL for more information."
-msgstr ""
+msgstr "Daha çok bilgi için internet adresi."
 
 #. TRANS: Field label on event form.
 #: forms/event.php:195
 msgctxt "LABEL"
 msgid "Description"
-msgstr "Tanım"
+msgstr "Açıklama"
 
 #. TRANS: Field title on event form.
 #: forms/event.php:198
 msgid "Description of the event."
-msgstr ""
+msgstr "Etkinliğin açıklaması."
 
 #. TRANS: Button text to save an event..
 #: forms/event.php:221
@@ -161,13 +162,13 @@ msgstr "Kaydet"
 #: actions/newevent.php:66
 msgctxt "TITLE"
 msgid "New event"
-msgstr ""
+msgstr "Yeni etkinlik"
 
 #. TRANS: Client exception thrown when trying to post an event while not
 #. logged in.
 #: actions/newevent.php:84
 msgid "Must be logged in to post a event."
-msgstr ""
+msgstr "Bir etkinlik göndermek için oturum açmalısınız."
 
 #. TRANS: Client exception thrown when trying to post an event without
 #. providing a title.
@@ -179,13 +180,13 @@ msgstr "Başlık gerekli."
 #. providing a start date.
 #: actions/newevent.php:110
 msgid "Start date required."
-msgstr ""
+msgstr "Başlangıç tarihi gerekli."
 
 #. TRANS: Client exception thrown when trying to post an event without
 #. providing an end date.
 #: actions/newevent.php:123
 msgid "End date required."
-msgstr ""
+msgstr "Bitiş tarihi gerekli."
 
 #. TRANS: Client exception thrown when trying to post an event with a date
 #. that cannot be processed.
@@ -193,43 +194,43 @@ msgstr ""
 #: actions/newevent.php:141 actions/newevent.php:148
 #, php-format
 msgid "Could not parse date \"%s\"."
-msgstr ""
+msgstr "\"%s\" tarihi çözümlenemedi."
 
 #. TRANS: Client exception thrown when trying to post an event without
 #. providing a title.
 #: actions/newevent.php:196
 msgid "Event must have a title."
-msgstr ""
+msgstr "Etkinliğin bir başlığı olmalı."
 
 #. TRANS: Client exception thrown when trying to post an event without
 #. providing a start time.
 #: actions/newevent.php:201
 msgid "Event must have a start time."
-msgstr ""
+msgstr "Etkinliğin bir başlama zamanı olmalı."
 
 #. TRANS: Client exception thrown when trying to post an event without
 #. providing an end time.
 #: actions/newevent.php:206
 msgid "Event must have an end time."
-msgstr ""
+msgstr "Etkinliğin bir bitiş zamanı olmalı"
 
 #. TRANS: Client exception thrown when trying to post an event with an invalid
 #. URL.
 #: actions/newevent.php:211
 msgid "URL must be valid."
-msgstr ""
+msgstr "İnternet adresi geçerli olmalı."
 
 #. TRANS: Page title after sending a notice.
 #. TRANS: Page title after creating an event.
 #: actions/newevent.php:250 actions/cancelrsvp.php:156 actions/newrsvp.php:161
 msgid "Event saved"
-msgstr ""
+msgstr "Etkinlik kaydedildi"
 
 #. TRANS: Title for RSVP ("please respond") action.
 #: actions/cancelrsvp.php:61
 msgctxt "TITLE"
 msgid "Cancel RSVP"
-msgstr ""
+msgstr "Lütfen Yanıt Verin İptal"
 
 #. TRANS: Client exception thrown when referring to a non-existing RSVP
 #. ("please respond") item.
@@ -238,13 +239,13 @@ msgstr ""
 #: actions/cancelrsvp.php:82 actions/cancelrsvp.php:89 actions/showrsvp.php:61
 #: actions/showrsvp.php:77
 msgid "No such RSVP."
-msgstr ""
+msgstr "Lütfen Yanıt Verin yok."
 
 #. TRANS: Client exception thrown when referring to a non-existing event.
 #: actions/cancelrsvp.php:96 actions/showevent.php:60 actions/showevent.php:68
 #: actions/newrsvp.php:82 actions/newrsvp.php:89 actions/showrsvp.php:68
 msgid "No such event."
-msgstr ""
+msgstr "Böyle bir etkinlik yok"
 
 #. TRANS: Client exception thrown when trying tp RSVP ("please respond") while
 #. not logged in.
@@ -252,19 +253,19 @@ msgstr ""
 #. not logged in.
 #: actions/cancelrsvp.php:103 actions/newrsvp.php:96
 msgid "You must be logged in to RSVP for an event."
-msgstr ""
+msgstr "Bir etkinlik davetine yanıt verebilmek için oturum açmış olmalısınız."
 
 #. TRANS: Title for RSVP ("please respond") action.
 #: actions/newrsvp.php:61
 msgctxt "TITLE"
 msgid "New RSVP"
-msgstr ""
+msgstr "Yeni Lütfen Yanıt Verin"
 
 #. TRANS: Client exception thrown when using an invalid value for RSVP
 #. ("please respond").
 #: actions/newrsvp.php:113
 msgid "Unknown submit value."
-msgstr ""
+msgstr "Bilinmeyen gönderme değeri."
 
 #. TRANS: Title for event.
 #. TRANS: %1$s is a user nickname, %2$s is an event title.
@@ -277,23 +278,23 @@ msgstr ""
 #. requires a logged in user.
 #: actions/timelist.php:65
 msgid "Not logged in."
-msgstr "Giriş yapılmadı."
+msgstr "Oturum açılmadı."
 
 #. TRANS: Client error when submitting a form with unexpected information.
 #: actions/timelist.php:72
 msgid "Unexpected form submission."
-msgstr "Beklenmeğen form girdisi."
+msgstr "Beklenmeyen form girdisi."
 
 #. TRANS: Client error displayed when using an action in a non-AJAX way.
 #: actions/timelist.php:80
 msgid "This action is AJAX only."
-msgstr ""
+msgstr "Bu eylem yalnızca AJAX'dır"
 
 #. TRANS: Client exception thrown when trying to create an event that already
 #. exists.
 #: classes/Happening.php:111
 msgid "Event already exists."
-msgstr ""
+msgstr "Etkinlik zaten var."
 
 #. TRANS: Event description. %1$s is a title, %2$s is start time, %3$s is end
 #. time,
@@ -301,7 +302,7 @@ msgstr ""
 #: classes/Happening.php:145
 #, php-format
 msgid "\"%1$s\" %2$s - %3$s (%4$s): %5$s"
-msgstr ""
+msgstr "\"%1$s\" %2$s - %3$s (%4$s): %5$s"
 
 #. TRANS: Rendered microformats2 tagged event description.
 #. TRANS: %1$s is a title, %2$s is start time, %3$s is start time,
@@ -321,19 +322,19 @@ msgstr ""
 #. ("please respond").
 #: classes/RSVP.php:116 classes/RSVP.php:125
 msgid "RSVP already exists."
-msgstr ""
+msgstr "Lütfen Yanıt Verin zaten var."
 
 #. TRANS: Exception thrown when requesting an undefined verb for RSVP.
 #: classes/RSVP.php:194
 #, php-format
 msgid "Unknown verb \"%s\"."
-msgstr ""
+msgstr "\"%s\" bilinmeyen fiil."
 
 #. TRANS: Exception thrown when requesting an undefined code for RSVP.
 #: classes/RSVP.php:212
 #, php-format
 msgid "Unknown code \"%s\"."
-msgstr ""
+msgstr "\"%s\" bilinmeyen kod."
 
 #. TRANS: Server exception thrown when requesting a non-exsting notice for an
 #. RSVP ("please respond").
@@ -341,21 +342,21 @@ msgstr ""
 #: classes/RSVP.php:222
 #, php-format
 msgid "RSVP %s does not correspond to a notice in the database."
-msgstr ""
+msgstr "Lütfen Yanıt Verin %s veritabanındaki bir bildirime karşılık gelmiyor."
 
 #. TRANS: Exception thrown when requesting a non-existing profile.
 #. TRANS: %s is the ID of the non-existing profile.
 #: classes/RSVP.php:284
 #, php-format
 msgid "No profile with ID %s."
-msgstr ""
+msgstr "%s kimliği ile profil yok."
 
 #. TRANS: Exception thrown when requesting a non-existing event.
 #. TRANS: %s is the ID of the non-existing event.
 #: classes/RSVP.php:295
 #, php-format
 msgid "No event with ID %s."
-msgstr ""
+msgstr "%s kimliği ile etkinlik yok."
 
 #. TRANS: HTML version of an RSVP ("please respond") status for a user.
 #. TRANS: %1$s is a profile URL, %2$s a profile name,
@@ -393,127 +394,127 @@ msgstr ""
 #: classes/RSVP.php:344 classes/RSVP.php:388
 #, php-format
 msgid "Unknown response code %s."
-msgstr ""
+msgstr "%s bilinmeyen yanıt kodu."
 
 #. TRANS: Used as event title when not event title is available.
 #. TRANS: Used as: Username [is [not ] attending|might attend] an unknown
 #. event.
 #: classes/RSVP.php:351 classes/RSVP.php:395
 msgid "an unknown event"
-msgstr ""
+msgstr "bilinmeyen bir etkinlik"
 
 #. TRANS: Plain text version of an RSVP ("please respond") status for a user.
 #. TRANS: %1$s is a profile name, %2$s is an event title.
 #: classes/RSVP.php:373
 #, php-format
 msgid "%1$s is attending %2$s."
-msgstr ""
+msgstr "%1$s %2$s'ye katılıyor."
 
 #. TRANS: Plain text version of an RSVP ("please respond") status for a user.
 #. TRANS: %1$s is a profile name, %2$s is an event title.
 #: classes/RSVP.php:378
 #, php-format
 msgid "%1$s is not attending %2$s."
-msgstr ""
+msgstr "%1$s %2$s'ye katılmıyor."
 
 #. TRANS: Plain text version of an RSVP ("please respond") status for a user.
 #. TRANS: %1$s is a profile name, %2$s is an event title.
 #: classes/RSVP.php:383
 #, php-format
 msgid "%1$s might attend %2$s."
-msgstr ""
+msgstr "%1$s %2$s'ye katılabilir."
 
 #. TRANS: Plugin description.
 #: EventPlugin.php:101
 msgid "Event invitations and RSVPs."
-msgstr ""
+msgstr "Etkinlik davetleri ve verilen yanıtlar."
 
 #. TRANS: Title for event application.
 #: EventPlugin.php:107
 msgctxt "TITLE"
 msgid "Event"
-msgstr ""
+msgstr "Etkinlik"
 
 #. TRANS: Exception thrown when there are too many activity objects.
 #: EventPlugin.php:135
 msgid "Too many activity objects."
-msgstr "Çok fazla aktivite nesnesi var."
+msgstr "Çok fazla etkinlik amacı var."
 
 #. TRANS: Exception thrown when event plugin comes across a non-event type
 #. object.
 #: EventPlugin.php:142
 msgid "Wrong type for object."
-msgstr "Yanlış nesne tipi."
+msgstr "Yanlış amaç türü."
 
 #. TRANS: Exception thrown when trying to RSVP for an unknown event.
 #: EventPlugin.php:166
 msgid "RSVP for unknown event."
-msgstr ""
+msgstr "Bilinmeyen etkinlik için Lütfen Yanıt Verin."
 
 #. TRANS: Exception thrown when event plugin comes across a undefined verb.
 #: EventPlugin.php:172
 msgid "Unknown verb for events."
-msgstr ""
+msgstr "tkinlikler için bilinmeyen fiil."
 
 #. TRANS: Exception thrown when event plugin comes across a unknown object
 #. type.
 #: EventPlugin.php:203
 msgid "Unknown object type."
-msgstr ""
+msgstr "Bilinmeyen amaç türü."
 
 #. TRANS: Exception thrown when referring to a notice that is not an event an
 #. in event context.
 #: EventPlugin.php:210
 msgid "Unknown event notice."
-msgstr ""
+msgstr "Bilinmeyen etkinlik bildirimi."
 
 #. TRANS: Content for a deleted RSVP list item (RSVP stands for "please
 #. respond").
 #: EventPlugin.php:342 EventPlugin.php:474
 msgid "Deleted."
-msgstr ""
+msgstr "Silindi."
 
 #. TRANS: Field label for event description.
 #: EventPlugin.php:389
 msgid "Time:"
-msgstr ""
+msgstr "Zaman:"
 
 #. TRANS: Field label for event description.
 #: EventPlugin.php:406
 msgid "Location:"
-msgstr ""
+msgstr "Yer:"
 
 #. TRANS: Field label for event description.
 #: EventPlugin.php:414
 msgid "Description:"
-msgstr ""
+msgstr "Açıklama:"
 
 #. TRANS: Field label for event description.
 #: EventPlugin.php:424
 msgid "Attending:"
-msgstr ""
+msgstr "Katılım:"
 
 #. TRANS: 0 minutes abbreviated. Used in a list.
 #: lib/eventtimelist.php:85
 msgid "(0 min)"
-msgstr ""
+msgstr "(0 dak.)"
 
 #. TRANS: 30 minutes abbreviated. Used in a list.
 #: lib/eventtimelist.php:89
 msgid "(30 min)"
-msgstr ""
+msgstr "(30 dak.)"
 
 #. TRANS: 1 hour. Used in a list.
 #: lib/eventtimelist.php:93
 msgid "(1 hour)"
-msgstr ""
+msgstr "(1 saat)"
 
 #: lib/eventtimelist.php:98
 #, php-format
 msgid "(%.1f hours)"
-msgstr ""
+msgstr "(%.1f saat)"
 
 #: lib/eventtimelist.php:99
 #, php-format
 msgid "(%d hours)"
-msgstr ""
+msgstr "(%d saat)"
