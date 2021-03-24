@@ -7005,7 +7005,7 @@ msgstr "Geçersiz karşılama metni. Uzunluk en çok 255 karakterdir."
 #: actions/useradminpanel.php:166
 #, php-format
 msgid "Invalid default subscripton: \"%1$s\" is not a user."
-msgstr "Geçersiz öntanımlı abonelik: \"%1$s\ bir kullanıcı değil."
+msgstr "Geçersiz öntanımlı abonelik: \"%1$s\" bir kullanıcı değil."
 
 #. TRANS: Fieldset legend in user administration panel.
 #: actions/useradminpanel.php:217
@@ -7934,7 +7934,7 @@ msgstr "%s bildiriminin içeriği yok."
 #: lib/activitymover.php:92
 #, php-format
 msgid "No such user \"%s\"."
-msgstr "Böyle bir \"%s\ kullanıcısı yok."
+msgstr "Böyle bir \"%s\" kullanıcısı yok."
 
 #. TRANS: Client exception thrown when post to collection fails with a 400
 #. status.
