@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -22,4 +23,4 @@ msgstr ""
 msgid ""
 "The Strict Transport Security plugin implements the Strict Transport "
 "Security header, improving the security of HTTPS only sites."
-msgstr ""
+msgstr "Strict Transport Security eklentisi, Strict Transport Security başlığını uygulayarak yalnızca HTTPS sitelerinin güvenliğini artırır."
