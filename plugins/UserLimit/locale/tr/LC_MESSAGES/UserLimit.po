@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -28,10 +29,10 @@ msgid ""
 msgid_plural ""
 "Cannot register because the maximum number of users (%d) for this site was "
 "reached."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kayıt yapılamaz. Çünkü bu site için en yüksek kullanıcı sayısına (%d) ulaşıldı."
+msgstr[1] "Kayıt yapılamaz. Çünkü bu site için en yüksek kullanıcı sayısına (%d) ulaşıldı."
 
 #. TRANS: Plugin description.
 #: UserLimitPlugin.php:92
 msgid "Limit the number of users who can register."
-msgstr "Kayıt olabilecek kullanıcı sayısını sınırla."
+msgstr "Kayıt olabilecek kullanıcı sayısını sınırlayın."
