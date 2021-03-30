@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Uğur KUYU <ukuyu34@gmail.com>, 2015
+# Mahmut Özcan <mahmtozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -23,28 +24,28 @@ msgstr ""
 msgid ""
 "Fetches avatar and other profile information for WikiHow users when setting "
 "up an account via OpenID."
-msgstr "OpenID aracılığıyla hesap oluşturan WikiHow kullanıcıları için kullanıcı resimlerini ve diğer profil bilgilerini alır."
+msgstr "OpenID aracılığıyla hesap oluşturan WikiHow kullanıcılarının kişisel simge ve diğer profil bilgilerini getirir."
 
 #. TRANS: Exception thrown when fetching a WikiHow profile page fails.
 #: WikiHowProfilePlugin.php:126
 msgid "WikiHow profile page fetch failed."
-msgstr "WikiHow profil sayfası alımı başarısız oldu"
+msgstr "WikiHow profil sayfasının getirilmesi başarısız oldu"
 
 #. TRANS: Exception thrown when parsing a WikiHow profile page fails.
 #: WikiHowProfilePlugin.php:143
 msgid "HTML parse failure during check for WikiHow avatar."
-msgstr "WikiHow avatarı onayı sırasında HTML ayrıştırma hatası"
+msgstr "WikiHow kişisel simgesinin kontrolü sırasında HTML ayrıştırma hatası"
 
 #. TRANS: Server exception thrown when an avatar URL is invalid.
 #. TRANS: %s is the invalid avatar URL.
 #: WikiHowProfilePlugin.php:176
 #, php-format
 msgid "Invalid avatar URL %s."
-msgstr "Geçersiz kullanıcı resmi bağlantısı %s."
+msgstr "Geçersiz kişisel simge kaynak adresi %s."
 
 #. TRANS: Exception thrown when fetching an avatar from a URL fails.
 #. TRANS: %s is a URL.
 #: WikiHowProfilePlugin.php:186
 #, php-format
 msgid "Unable to fetch avatar from %s."
-msgstr "%s'ten kullanıcı resmi alınamıyor."
+msgstr "Kişisel simge %s'den getirilemiyor."
