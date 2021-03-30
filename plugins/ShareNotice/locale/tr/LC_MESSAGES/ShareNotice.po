@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -22,12 +23,12 @@ msgstr ""
 #: ShareNoticePlugin.php:106 ShareNoticePlugin.php:197
 #, php-format
 msgid "\"%s\""
-msgstr ""
+msgstr "<<%s>>"
 
 #. TRANS: Truncation symbol.
 #: ShareNoticePlugin.php:113
 msgid "…"
-msgstr ""
+msgstr "…"
 
 #. TRANS: Tooltip for image to share a notice on Twitter.
 #: ShareNoticePlugin.php:133
@@ -45,11 +46,11 @@ msgstr "%s Üzerinde Paylaş"
 #. TRANS: Tooltip for image to share a notice on Facebook.
 #: ShareNoticePlugin.php:189
 msgid "Share on Facebook"
-msgstr "Facebook'ta Paylaş"
+msgstr "Facebook'da Paylaş"
 
 #. TRANS: Plugin description.
 #: ShareNoticePlugin.php:222
 msgid ""
 "This plugin allows sharing of notices to Twitter, Facebook and other "
 "platforms."
-msgstr ""
+msgstr "Bu eklenti bildirimlerin Twitter, Facebook ve diğer düzlemlerde paylaşılmasına izin verir."
