@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -21,10 +22,10 @@ msgstr ""
 #. incorrectly.
 #: TightUrlPlugin.php:42
 msgid "You must specify a serviceUrl."
-msgstr ""
+msgstr "Bir kaynak adres hizmeti belirtmelisiniz."
 
 #. TRANS: Plugin description. %s is the shortener name.
 #: TightUrlPlugin.php:68
 #, php-format
 msgid "Uses <a href=\"http://%1$s/\">%1$s</a> URL-shortener service."
-msgstr ""
+msgstr "<a href=\"http://%1$s/\">%1$s</a> Kaynak adres kısaltma hizmetini kullanır."
