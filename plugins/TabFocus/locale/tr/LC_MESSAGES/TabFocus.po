@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -23,4 +24,4 @@ msgid ""
 "TabFocus changes the notice form behavior so that, while in the text area, "
 "pressing the tab key focuses the \"Send\" button, matching the behavior of "
 "Twitter."
-msgstr ""
+msgstr "TabFocus, metin alanındayken sekme tuşuna basıldığında, Twitter'ın davranışıyla eşleşen \"Gönder\" düğmesine odaklanacak şekilde bildirim formu davranışını değiştirir."
