@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,14 +21,14 @@ msgstr ""
 #. TRANS: Exception thrown when subscribing too quickly.
 #: SubscriptionThrottlePlugin.php:73
 msgid "Too many subscriptions. Take a break and try again later."
-msgstr ""
+msgstr "Abonelik sayısı çok fazla. Ara verin ve daha sonra yeniden deneyin."
 
 #. TRANS: Exception thrown when joing groups too quickly.
 #: SubscriptionThrottlePlugin.php:99
 msgid "Too many memberships. Take a break and try again later."
-msgstr ""
+msgstr "Üyelik sayısı çok fazla. Ara verin ve daha sonra yeniden deneyin."
 
 #. TRANS: Plugin description.
 #: SubscriptionThrottlePlugin.php:168
 msgid "Configurable limits for subscriptions and group memberships."
-msgstr ""
+msgstr "Abonelikler ve grup üyelikleri için yapılandırılabilir sınırlar."
