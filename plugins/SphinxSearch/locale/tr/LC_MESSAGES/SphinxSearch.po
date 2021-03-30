@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,14 +21,14 @@ msgstr ""
 #. TRANS: Server exception.
 #: SphinxSearchPlugin.php:87
 msgid "Sphinx PHP extension must be installed."
-msgstr ""
+msgstr "Sphinx PHP eklentisi yüklü olmalıdır."
 
 #. TRANS: Plugin description.
 #: SphinxSearchPlugin.php:118
 msgid "Plugin for Sphinx search backend."
-msgstr ""
+msgstr "Sphinx arama arka ucu için eklenti."
 
 #. TRANS: Server exception thrown when a database name cannot be identified.
 #: sphinxsearch.php:129
 msgid "Sphinx search could not identify database name."
-msgstr ""
+msgstr "Sphinx arama, veritabanı adını tanımlayamadı."
