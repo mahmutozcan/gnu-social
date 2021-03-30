@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,9 +21,9 @@ msgstr ""
 #. TRANS: Error message when an object URI which we cannot find was requested
 #: actions/webfinger.php:49
 msgid "Resource not found in local database."
-msgstr ""
+msgstr "Kaynak, yerel veritabanında bulunamadı."
 
 #. TRANS: Plugin description.
 #: WebFingerPlugin.php:147
 msgid "Adds WebFinger lookup to GNU Social"
-msgstr ""
+msgstr "GNU Social'e WebFinger araması ekler"
