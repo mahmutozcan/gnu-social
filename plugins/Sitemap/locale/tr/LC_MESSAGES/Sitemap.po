@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,32 +21,32 @@ msgstr ""
 #. TRANS: Title for sitemap.
 #: actions/sitemapadminpanel.php:53
 msgid "Sitemap"
-msgstr ""
+msgstr "Site Haritası"
 
 #. TRANS: Instructions for sitemap.
 #: actions/sitemapadminpanel.php:64
 msgid "Sitemap settings for this StatusNet site"
-msgstr ""
+msgstr "Bu StatusNet sitesi için Site haritası ayarları"
 
 #. TRANS: Field label.
 #: actions/sitemapadminpanel.php:175
 msgid "Yahoo key"
-msgstr ""
+msgstr "Yahoo anahtarı"
 
 #. TRANS: Title for field label.
 #: actions/sitemapadminpanel.php:177
 msgid "Yahoo! Site Explorer verification key."
-msgstr ""
+msgstr "Yahoo! Site Gezgini doğrulama anahtarı."
 
 #. TRANS: Field label.
 #: actions/sitemapadminpanel.php:183
 msgid "Bing key"
-msgstr ""
+msgstr "Bing anahtarı"
 
 #. TRANS: Title for field label.
 #: actions/sitemapadminpanel.php:185
 msgid "Bing Webmaster Tools verification key."
-msgstr ""
+msgstr "Bing Ağ Yöneticisi Araçları doğrulama anahtarı. "
 
 #. TRANS: Submit button text to save sitemap settings.
 #: actions/sitemapadminpanel.php:200
@@ -56,20 +57,20 @@ msgstr "Kaydet"
 #. TRANS: Submit button title to save sitemap settings.
 #: actions/sitemapadminpanel.php:204
 msgid "Save sitemap settings."
-msgstr ""
+msgstr "Site haritası ayarlarını kaydet."
 
 #. TRANS: Menu item title/tooltip
 #: SitemapPlugin.php:160
 msgid "Sitemap configuration"
-msgstr ""
+msgstr "Site haritası yapılandırma"
 
 #. TRANS: Menu item for site administration
 #: SitemapPlugin.php:162
 msgctxt "MENU"
 msgid "Sitemap"
-msgstr ""
+msgstr "Site Haritası"
 
 #. TRANS: Plugin description.
 #: SitemapPlugin.php:187
 msgid "This plugin allows creation of sitemaps for Bing and Yahoo!."
-msgstr ""
+msgstr "Bu eklenti, Bing ve Yahoo! için site haritalarının oluşturulmasına izin verir."
