@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,50 +21,50 @@ msgstr ""
 #. TRANS: Form title for flagging a profile for review.
 #: forms/flagprofile.php:78
 msgid "Flag"
-msgstr ""
+msgstr "İşaretleme"
 
 #. TRANS: Form description.
 #: forms/flagprofile.php:89
 msgid "Flag profile for review."
-msgstr ""
+msgstr "Profili incelemek için işaret koyun."
 
 #. TRANS: Form title for action on a profile.
 #: forms/clearflag.php:76
 msgid "Clear"
-msgstr ""
+msgstr "Temizle"
 
 #. TRANS: Form description for clearing flags from a profile.
 #: forms/clearflag.php:88
 msgid "Clear all flags"
-msgstr ""
+msgstr "Bütün işaretleri temizle"
 
 #. TRANS: AJAX form title for a flagged profile.
 #: actions/flagprofile.php:123
 msgid "Flagged for review"
-msgstr ""
+msgstr "İncelemek için işaretlendi"
 
 #. TRANS: Body text for AJAX form when a profile has been flagged for review.
 #. TRANS: Message added to a profile if it has been flagged for review.
 #: actions/flagprofile.php:127 UserFlagPlugin.php:134
 msgid "Flagged"
-msgstr ""
+msgstr "İşaretli"
 
 #. TRANS: Error message displayed when trying to perform an action that
 #. requires a logged in user.
 #: actions/adminprofileflag.php:65
 msgid "Not logged in."
-msgstr "Giriş yapılmadı."
+msgstr "Oturum açık değil."
 
 #. TRANS: Error message displayed when trying to review profile flags while
 #. not authorised.
 #: actions/adminprofileflag.php:89
 msgid "You cannot review profile flags."
-msgstr ""
+msgstr "Profil işaretlerini inceleyemezsiniz."
 
 #. TRANS: Title for page with a list of profiles that were flagged for review.
 #: actions/adminprofileflag.php:125
 msgid "Flagged profiles"
-msgstr ""
+msgstr "İşaretli profiller"
 
 #. TRANS: Header for moderation menu with action buttons for flagged profiles
 #. (like 'sandbox', 'silence', ...).
@@ -80,8 +81,8 @@ msgstr ""
 #, php-format
 msgid "Flagged by %1$s and %2$d other"
 msgid_plural "Flagged by %1$s and %2$d others"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$s ve %2$d başkası tarafından işaretlendi"
+msgstr[1] "%1$s ve %2$d başkaları tarafından işaretlendi"
 
 #. TRANS: Message displayed on a profile if it has been flagged.
 #. TRANS: %s is a comma separated list of at most 5 user nicknames that
@@ -89,35 +90,35 @@ msgstr[1] ""
 #: actions/adminprofileflag.php:392
 #, php-format
 msgid "Flagged by %s"
-msgstr ""
+msgstr "%s tarafından işaretlendi"
 
 #. TRANS: Server exception given when flags could not be cleared.
 #. TRANS: %s is a profile nickname.
 #: actions/clearflag.php:105
 #, php-format
 msgid "Could not clear flags for profile \"%s\"."
-msgstr ""
+msgstr "<<%s>> profili için işaretler temizlenemedi."
 
 #. TRANS: Title for AJAX form to indicated that flags were removed.
 #: actions/clearflag.php:127
 msgid "Flags cleared"
-msgstr ""
+msgstr "İşaretler yemizlendi"
 
 #. TRANS: Body element for "flags cleared" form.
 #: actions/clearflag.php:131
 msgid "Cleared"
-msgstr ""
+msgstr "Temizlendi"
 
 #. TRANS: Server exception.
 #. TRANS: %d is a profile ID (number).
 #: classes/User_flag_profile.php:115
 #, php-format
 msgid "Could not flag profile \"%d\" for review."
-msgstr ""
+msgstr "<<%d>> profili incelenmek için işaretlenemedi."
 
 #. TRANS: Plugin description.
 #: UserFlagPlugin.php:240
 msgid ""
 "This plugin allows flagging of profiles for review and reviewing flagged "
 "profiles."
-msgstr ""
+msgstr "Bu eklenti işaretli profilleri gözden geçirmeniz için onları işaretlemenize izin verir."
