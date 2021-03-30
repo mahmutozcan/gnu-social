@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,4 +21,4 @@ msgstr ""
 #. TRANS: Plugin decription.
 #: SQLStatsPlugin.php:45
 msgid "Debug tool to watch for poorly indexed DB queries."
-msgstr ""
+msgstr "Dizin oluşumu yetersiz DB sorgularını izlemek için hata ayıklama aracı."
