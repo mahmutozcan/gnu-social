@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -21,23 +22,23 @@ msgstr ""
 #. already logged in to StatusNet.
 #: actions/twitterlogin.php:57
 msgid "Already logged in."
-msgstr "Zaten giriş yapılmış."
+msgstr "Zaten oturum açılmış."
 
 #. TRANS: Title for login using Twitter page.
 #: actions/twitterlogin.php:66
 msgctxt "TITLE"
 msgid "Twitter Login"
-msgstr ""
+msgstr "Twittere Giriş"
 
 #. TRANS: Instructions for login using Twitter page.
 #: actions/twitterlogin.php:72
 msgid "Login with your Twitter account"
-msgstr "Twitter hesabınızla giriş yapın"
+msgstr "Twitter hesabınızla giriş"
 
 #. TRANS: Alternative text for "sign in with Twitter" image.
 #: actions/twitterlogin.php:91
 msgid "Sign in with Twitter"
-msgstr ""
+msgstr "Twitter ile oturum açın"
 
 #. TRANS: Page title for Twitter administration panel.
 #: actions/twitteradminpanel.php:53
@@ -54,18 +55,18 @@ msgstr "Twitter köprü ayarları"
 #. too long.
 #: actions/twitteradminpanel.php:153
 msgid "Invalid consumer key. Maximum length is 255 characters."
-msgstr ""
+msgstr "Geçersiz kullanıcı anahtarı. Uzunluk en çok 255 karakterdir."
 
 #. TRANS: Client error displayed when a consumer secret is invalid because it
 #. is too long.
 #: actions/twitteradminpanel.php:160
 msgid "Invalid consumer secret. Maximum length is 255 characters."
-msgstr ""
+msgstr "Geçersiz gizli anahtar. Uzunluk en çok 255 karakterdir."
 
 #. TRANS: Fieldset legend for Twitter application settings.
 #: actions/twitteradminpanel.php:217
 msgid "Twitter application settings"
-msgstr ""
+msgstr "Twitter uygulaması ayarları"
 
 #. TRANS: Field label for Twitter assigned consumer key.
 #: actions/twitteradminpanel.php:224
@@ -75,33 +76,33 @@ msgstr "Kullanıcı anahtarı"
 #. TRANS: Field title for Twitter assigned consumer key.
 #: actions/twitteradminpanel.php:226
 msgid "The consumer key assigned by Twitter."
-msgstr ""
+msgstr "Twitter tarafından atanan kullanıcı anahtarı."
 
 #. TRANS: Field label for Twitter assigned consumer secret.
 #: actions/twitteradminpanel.php:235
 msgid "Consumer secret"
-msgstr ""
+msgstr "Gizli anahtar"
 
 #. TRANS: Field title for Twitter assigned consumer secret.
 #: actions/twitteradminpanel.php:237
 msgid "The consumer secret assigned by Twitter."
-msgstr ""
+msgstr "Twitter tarafından atanan gizli anahtar."
 
 #. TRANS: Form guide displayed when two required fields have already been
 #. provided.
 #: actions/twitteradminpanel.php:248
 msgid "Note: A global consumer key and secret are set."
-msgstr ""
+msgstr "Not: Küresel bir kullanıcı anahtarı ve gizli anahtar ayarlandı."
 
 #. TRANS: Field label for Twitter application name.
 #: actions/twitteradminpanel.php:256
 msgid "Integration source"
-msgstr "Entegrasyon kaynağı"
+msgstr "Bütünleştime kaynağı"
 
 #. TRANS: Field title for Twitter application name.
 #: actions/twitteradminpanel.php:258
 msgid "The name of your Twitter application."
-msgstr ""
+msgstr "Twitter uygulamanızın adı."
 
 #. TRANS: Fieldset legend for Twitter integration options.
 #: actions/twitteradminpanel.php:271
@@ -121,7 +122,7 @@ msgstr ""
 #. TRANS: Checkbox label for global setting.
 #: actions/twitteradminpanel.php:290
 msgid "Enable Twitter import"
-msgstr ""
+msgstr "Twitter içe aktarmayı etkinleştir"
 
 #. TRANS: Checkbox title for global setting.
 #: actions/twitteradminpanel.php:293
@@ -140,7 +141,7 @@ msgstr "Kaydet"
 #. TRANS: Button title for saving the administrative Twitter bridge settings.
 #: actions/twitteradminpanel.php:313
 msgid "Save the Twitter bridge settings."
-msgstr ""
+msgstr "Twitter köprü ayarlarını kaydet."
 
 #. TRANS: Client error displayed when the session token does not match or is
 #. not given.
