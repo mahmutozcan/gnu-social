@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,9 +21,9 @@ msgstr ""
 #. TRANS: Plugin description.
 #: SlicedFavoritesPlugin.php:108
 msgid "Shows timelines of popular notices for defined subsets of users."
-msgstr ""
+msgstr "Tanımlanmış kullanıcı alt kümeleri için çok tutulan bildirimlerin zaman çizelgelerini gösterir."
 
 #. TRANS: Client exception.
 #: actions/favoritedslice.php:56
 msgid "Unknown favorites slice."
-msgstr ""
+msgstr "Bilinmeyen beğenilenler dilimi."
