@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -21,28 +22,28 @@ msgstr ""
 #. validating an e-mail address.
 #: RequireValidatedEmailPlugin.php:104
 msgid "You must validate your email address before posting."
-msgstr ""
+msgstr "Göndermeden önce e-posta adresinizi doğrulamalısınız."
 
 #. TRANS: Client exception thrown when trying to register without providing an
 #. e-mail address.
 #: RequireValidatedEmailPlugin.php:125
 msgid "You must provide an email address to register."
-msgstr ""
+msgstr "Kaydolmak için bir e-posta adresiniz olmalı."
 
 #. TRANS: Plugin description.
 #: RequireValidatedEmailPlugin.php:224
 msgid "Disables posting without a validated email address."
-msgstr ""
+msgstr "Geçerli bir e-posta adresi yoksa gönderimi devre dışı bırakır. "
 
 #: RequireValidatedEmailPlugin.php:243
 msgid "You must validate an email address before posting!"
-msgstr ""
+msgstr "Göndermeden önce e-posta adresini doğrulamalısınız! "
 
 #. TRANS: Client exception thrown when trying to register while already logged
 #. in.
 #: actions/confirmfirstemail.php:68
 msgid "You are already logged in."
-msgstr ""
+msgstr "Zaten oturumunuz açık."
 
 #. TRANS: Client exception thrown when trying to register with a non-existing
 #. confirmation code.
@@ -54,7 +55,7 @@ msgstr "Onay kodu bulunamadı."
 #. code that is not connected with a user.
 #: actions/confirmfirstemail.php:85
 msgid "No user for that confirmation code."
-msgstr ""
+msgstr "Bu onay kodu için kullanıcı yok."
 
 #. TRANS: Client exception thrown when trying to register with a invalid
 #. e-mail address.
@@ -62,7 +63,7 @@ msgstr ""
 #: actions/confirmfirstemail.php:93
 #, php-format
 msgid "Unrecognized address type %s."
-msgstr ""
+msgstr "%s, bilinmeyen adres türü."
 
 #. TRANS: Client error for an already confirmed email/jabber/sms address.
 #: actions/confirmfirstemail.php:98
@@ -73,7 +74,7 @@ msgstr "O adres daha önce onaylanmış."
 #. password.
 #: actions/confirmfirstemail.php:110
 msgid "Password too short."
-msgstr ""
+msgstr "Parola çok kısa."
 
 #. TRANS: Client exception thrown when trying to register without providing
 #. the same password twice.
@@ -87,17 +88,17 @@ msgstr "Parolalar uyuşmuyor."
 msgid ""
 "You have confirmed the email address for your new user account %s. Use the "
 "form below to set your new password."
-msgstr ""
+msgstr "Yeni %s kullanıcı hesabınızın e-posta adresini onayladınız. Yeni parolanızı ayarlamak için aşağıdaki formu kullanın."
 
 #. TRANS: Page title.
 #: actions/confirmfirstemail.php:181
 msgid "Set a password"
-msgstr ""
+msgstr "Bir parola ayarlayın"
 
 #. TRANS: Form legend.
 #: actions/confirmfirstemail.php:198
 msgid "Confirm email address"
-msgstr ""
+msgstr "E-posta adresini doğrulayın"
 
 #. TRANS: Field label.
 #: actions/confirmfirstemail.php:217
@@ -118,7 +119,7 @@ msgstr "Onayla"
 #. TRANS: Field title for repeat password field.
 #: actions/confirmfirstemail.php:225
 msgid "Same as password above."
-msgstr "Yukarıdaki şifrenin aynısını giriniz."
+msgstr "Yukarıdaki parolanın aynısını giriniz."
 
 #. TRANS: Button text for completing registration by e-mail.
 #: actions/confirmfirstemail.php:233
