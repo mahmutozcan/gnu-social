@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -22,7 +23,7 @@ msgstr ""
 #: forms/qnavote.php:118 forms/qnareviseanswer.php:119
 msgctxt "BUTTON"
 msgid "Submit"
-msgstr ""
+msgstr "Gönder"
 
 #. TRANS: Form legend for showing the answer.
 #. TRANS: Page title for and answer to a question.
@@ -32,18 +33,18 @@ msgstr ""
 #: actions/qnareviseanswer.php:161 actions/qnareviseanswer.php:203
 #: actions/qnanewanswer.php:63
 msgid "Answer"
-msgstr ""
+msgstr "Yanıt"
 
 #. TRANS: Button text for marking an answer as "best".
 #: forms/qnashowanswer.php:150
 msgctxt "BUTTON"
 msgid "Best"
-msgstr ""
+msgstr "En iyi"
 
 #. TRANS: Title for button text marking an answer as "best".
 #: forms/qnashowanswer.php:154
 msgid "Mark this answer as the best answer."
-msgstr ""
+msgstr "Bunu en iyi yanıt olarak işaretle."
 
 #. TRANS: Field label for a new question.
 #: forms/qnanewquestion.php:110
@@ -54,18 +55,18 @@ msgstr "Başlık"
 #. TRANS: Field title for a new question.
 #: forms/qnanewquestion.php:113
 msgid "The title of your question."
-msgstr ""
+msgstr "Sorunuzun başlığı."
 
 #. TRANS: Field label for question details.
 #: forms/qnanewquestion.php:122
 msgctxt "LABEL"
 msgid "Description"
-msgstr "Tanım"
+msgstr "Açıklama"
 
 #. TRANS: Field title for question details.
 #: forms/qnanewquestion.php:125
 msgid "Your question in detail."
-msgstr ""
+msgstr "Sorunuzun ayrıntısı."
 
 #. TRANS: Button text for saving a new question.
 #: forms/qnanewquestion.php:149
@@ -77,13 +78,13 @@ msgstr "Kaydet"
 #: forms/qnashowquestion.php:106
 msgctxt "LEGEND"
 msgid "Question"
-msgstr ""
+msgstr "Soru"
 
 #. TRANS: Button text for closing a question.
 #: forms/qnashowquestion.php:151
 msgctxt "BUTTON"
 msgid "Close"
-msgstr ""
+msgstr "Kapat"
 
 #. TRANS: Title for button text for closing a question.
 #: forms/qnashowquestion.php:155
@@ -93,90 +94,90 @@ msgstr ""
 #. TRANS: Field label.
 #: forms/qnanewanswer.php:114
 msgid "Enter your answer"
-msgstr ""
+msgstr "Yanıtınızı girin"
 
 #. TRANS: Button text for submitting a poll response.
 #: forms/qnanewanswer.php:125
 msgctxt "BUTTON"
 msgid "Answer"
-msgstr ""
+msgstr "Yanıt"
 
 #. TRANS: Plugin description.
 #: QnAPlugin.php:136
 msgid "Question and Answers micro-app."
-msgstr ""
+msgstr "Sorular ve Yanıtlar mikro uygulaması."
 
 #. TRANS: Application title.
 #: QnAPlugin.php:143
 msgctxt "TITLE"
 msgid "Question"
-msgstr ""
+msgstr "Soru"
 
 #. TRANS: Exception thrown when there are too many activity objects.
 #: QnAPlugin.php:171
 msgid "Too many activity objects."
-msgstr "Çok fazla aktivite nesnesi var."
+msgstr "Çok fazla etkinlik konusu var."
 
 #. TRANS: Exception thrown when an incorrect object type is encountered.
 #: QnAPlugin.php:178
 msgid "Wrong type for object."
-msgstr "Yanlış nesne tipi."
+msgstr "Amaç için yanlış tür."
 
 #. TRANS: Exception thrown when answering a non-existing question.
 #: QnAPlugin.php:197
 msgid "Answer to unknown question."
-msgstr ""
+msgstr "Bilinmeyen bir sorunun yanıtı."
 
 #. TRANS: Exception thrown when an object type is encountered that cannot be
 #. handled.
 #: QnAPlugin.php:203 QnAPlugin.php:233
 msgid "Unknown object type."
-msgstr ""
+msgstr "Bilinmeyen amaç türü."
 
 #. TRANS: Exception thrown when requesting a non-existing question notice.
 #: QnAPlugin.php:240
 msgid "Unknown question notice."
-msgstr ""
+msgstr "Bilinmeyen soru bildirimi."
 
 #. TRANS: Placeholder value for a possible answer to a question
 #. TRANS: by the logged in user.
 #: QnAPlugin.php:368
 msgid "Your answer..."
-msgstr ""
+msgstr "Yanıtınız..."
 
 #. TRANS: Link description for link to full notice text if it is longer than
 #. TRANS: what will be dispplayed.
 #: QnAPlugin.php:393
 msgid "…"
-msgstr ""
+msgstr "…"
 
 #. TRANS: Title for link that is an ellipsis in English.
 #: QnAPlugin.php:398
 msgid "more..."
-msgstr ""
+msgstr "daha..."
 
 #. TRANS: Page title for close a question
 #: actions/qnaclosequestion.php:63
 msgid "Close question"
-msgstr ""
+msgstr "Soruyu kapat"
 
 #. TRANS: Client exception thrown trying to close a question when not logged
 #. in
 #: actions/qnaclosequestion.php:85
 msgid "You must be logged in to close a question."
-msgstr ""
+msgstr "Soru kapatmak için oturumunuz açık olmalıdır."
 
 #. TRANS: Client exception thrown trying to respond to a non-existing
 #. question.
 #: actions/qnaclosequestion.php:98 actions/qnavote.php:96
 #: actions/qnanewanswer.php:101
 msgid "Invalid or missing question."
-msgstr ""
+msgstr "Geçersiz veya eksik soru."
 
 #. TRANS: Exception thrown trying to close another user's question.
 #: actions/qnaclosequestion.php:136
 msgid "You did not ask this question."
-msgstr ""
+msgstr "Bu soruyu sormadınız."
 
 #. TRANS: Page title after sending an answer.
 #. TRANS: Page title after sending in a vote for a question or answer.
@@ -184,26 +185,26 @@ msgstr ""
 #: actions/qnaclosequestion.php:153 actions/qnavote.php:148
 #: actions/qnanewanswer.php:158
 msgid "Answers"
-msgstr ""
+msgstr "Yanıtlar"
 
 #. TRANS: Client exception thrown trying to answer a question while not logged
 #. in.
 #: actions/qnavote.php:84 actions/qnareviseanswer.php:84
 #: actions/qnanewanswer.php:85
 msgid "You must be logged in to answer to a question."
-msgstr ""
+msgstr "Bir soruyu yanıtlamak için oturumunuz açık olmalıdır."
 
 #. TRANS: Client exception thrown when requesting a non-existing answer.
 #. TRANS: Did we used to have it, and it got deleted?
 #: actions/qnashowanswer.php:68 actions/qnashowanswer.php:82
 msgid "No such answer."
-msgstr ""
+msgstr "Böyle bir yanıt yok."
 
 #. TRANS: Client exception thrown when requesting an answer that has no
 #. connected question.
 #: actions/qnashowanswer.php:75
 msgid "No question for this answer."
-msgstr ""
+msgstr "Bu yanıtın sorusu yok."
 
 #. TRANS: Client exception thrown when requesting answer data for a non-
 #. existing user.
@@ -219,63 +220,63 @@ msgstr "Böyle bir kullanıcı yok."
 #. which the profile could not be loaded.
 #: actions/qnashowanswer.php:96 actions/qnashowquestion.php:90
 msgid "User without a profile."
-msgstr ""
+msgstr "Profili olmayan kullanıcı."
 
 #. TRANS: Page title.
 #. TRANS: %1$s is the user who answered a question, %2$s is the question.
 #: actions/qnashowanswer.php:122
 #, php-format
 msgid "%1$s's answer to \"%2$s\""
-msgstr ""
+msgstr "%1$s'nin \"%2$s\"'ye yanıtı"
 
 #. TRANS: Page title for revising a question
 #: actions/qnareviseanswer.php:62
 msgid "Revise answer"
-msgstr ""
+msgstr "Yanıtı düzelt"
 
 #. TRANS: Client exception thrown trying to respond to a non-existing
 #. question.
 #: actions/qnareviseanswer.php:97
 msgid "Invalid or missing answer."
-msgstr ""
+msgstr "Geçersiz veya eksik yanıt."
 
 #. TRANS: Form title for sending an answer.
 #: actions/qnareviseanswer.php:241
 msgctxt "TITLE"
 msgid "Answer"
-msgstr ""
+msgstr "Yanıt"
 
 #. TRANS: Title for Question page.
 #: actions/qnanewquestion.php:62
 msgid "New question"
-msgstr ""
+msgstr "Yeni soru"
 
 #. TRANS: Client exception thrown trying to create a Question while not logged
 #. in.
 #: actions/qnanewquestion.php:81
 msgid "You must be logged in to post a question."
-msgstr ""
+msgstr "Bir soru göndermek için oturumunuz açık olmalı."
 
 #. TRANS: Client exception thrown trying to create a question without a title.
 #: actions/qnanewquestion.php:129
 msgid "Question must have a title."
-msgstr ""
+msgstr "Sorunun bir başlığı olmalıdır."
 
 #. TRANS: Page title after sending a notice.
 #: actions/qnanewquestion.php:154
 msgid "Question posted"
-msgstr ""
+msgstr "Soru gönderildi"
 
 #. TRANS: Client exception thrown trying to view a non-existing question.
 #: actions/qnashowquestion.php:68
 msgid "No such question."
-msgstr ""
+msgstr "Böyle bir soru yok."
 
 #. TRANS: Client exception thrown trying to view a non-existing question
 #. notice.
 #: actions/qnashowquestion.php:76
 msgid "No such question notice."
-msgstr ""
+msgstr "Böyle bir soru bildirimi yok."
 
 #. TRANS: Page title for a question.
 #. TRANS: %1$s is the nickname of the user who asked the question, %2$s is the
@@ -283,7 +284,7 @@ msgstr ""
 #: actions/qnashowquestion.php:155
 #, php-format
 msgid "%1$s's question: %2$s"
-msgstr ""
+msgstr "%1$s'nin sorusu: %2$s"
 
 #. TRANS: Page title after an AJAX error occurs on the post answer page.
 #: actions/qnanewanswer.php:224
@@ -294,20 +295,20 @@ msgstr "Ajax Hatası"
 #: actions/qnanewanswer.php:247
 msgctxt "TITLE"
 msgid "Your answer"
-msgstr ""
+msgstr "Yanıtınız"
 
 #. TRANS: Error message displayed when an answer has no content.
 #. TRANS: Error message displayed when answer data is not present.
 #: actions/qnanewanswer.php:344 lib/qnalistitem.php:118
 msgid "Answer data is missing."
-msgstr ""
+msgstr "Yanıt verisi eksik."
 
 #. TRANS: Exception thown when getting a question with a non-existing ID.
 #. TRANS: %s is the non-existing question ID.
 #: classes/QnA_Answer.php:146
 #, php-format
 msgid "No question with ID %s"
-msgstr ""
+msgstr "%s kimliğinin sorusu yok"
 
 #. TRANS: Exception thown when getting a profile with a non-existing ID.
 #. TRANS: %s is the non-existing profile ID.
@@ -316,15 +317,15 @@ msgstr ""
 #: classes/QnA_Answer.php:157 classes/QnA_Question.php:121
 #, php-format
 msgid "No profile with ID %s"
-msgstr ""
+msgstr "%s Kimliğinin profili yok"
 
 #. TRANS: %s is the number of answer revisions.
 #: classes/QnA_Answer.php:202
 #, php-format
 msgid "%s revision"
 msgid_plural "%s revisions"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s düzeltme"
+msgstr[1] "%s düzeltme"
 
 #. TRANS: Text for a question that was answered.
 #. TRANS: %1$s is the user that answered, %2$s is the question title,
@@ -332,7 +333,7 @@ msgstr[1] ""
 #: classes/QnA_Answer.php:222
 #, php-format
 msgid "%1$s answered the question \"%2$s\": %3$s"
-msgstr ""
+msgstr "%1$s, \"%2$s\" sorusunu yanıtladı: %3$s"
 
 #. TRANS: Text for a question that was answered.
 #. TRANS: %s is the question title.
@@ -341,7 +342,7 @@ msgstr ""
 #: classes/QnA_Answer.php:263 classes/QnA_Answer.php:270
 #, php-format
 msgid "answered \"%s\""
-msgstr ""
+msgstr "\"%s\" yanıtlandı"
 
 #. TRANS: Number of given answers to a question.
 #. TRANS: %s is the number of given answers.
@@ -349,30 +350,30 @@ msgstr ""
 #, php-format
 msgid "%s answer"
 msgid_plural "%s answers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s yanıt"
+msgstr[1] "%s yanıt"
 
 #. TRANS: Notification that a question cannot be answered anymore because it
 #. is closed.
 #: classes/QnA_Question.php:215
 msgid "This question is closed."
-msgstr ""
+msgstr "Bu soru kapalı."
 
 #. TRANS: Rendered version of the notice content creating a question.
 #. TRANS: %s a link to the question as link description.
 #: classes/QnA_Question.php:279
 #, php-format
 msgid "Question: %s"
-msgstr ""
+msgstr "Soru: %s"
 
 #. TRANS: Exception thrown when performing an unexpected action on a question.
 #. TRANS: %s is the unpexpected object type.
 #: lib/qnalistitem.php:67
 #, php-format
 msgid "Unexpected type for QnA plugin: %s."
-msgstr ""
+msgstr "QnA eklentisi için beklenmeyen tür: %s."
 
 #. TRANS: Error message displayed when question data is not present.
 #: lib/qnalistitem.php:93
 msgid "Question data is missing."
-msgstr ""
+msgstr "Soru verisi eksik."
