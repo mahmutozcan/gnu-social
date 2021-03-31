@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -21,11 +22,11 @@ msgstr ""
 #. incorrectly.
 #: PtitUrlPlugin.php:42
 msgid "You must specify a serviceUrl for ptit URL shortening."
-msgstr ""
+msgstr "Ptit Kaynak Adresi kısaltması için bir kaynak adresi hizmeti belirtmelisiniz"
 
 #. TRANS: Plugin description. %1$s is the URL shortening service base URL (for
 #. example "bit.ly").
 #: PtitUrlPlugin.php:68
 #, php-format
 msgid "Uses <a href=\"http://%1$s/\">%1$s</a> URL-shortener service."
-msgstr ""
+msgstr "<a href=\"http://%1$s/\">%1$s</a> Kaynak Adresi kısaltma hizmetini kullanır. "
