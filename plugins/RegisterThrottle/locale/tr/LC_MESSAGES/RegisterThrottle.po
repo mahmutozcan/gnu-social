@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -21,21 +22,21 @@ msgstr ""
 #. registation attempt.
 #: RegisterThrottlePlugin.php:100
 msgid "Cannot find IP address."
-msgstr ""
+msgstr "IP adresi bulunamıyor."
 
 #. TRANS: Exception thrown when too many user have registered from one IP
 #. address within a given time frame.
 #: RegisterThrottlePlugin.php:116
 msgid "Too many registrations. Take a break and try again later."
-msgstr ""
+msgstr "Çok fazla kayıt var. Biraz ara verin ve daha sonra yeniden deneyin."
 
 #. TRANS: Exception thrown when attempting to register from an IP address from
 #. which silenced users have registered.
 #: RegisterThrottlePlugin.php:129
 msgid "A banned user has registered from this address."
-msgstr ""
+msgstr "Yasaklı bir kullanıcı bu adres ile kayıt oldu."
 
 #. TRANS: Plugin description.
 #: RegisterThrottlePlugin.php:186
 msgid "Throttles excessive registration from a single IP address."
-msgstr ""
+msgstr "Tek bir IP adresinden aşırı kaydı kısıtlar."
