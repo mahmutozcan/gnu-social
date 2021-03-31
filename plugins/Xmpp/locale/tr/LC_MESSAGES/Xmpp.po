@@ -20,85 +20,85 @@ msgstr ""
 #. TRANS: Plugin display name.
 #: XmppPlugin.php:62
 msgid "XMPP/Jabber"
-msgstr ""
+msgstr "XMPP/Jabber"
 
 #. TRANS: Exception thrown when using too many @ signs in a Jabber ID.
 #: XmppPlugin.php:123
 msgid "Invalid JID: too many @s."
-msgstr ""
+msgstr "Geçersiz Jabber Kimliği: çok fazla @s."
 
 #. TRANS: Exception thrown when using @ sign not followed by a Jabber ID.
 #: XmppPlugin.php:132
 msgid "Invalid JID: @ but no node"
-msgstr ""
+msgstr "Geçersiz Jabber Kimliği: @ fakat düğüm yok"
 
 #. TRANS: Exception thrown when using too long a Jabber ID (>1023).
 #: XmppPlugin.php:140
 msgid "Invalid JID: node too long."
-msgstr ""
+msgstr "Geçersiz Jabber Kimliği: düğüm çok uzun."
 
 #. TRANS: Exception thrown when using an invalid Jabber ID.
 #. TRANS: %s is the invalid Jabber ID.
 #: XmppPlugin.php:145
 #, php-format
 msgid "Invalid JID node \"%s\"."
-msgstr ""
+msgstr "Geçersiz \"%s\" JID düğümü."
 
 #. TRANS: Exception thrown when using too long a Jabber domain (>1023).
 #: XmppPlugin.php:151
 msgid "Invalid JID: domain too long."
-msgstr ""
+msgstr "Geçersiz Jabber Kimliği: alan adı çok uzun."
 
 #. TRANS: Exception thrown when using an invalid Jabber domain name.
 #. TRANS: %s is the invalid domain name.
 #: XmppPlugin.php:156
 #, php-format
 msgid "Invalid JID domain name \"%s\"."
-msgstr ""
+msgstr "Geçersiz \"%s\" Jabber Kimliği alan adı."
 
 #. TRANS: Exception thrown when using an invalid Jabber resource.
 #. TRANS: %s is the invalid resource.
 #: XmppPlugin.php:167
 #, php-format
 msgid "Invalid JID resource \"%s\"."
-msgstr ""
+msgstr "Geçersiz \"%s\" Jabber Kimliği kaynağı."
 
 #. TRANS: Link description to notice in conversation.
 #. TRANS: %s is a notice ID.
 #: XmppPlugin.php:372
 #, php-format
 msgid "[%u]"
-msgstr ""
+msgstr "[%u]"
 
 #. TRANS: Exception thrown when the plugin configuration is incorrect.
 #: XmppPlugin.php:410
 msgid "You must specify a server in the configuration."
-msgstr ""
+msgstr "Yapılandırma için bir sunucu belirtmelisiniz."
 
 #. TRANS: Exception thrown when the plugin configuration is incorrect.
 #: XmppPlugin.php:414
 msgid "You must specify a port in the configuration."
-msgstr ""
+msgstr "Yapılandırma için bir bağlanma noktası belirtmelisiniz."
 
 #. TRANS: Exception thrown when the plugin configuration is incorrect.
 #: XmppPlugin.php:418
 msgid "You must specify a user in the configuration."
-msgstr ""
+msgstr "Yapılandırma için bir kullanıcı belirtmelisiniz."
 
 #. TRANS: Exception thrown when the plugin configuration is incorrect.
 #: XmppPlugin.php:422
 msgid "You must specify a password in the configuration."
-msgstr ""
+msgstr "Yapılandırma için bir parola belirtmelisiniz."
 
 #. TRANS: Plugin description.
 #: XmppPlugin.php:473
 msgid ""
 "The XMPP plugin allows users to send and receive notices over the "
 "XMPP/Jabber network."
-msgstr ""
+msgstr "XMPP eklentisi, kullanıcıların XMPP/Jabber ağı üzerinden bildirim gönderip almasına olanak tanır."
 
 #. TRANS: Presence announcement for XMPP.
 #. TRANS: Message for XMPP reconnect.
 #: lib/xmppmanager.php:167 lib/xmppmanager.php:207
 msgid "Send me a message to post a notice"
-msgstr "Bir uyarı iletmek için bana mesaj gönder"
+msgstr "Bir bildirim göndermek için bana ileti gönder"
