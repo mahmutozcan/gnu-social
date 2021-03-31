@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -23,38 +24,38 @@ msgid ""
 "The RSSCloud plugin enables your StatusNet instance to publish real-time "
 "updates for profile RSS feeds using the <a "
 "href=\"http://rsscloud.org/\">RSSCloud protocol</a>."
-msgstr ""
+msgstr "RSSCloud eklentisi, StatusNet örneğinizin <a href=\"http://rsscloud.org/\">RSSCloud protokolü</a> kullanarak profil RSS beslemeleri için gerçek zamanlı güncellemeler yayınlamasını sağlar."
 
 #. TRANS: Form validation error displayed when a URL parameter is missing.
 #: actions/loggingaggregator.php:86
 msgid "A URL parameter is required."
-msgstr ""
+msgstr "Bir Kaynak Adresi değişkeni gereklidir."
 
 #. TRANS: Form validation error displayed when HTTP GET is not used.
 #: actions/loggingaggregator.php:94
 msgid "This resource requires an HTTP GET."
-msgstr ""
+msgstr "Bu kaynak bir HTTP GET gerektirir."
 
 #. TRANS: Form validation error displayed when HTTP POST is not used.
 #: actions/loggingaggregator.php:104
 msgid "This resource requires an HTTP POST."
-msgstr ""
+msgstr "Bu kaynak bir HTTP POST gerektirir."
 
 #. TRANS: Form validation error displayed when POST is not used.
 #: actions/rsscloudrequestnotify.php:91
 msgid "Request must be POST."
-msgstr ""
+msgstr "İstek POST olmalıdır."
 
 #. TRANS: Form validation error displayed when HTTP POST is not used.
 #: actions/rsscloudrequestnotify.php:109
 msgid "Only HTTP POST notifications are supported at this time."
-msgstr ""
+msgstr "Şu anda yalnızca HTTP POST bildirimleri desteklenmektedir."
 
 #. TRANS: List separator.
 #: actions/rsscloudrequestnotify.php:120
 msgctxt "SEPARATOR"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #. TRANS: Form validation error displayed when a request body is missing
 #. expected parameters.
@@ -63,7 +64,7 @@ msgstr ""
 #: actions/rsscloudrequestnotify.php:123
 #, php-format
 msgid "The following parameters were missing from the request body: %s."
-msgstr ""
+msgstr "İstek gövdesinde aşağıdaki değişkenler eksikti: %s."
 
 #. TRANS: Form validation error displayed when not providing any valid profile
 #. feed URLs.
@@ -71,22 +72,22 @@ msgstr ""
 msgid ""
 "You must provide at least one valid profile feed URL (url1, url2, url3 ... "
 "urlN)."
-msgstr ""
+msgstr "En az bir geçerli profil besleme Kaynak Adresi (url1, url2, url3 ... urlN) sağlamalısınız."
 
 #. TRANS: Form validation error displayed when not providing a valid feed URL.
 #: actions/rsscloudrequestnotify.php:146
 msgid "Feed subscription failed: Not a valid feed."
-msgstr ""
+msgstr "Besleme aboneliği başarısız oldu: Geçerli bir besleme değil."
 
 #. TRANS: Form validation error displayed when feed subscription failed.
 #: actions/rsscloudrequestnotify.php:153
 msgid ""
 "Feed subscription failed: Notification handler does not respond correctly."
-msgstr ""
+msgstr "Besleme aboneliği başarısız oldu: Bildirim işleyici doğru yanıt vermiyor."
 
 #. TRANS: Success message after subscribing to one or more feeds.
 #: actions/rsscloudrequestnotify.php:168
 msgid ""
 "Thanks for the subscription. When the feed(s) update(s), you will be "
 "notified."
-msgstr ""
+msgstr "Abonelik için teşekkürler. Besleme(ler) güncellendiğinde, size bildirilecek."
