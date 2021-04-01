@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,4 +21,4 @@ msgstr ""
 #. TRANS: Plugin description.
 #: PostDebugPlugin.php:59
 msgid "Debugging tool to record request details on POST."
-msgstr ""
+msgstr "POST'daki istek ayrıntılarını kaydetmek için hata ayıklama aracı."
