@@ -26,7 +26,7 @@ msgstr "Soru"
 #. TRANS: Field title on the page to create a poll.
 #: forms/newpoll.php:110
 msgid "What question are people answering?"
-msgstr "İnsanlar hangi soruya yanıt veriyor?"
+msgstr "İnsanlar hangi soruyu yanıtlasın?"
 
 #. TRANS: Field label for an answer option on the page to create a poll.
 #. TRANS: %d is the option number.
