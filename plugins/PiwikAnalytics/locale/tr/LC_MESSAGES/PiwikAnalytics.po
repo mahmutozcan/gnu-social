@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -22,4 +23,4 @@ msgstr ""
 msgid ""
 "Use <a href=\"http://piwik.org/\">Piwik</a> Open Source web analytics "
 "software."
-msgstr ""
+msgstr "<a href=\"http://piwik.org/\">Piwik</a> Açık Kaynak ağ çözümleme yazılımını kullanın."
