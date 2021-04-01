@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -21,9 +22,9 @@ msgstr ""
 #. server.
 #: OrbitedPlugin.php:110
 msgid "Failed to connect to queue server."
-msgstr ""
+msgstr "Kuyruk sunucusuna bağlanılamadı."
 
 #. TRANS: Plugin description.
 #: OrbitedPlugin.php:170
 msgid "Plugin to make updates using Orbited and STOMP."
-msgstr ""
+msgstr "Orbited ve STOMP kullanarak güncellemeler yapmak için eklenti."
