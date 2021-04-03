@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,7 +21,7 @@ msgstr ""
 #. TRANS: Menu item title.
 #: OpenXPlugin.php:187
 msgid "OpenX configuration."
-msgstr ""
+msgstr "OpenX yapılandırma."
 
 #. TRANS: Menu item for site administration
 #: OpenXPlugin.php:189
@@ -30,7 +31,7 @@ msgstr "OpenX"
 #. TRANS: Plugin description.
 #: OpenXPlugin.php:210
 msgid "Plugin for <a href=\"http://www.openx.org/\">OpenX Ad Server</a>."
-msgstr ""
+msgstr "<a href=\"http://www.openx.org/\">OpenX Reklam Sunucusu</a> için eklenti."
 
 #. TRANS: Page title for OpenX admin panel.
 #: actions/openxadminpanel.php:53
@@ -41,17 +42,17 @@ msgstr "OpenX"
 #. TRANS: Instructions for OpenX admin panel.
 #: actions/openxadminpanel.php:64
 msgid "OpenX settings for this StatusNet site"
-msgstr ""
+msgstr "Bu StatusNet sitesi için OpenX ayarları"
 
 #. TRANS: Form label in OpenX admin panel.
 #: actions/openxadminpanel.php:167
 msgid "Ad script URL"
-msgstr "Reklam komut dosyası URL'si"
+msgstr "Reklam betiği kaynak adresi"
 
 #. TRANS: Tooltip for form label in OpenX admin panel.
 #: actions/openxadminpanel.php:169
 msgid "Script URL"
-msgstr ""
+msgstr "Betik Kaynak Adresi"
 
 #. TRANS: Form label in OpenX admin panel. Refers to advertisement format.
 #: actions/openxadminpanel.php:175
@@ -62,7 +63,7 @@ msgstr "Orta boy dikdörtgen"
 #. format.
 #: actions/openxadminpanel.php:177
 msgid "Medium rectangle zone"
-msgstr ""
+msgstr "Orta dikdörtgen alan"
 
 #. TRANS: Form label in OpenX admin panel. Refers to advertisement format.
 #: actions/openxadminpanel.php:183
@@ -73,18 +74,18 @@ msgstr "Dikdörtgen"
 #. format.
 #: actions/openxadminpanel.php:185
 msgid "Rectangle zone"
-msgstr ""
+msgstr "Dikdörtgen alan"
 
 #. TRANS: Form label in OpenX admin panel. Refers to advertisement format.
 #: actions/openxadminpanel.php:191
 msgid "Leaderboard"
-msgstr "Lider Tablosu"
+msgstr "Afiş"
 
 #. TRANS: Tooltip for form label in OpenX admin panel. Refers to advertisement
 #. format.
 #: actions/openxadminpanel.php:193
 msgid "Leaderboard zone"
-msgstr ""
+msgstr "Afiş alanı"
 
 #. TRANS: Form label in OpenX admin panel. Refers to advertisement format.
 #: actions/openxadminpanel.php:199
@@ -95,7 +96,7 @@ msgstr "Dikey reklam"
 #. format.
 #: actions/openxadminpanel.php:201
 msgid "Wide skyscraper zone"
-msgstr ""
+msgstr "Geniş dikey alan"
 
 #. TRANS: Submit button text in OpenX admin panel.
 #: actions/openxadminpanel.php:216
@@ -106,4 +107,4 @@ msgstr "Kaydet"
 #. TRANS: Submit button title in OpenX admin panel.
 #: actions/openxadminpanel.php:220
 msgid "Save OpenX settings."
-msgstr ""
+msgstr "OpenX ayarlarını kaydet."
