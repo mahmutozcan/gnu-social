@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,7 +21,7 @@ msgstr ""
 #. TRANS: Plugin description.
 #: OfflineBackupPlugin.php:82
 msgid "Backup user data in offline queue and email when ready."
-msgstr ""
+msgstr "Çevrimdışı iken kullanıcı verilerini yedekleyin ve hazır olduğunda e-postayla gönderin."
 
 #: lib/offlinebackupqueuehandler.php:105
 #, php-format
@@ -30,4 +31,4 @@ msgctxt ""
 "%s\n"
 "Thanks for your time,\n"
 msgid "%s\n"
-msgstr ""
+msgstr "%s\n"
