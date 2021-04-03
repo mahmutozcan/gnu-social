@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,4 +21,4 @@ msgstr ""
 #. TRANS: Plugin description.
 #: OpportunisticQMPlugin.php:43
 msgid "Opportunistic queue manager plugin for background processing."
-msgstr ""
+msgstr "Arkaplan işlemleri için fırsatçı kuyruk yönetici eklentisi."
