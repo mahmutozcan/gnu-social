@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,7 +21,7 @@ msgstr ""
 #. TRANS: Plugin description.
 #: NoticeTitlePlugin.php:97
 msgid "Adds optional titles to notices."
-msgstr ""
+msgstr "Bildirimlere isteğe bağlı başlıklar ekler."
 
 #. TRANS: Exception thrown when a notice title is too long.
 #. TRANS: %d is the maximum number of characters allowed in a title (used for
@@ -29,11 +30,11 @@ msgstr ""
 #, php-format
 msgid "The notice title is too long (maximum %d character)."
 msgid_plural "The notice title is too long (maximum %d characters)."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bu bildirim başlığı çok uzun (üst sınır %d karakter)."
+msgstr[1] "Bu bildirim başlığı çok uzun (üst sınır %d karakter)."
 
 #. TRANS: Page title. %1$s is the title, %2$s is the site name.
 #: NoticeTitlePlugin.php:276
 #, php-format
 msgid "%1$s - %2$s"
-msgstr ""
+msgstr "%1$s - %2$s"
