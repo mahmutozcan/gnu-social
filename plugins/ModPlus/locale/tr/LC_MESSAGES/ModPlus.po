@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -22,7 +23,7 @@ msgstr ""
 #: actions/remoteprofile.php:15
 #, php-format
 msgid "%1$s on %2$s"
-msgstr ""
+msgstr "%2$s'da %1$s"
 
 #. TRANS: Message on remote profile page.
 #. TRANS: This message contains Markdown links in the form
@@ -33,21 +34,21 @@ msgstr ""
 msgid ""
 "This remote profile is registered on another site; see [%1$s's original "
 "profile page on %2$s](%3$s)."
-msgstr ""
+msgstr "Bu uzak profil başka bir siteye kayıtlı; Bakınız (%3$s)[%1$s'nin asıl profil sayfası %2$s'de]."
 
 #. TRANS: Message on blocked remote profile page.
 #: actions/remoteprofile.php:38
 msgid ""
 "Site moderators have silenced this profile, which prevents delivery of new "
 "messages to any users on this site."
-msgstr ""
+msgstr "Site denetleyicileri bu profili sessize aldı. Bu da sitedeki herhangi bir kullanıcıya yeni iletilerin teslimine engel oluyor."
 
 #. TRANS: Plugin description.
 #: ModPlusPlugin.php:40
 msgid "UI extension for profile moderation actions."
-msgstr ""
+msgstr "Profil denetleme işi için kullanıcı arayüzü uzantısı."
 
 #. TRANS: Label for access to remote profile options.
 #: ModPlusPlugin.php:115
 msgid "Remote profile options..."
-msgstr ""
+msgstr "Uzak profil seçenekleri..."
