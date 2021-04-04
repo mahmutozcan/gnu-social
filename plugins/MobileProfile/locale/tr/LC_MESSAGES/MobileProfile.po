@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,21 +21,21 @@ msgstr ""
 #. TRANS: Client exception thrown when requesting a not supported media type.
 #: MobileProfilePlugin.php:200
 msgid "This page is not available in a media type you accept."
-msgstr ""
+msgstr "Bu sayfa, kabul ettiğiniz bir medya türünde kullanılabilir değil."
 
 #. TRANS: Link to switch site layout from mobile to desktop mode. Appears at
 #. very bottom of page.
 #: MobileProfilePlugin.php:375
 msgid "Switch to desktop site layout."
-msgstr ""
+msgstr "Masaüstü site düzenine geçin."
 
 #. TRANS: Link to switch site layout from desktop to mobile mode. Appears at
 #. very bottom of page.
 #: MobileProfilePlugin.php:379
 msgid "Switch to mobile site layout."
-msgstr ""
+msgstr "Mobil site düzenine geçin."
 
 #. TRANS: Plugin description.
 #: MobileProfilePlugin.php:417
 msgid "XHTML MobileProfile output for supporting user agents."
-msgstr ""
+msgstr "Kullanıcı aracılarını desteklemek için XHTML MobileProfile çıktısı."
