@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,4 +21,4 @@ msgstr ""
 #. TRANS: Plugin description.
 #: LRDDPlugin.php:61
 msgid "Implements LRDD support for GNU Social."
-msgstr ""
+msgstr "GNU Social için LRDD desteğini uygular."
