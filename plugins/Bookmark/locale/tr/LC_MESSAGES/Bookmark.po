@@ -22,7 +22,7 @@ msgstr ""
 #: forms/initialbookmark.php:78 forms/bookmark.php:121
 msgctxt "LABEL"
 msgid "URL"
-msgstr "URL"
+msgstr "Kaynak Adresi"
 
 #. TRANS: Button text for action to save a new bookmark.
 #: forms/initialbookmark.php:92
@@ -62,7 +62,7 @@ msgstr "Kaydet"
 #. TRANS: Client exception thrown when an unknown URL is provided.
 #: actions/noticebyurl.php:69
 msgid "Unknown URL."
-msgstr "Bilinmeyen İnternet adresi." 
+msgstr "Bilinmeyen kaynak adresi." 
 
 #. TRANS: Title of notice stream of notices with a given attachment (first
 #. page).
@@ -78,7 +78,7 @@ msgstr "%s'e bağlanan bildirimler"
 #: actions/noticebyurl.php:96
 #, php-format
 msgid "Notices linking to %1$s, page %2$d"
-msgstr "%1$s'ye bağlanan bildirimler"
+msgstr "%1$s'ye bağlanan bildirimler, %2$d.sayfa"
 
 #. TRANS: Page title for sample plugin.
 #: actions/bookmarks.php:128
@@ -155,7 +155,7 @@ msgstr "Karşıya yükleme dosyası, php.ini içindeki upload_max_filesize yöne
 msgid ""
 "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
 "the HTML form."
-msgstr ""
+msgstr "Karşıya yüklenen dosya, HTML formunda belirtilen MAX_FILE_SIZE yönergesini aşıyor."
 
 #. TRANS: Client exception thrown when a file was only partially uploaded.
 #: actions/importdelicious.php:143
@@ -175,7 +175,7 @@ msgstr "Dosya diske yazılamadı"
 #. TRANS: Client exception thrown when a file upload has been stopped.
 #: actions/importdelicious.php:161
 msgid "File upload stopped by extension."
-msgstr "Dosya karşıya yükleme eklenti tarafından durduruldu."
+msgstr "Dosya karşıya yükleme, eklenti tarafından durduruldu."
 
 #. TRANS: Client exception thrown when a file upload operation has failed.
 #: actions/importdelicious.php:167
@@ -189,7 +189,7 @@ msgstr "Dosya karşıya yüklenirken sistem hatası."
 #: actions/importdelicious.php:177 scripts/importbookmarks.php:68
 #, php-format
 msgid "No such file \"%s\"."
-msgstr "Böyle bir dosya yok <<%s>>."
+msgstr "Böyle bir <<%s>> dosyası yok."
 
 #. TRANS: Server exception thrown when a file upload is incorrect.
 #. TRANS: %s is the irregular file.
