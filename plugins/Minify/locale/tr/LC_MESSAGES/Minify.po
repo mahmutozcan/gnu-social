@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -21,22 +22,22 @@ msgstr ""
 #. "f".
 #: actions/minify.php:50
 msgid "The parameter \"f\" is not a valid path."
-msgstr ""
+msgstr "\"F\" değişkeni geçerli bir yol değil."
 
 #. TRANS: Client error displayed when not providing parameter "f".
 #: actions/minify.php:54
 msgid "The parameter \"f\" is required but missing."
-msgstr ""
+msgstr "\"F\" değişkeni gerekli ancak eksik. "
 
 #. TRANS: Client error displayed when trying to minify an unsupported file
 #. type.
 #: actions/minify.php:112
 msgid "File type not supported."
-msgstr ""
+msgstr "Dosya türü desteklenmiyor."
 
 #. TRANS: Plugin description.
 #: MinifyPlugin.php:168
 msgid ""
 "The Minify plugin minifies StatusNet's CSS and JavaScript, removing "
 "whitespace and comments."
-msgstr ""
+msgstr "Minify eklentisi, StatusNet'in CSS ve JavaScript'ini küçülterek boşlukları ve yorumları kaldırır."
