@@ -134,12 +134,12 @@ msgstr "Etkinlik yeri."
 #: forms/event.php:185
 msgctxt "LABEL"
 msgid "URL"
-msgstr "URL"
+msgstr "Kaynak Adresi"
 
 #. TRANS: Field title on event form.
 #: forms/event.php:188
 msgid "URL for more information."
-msgstr "Daha çok bilgi için internet adresi."
+msgstr "Daha çok bilgi için kaynak adresi."
 
 #. TRANS: Field label on event form.
 #: forms/event.php:195
@@ -150,7 +150,7 @@ msgstr "Açıklama"
 #. TRANS: Field title on event form.
 #: forms/event.php:198
 msgid "Description of the event."
-msgstr "Etkinliğin açıklaması."
+msgstr "Etkinlik açıklaması."
 
 #. TRANS: Button text to save an event..
 #: forms/event.php:221
@@ -218,7 +218,7 @@ msgstr "Etkinliğin bir bitiş zamanı olmalı"
 #. URL.
 #: actions/newevent.php:211
 msgid "URL must be valid."
-msgstr "İnternet adresi geçerli olmalı."
+msgstr "Kaynak adresi geçerli olmalı."
 
 #. TRANS: Page title after sending a notice.
 #. TRANS: Page title after creating an event.
@@ -454,7 +454,7 @@ msgstr "Bilinmeyen etkinlik için Lütfen Yanıt Verin."
 #. TRANS: Exception thrown when event plugin comes across a undefined verb.
 #: EventPlugin.php:172
 msgid "Unknown verb for events."
-msgstr "tkinlikler için bilinmeyen fiil."
+msgstr "Etkinlikler için bilinmeyen fiil."
 
 #. TRANS: Exception thrown when event plugin comes across a unknown object
 #. type.
