@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -21,18 +22,18 @@ msgstr ""
 #: forms/groupmessage.php:89
 #, php-format
 msgid "Message to %s"
-msgstr ""
+msgstr "%s'ye ileti"
 
 #. TRANS: Field label for private group message to group %s.
 #: forms/groupmessage.php:128
 #, php-format
 msgid "Direct message to %s"
-msgstr ""
+msgstr "%s'ye doğrudan ileti"
 
 #. TRANS: Indicator for number of chatacters still available for notice.
 #: forms/groupmessage.php:141
 msgid "Available characters"
-msgstr ""
+msgstr "Kullanılabilir karakterler"
 
 #. TRANS: Send button text for sending private group notice.
 #: forms/groupmessage.php:162
@@ -44,7 +45,7 @@ msgstr "Gönder"
 #. logged in.
 #: actions/groupinbox.php:66
 msgid "Only for logged-in users."
-msgstr ""
+msgstr "Yalnızca oturum açmış kullanıcılar için"
 
 #. TRANS: Client exception thrown when trying to view group inbox for non-
 #. existing group.
@@ -53,44 +54,44 @@ msgstr ""
 #: actions/groupinbox.php:82 actions/groupinbox.php:89
 #: actions/newgroupmessage.php:90 actions/newgroupmessage.php:97
 msgid "No such group."
-msgstr "Böyle bir kullanıcı yok."
+msgstr "Böyle bir grup yok."
 
 #. TRANS: Client exception thrown when trying to view group inbox while not a
 #. member.
 #: actions/groupinbox.php:94
 msgid "Only for members."
-msgstr ""
+msgstr "Yalnızca üyeler için"
 
 #. TRANS: Text of group inbox if no private messages were sent to it.
 #: actions/groupinbox.php:128
 msgid "This group has not received any private messages."
-msgstr ""
+msgstr "Bu grup herhangi bir özel ileti almadı."
 
 #. TRANS: Title of inbox for group %s.
 #: actions/groupinbox.php:174
 #, php-format
 msgid "%s group inbox"
-msgstr ""
+msgstr "%s grubu gelen kutusu"
 
 #. TRANS: Page title for any but first group page.
 #. TRANS: %1$s is a group name, $2$s is a page number.
 #: actions/groupinbox.php:178
 #, php-format
 msgid "%1$s group inbox, page %2$d"
-msgstr ""
+msgstr "%1$s grubu gelen kutusu, %2$d.sayfa"
 
 #. TRANS: Instructions for user inbox page.
 #: actions/groupinbox.php:209
 msgid ""
 "This is the group inbox, which lists all incoming private messages for this "
 "group."
-msgstr ""
+msgstr "Bu, grup için gelen tüm özel iletileri listeleyen grup gelen kutusudur."
 
 #. TRANS: Client exception thrown when trying to send a private group message
 #. while not logged in.
 #: actions/newgroupmessage.php:68
 msgid "Must be logged in."
-msgstr "Giriş yapmanız gerek."
+msgstr "Oturum açmış olmalısınız."
 
 #. TRANS: Exception thrown when user %s is not allowed to send a private group
 #. message.
@@ -100,54 +101,54 @@ msgstr "Giriş yapmanız gerek."
 #: actions/newgroupmessage.php:73 classes/Group_message.php:96
 #, php-format
 msgid "User %s is not allowed to send private messages."
-msgstr ""
+msgstr "%s kullanıcısının özel ileti göndermesine izin verilmiyor."
 
 #. TRANS: Title after sending a private group message.
 #: actions/newgroupmessage.php:142
 msgid "Message sent"
-msgstr ""
+msgstr "İleti gönderildi"
 
 #. TRANS: Succes text after sending a direct message to group %s.
 #: actions/newgroupmessage.php:148
 #, php-format
 msgid "Direct message to %s sent."
-msgstr ""
+msgstr "Doğrudan ileti %s'ye gönderildi."
 
 #. TRANS: Title of form for new private group message.
 #: actions/newgroupmessage.php:160
 #, php-format
 msgid "New message to group %s"
-msgstr ""
+msgstr "%s grubuna yeni ileti"
 
 #. TRANS: Client exception thrown when trying to view group private messages
 #. without being logged in.
 #: actions/showgroupmessage.php:69
 msgid "Only logged-in users can view private messages."
-msgstr ""
+msgstr "Yalnızca oturum açmış kullanıcılar özel iletileri görüntüleyebilir. "
 
 #. TRANS: Client exception thrown when trying to view a non-existing group
 #. private message.
 #: actions/showgroupmessage.php:79
 msgid "No such message."
-msgstr ""
+msgstr "Böyle bir ileti yok."
 
 #. TRANS: Server exception thrown when trying to view group private messages
 #. for a non-exsting group.
 #: actions/showgroupmessage.php:86
 msgid "Group not found."
-msgstr "Onay kodu bulunamadı."
+msgstr "Grup bulunamadı."
 
 #. TRANS: Client exception thrown when trying to view a group private message
 #. without being a group member.
 #: actions/showgroupmessage.php:91
 msgid "Cannot read message."
-msgstr ""
+msgstr "İleti okunamıyor."
 
 #. TRANS: Server exception thrown when trying to view a group private message
 #. without a sender.
 #: actions/showgroupmessage.php:98
 msgid "No sender found."
-msgstr ""
+msgstr "Gönderen bulunamadı."
 
 #. TRANS: Title for private group message.
 #. TRANS: %1$s is the sender name, %2$s is the group name, %3$s is a
@@ -155,14 +156,14 @@ msgstr ""
 #: actions/showgroupmessage.php:123
 #, php-format
 msgid "Message from %1$s to group %2$s on %3$s"
-msgstr ""
+msgstr "%3$s üzerinde %1$s'den %2$s grubuna ileti"
 
 #. TRANS: Subject for direct-message notification email.
 #. TRANS: %1$s is the sending user's nickname, %2$s is the group nickname.
 #: classes/Group_message_profile.php:114
 #, php-format
 msgid "New private message from %1$s to group %2$s"
-msgstr ""
+msgstr "%1$s'den %2$s grubuna yeni özel ileti"
 
 #. TRANS: Body for direct-message notification email.
 #. TRANS: %1$s is the sending user's long name, %2$s is the sending user's
@@ -186,7 +187,7 @@ msgid ""
 "\n"
 "With kind regards,\n"
 "%6$s"
-msgstr ""
+msgstr "%1$s (%2$s), %3$s grubuna özel bir mesaj gönderdi:\n\n--------------------------------------------------------\n%4$s\n-------------------------------------------------------\n\nOnların iletilerine buradan yanıt verebilirsiniz:\n\n%5$s\n\nBu e-postayı yanıtlamayın; onlara ulaşmayacak.\n\nSaygılarımızla\n%6$s"
 
 #. TRANS: Exception thrown when trying to send group private message that is
 #. too long.
@@ -195,27 +196,27 @@ msgstr ""
 #, php-format
 msgid "That's too long. Maximum message size is %d character."
 msgid_plural "That's too long. Maximum message size is %d characters."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bu çok uzun. İleti boyutu en çok %d karakterdir."
+msgstr[1] "Bu çok uzun. İleti boyutu en çok %d karakterdir."
 
 #. TRANS: Exception thrown when trying to send group private message to a non-
 #. existing group.
 #: classes/Group_message.php:153
 msgid "No group for group message."
-msgstr ""
+msgstr "Grup iletisinin grubu yok."
 
 #. TRANS: Exception thrown when trying to send group private message without
 #. having a sender.
 #: classes/Group_message.php:163
 msgid "No sender for group message."
-msgstr ""
+msgstr "Grup iletisinin göndereni yok."
 
 #. TRANS: Exception thrown when trying to set group privacy setting if group
 #. %s does not allow private messages.
 #: classes/Group_privacy_settings.php:110
 #, php-format
 msgid "Group %s does not allow private messages."
-msgstr ""
+msgstr "%s grubu özel iletilere izin vermiyor."
 
 #. TRANS: Exception thrown when trying to send group private message while
 #. blocked from that group.
@@ -223,7 +224,7 @@ msgstr ""
 #: classes/Group_privacy_settings.php:120
 #, php-format
 msgid "User %1$s is blocked from group %2$s."
-msgstr ""
+msgstr "%1$s, %2$s grubundan engellendi."
 
 #. TRANS: Exception thrown when trying to send group private message while not
 #. a member.
@@ -231,7 +232,7 @@ msgstr ""
 #: classes/Group_privacy_settings.php:129
 #, php-format
 msgid "User %1$s is not a member of group %2$s."
-msgstr ""
+msgstr "%1$s, %2$s grubunun üyesi değil."
 
 #. TRANS: Exception thrown when trying to send group private message while not
 #. a group administrator.
@@ -239,37 +240,37 @@ msgstr ""
 #: classes/Group_privacy_settings.php:138
 #, php-format
 msgid "User %1$s is not an administrator of group %2$s."
-msgstr ""
+msgstr "%1$s, %2$s grubunun yöneticisi değil."
 
 #. TRANS: Exception thrown when encountering undefined group privacy settings.
 #. TRANS: %s is a group nickname.
 #: classes/Group_privacy_settings.php:146
 #, php-format
 msgid "Unknown privacy settings for group %s."
-msgstr ""
+msgstr "%s grubunun bilinmeyen gizlilik ayarları."
 
 #. TRANS: Succes message after sending private group message to group %s.
 #: lib/groupmessagecommand.php:79
 #, php-format
 msgid "Direct message to group %s sent."
-msgstr ""
+msgstr "Doğrudan ileti %s grubuna gönderildi."
 
 #. TRANS: Menu item in group page.
 #: GroupPrivateMessagePlugin.php:112
 msgctxt "MENU"
 msgid "Inbox"
-msgstr ""
+msgstr "Gelen Kutusu"
 
 #. TRANS: Menu title in group page.
 #: GroupPrivateMessagePlugin.php:114
 msgid "Private messages for this group."
-msgstr ""
+msgstr "Grubun özel iletileri."
 
 #. TRANS: Dropdown label in group settings page for if group allows private
 #. messages.
 #: GroupPrivateMessagePlugin.php:160
 msgid "Private messages"
-msgstr ""
+msgstr "Özel iletiler"
 
 #. TRANS: Dropdown option in group settings page for allowing private
 #. messages.
@@ -287,19 +288,19 @@ msgstr "Her zaman"
 #. messages.
 #: GroupPrivateMessagePlugin.php:166
 msgid "Never"
-msgstr "Sunucu"
+msgstr "Hiçbir zaman"
 
 #. TRANS: Dropdown title in group settings page for if group allows private
 #. messages.
 #: GroupPrivateMessagePlugin.php:168
 msgid "Whether to allow private messages to this group."
-msgstr ""
+msgstr "Bu gruba özel iletilere izin verilip verilmeyeceği."
 
 #. TRANS: Dropdown label in group settings page for who can send private
 #. messages to the group.
 #: GroupPrivateMessagePlugin.php:175
 msgid "Private senders"
-msgstr ""
+msgstr "Özel göndericiler"
 
 #. TRANS: Dropdown option in group settings page for who can send private
 #. messages.
@@ -311,37 +312,37 @@ msgstr "Herkes"
 #. messages.
 #: GroupPrivateMessagePlugin.php:179
 msgid "Member"
-msgstr ""
+msgstr "Üye"
 
 #. TRANS: Dropdown option in group settings page for who can send private
 #. messages.
 #: GroupPrivateMessagePlugin.php:181
 msgid "Admin"
-msgstr "Yönetim"
+msgstr "Yönetici"
 
 #. TRANS: Dropdown title in group settings page for who can send private
 #. messages to the group.
 #: GroupPrivateMessagePlugin.php:183
 msgid "Who can send private messages to the group."
-msgstr ""
+msgstr "Gruba kimler özel ileti gönderebilir."
 
 #. TRANS: Title for action in group actions list.
 #: GroupPrivateMessagePlugin.php:288
 msgid "Send a direct message to this group."
-msgstr ""
+msgstr "Bu gruba doğrudan ileti gönderin."
 
 #. TRANS: Link text for action in group actions list to send a private message
 #. to a group.
 #: GroupPrivateMessagePlugin.php:290
 msgctxt "LINKTEXT"
 msgid "Message"
-msgstr ""
+msgstr "İleti"
 
 #. TRANS: Client exception thrown when a private group message has to be
 #. forced.
 #: GroupPrivateMessagePlugin.php:368
 msgid "Forced notice to private group message."
-msgstr ""
+msgstr "Özel grup iletisine zorunlu bildirim."
 
 #. TRANS: Indicator on the group page that the group is (essentially) private.
 #: GroupPrivateMessagePlugin.php:390
@@ -351,4 +352,4 @@ msgstr "Özel"
 #. TRANS: Plugin description.
 #: GroupPrivateMessagePlugin.php:416
 msgid "Allow posting private messages to groups."
-msgstr ""
+msgstr "Gruplara özel ileti gönderilmesine izin ver"
