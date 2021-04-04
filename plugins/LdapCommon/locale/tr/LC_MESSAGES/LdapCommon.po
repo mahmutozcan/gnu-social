@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -21,19 +22,19 @@ msgstr ""
 #. because of an incorrect configuration.
 #: LdapCommon.php:64
 msgid "A host must be specified."
-msgstr ""
+msgstr "Bir makine belirtilmelidir."
 
 #. TRANS: Exception thrown when initialising the LDAP Common plugin fails
 #. because of an incorrect configuration.
 #: LdapCommon.php:68
 msgid "\"basedn\" must be specified."
-msgstr ""
+msgstr "\"basedn\" belirtilmelidir."
 
 #. TRANS: Exception thrown when initialising the LDAP Common plugin fails
 #. because of an incorrect configuration.
 #: LdapCommon.php:72
 msgid "The username attribute must be set."
-msgstr ""
+msgstr "Kullanıcı özniteliği ayarlanmalıdır."
 
 #. TRANS: Exception thrown in the LDAP Common plugin when LDAP server is not
 #. available.
@@ -41,7 +42,7 @@ msgstr ""
 #: LdapCommon.php:133
 #, php-format
 msgid "Could not connect to LDAP server: %s"
-msgstr ""
+msgstr "LDAP sunucusuna bağlanamadı: %s"
 
 #. TRANS: Exception thrown in the LDAP Common plugin when LDAP server is not
 #. available.
@@ -49,4 +50,4 @@ msgstr ""
 #: LdapCommon.php:137
 #, php-format
 msgid "Could not connect to LDAP server: %s."
-msgstr ""
+msgstr "LDAP sunucusuna bağlanamadı: %s."
