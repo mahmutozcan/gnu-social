@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Uğur KUYU <ukuyu34@gmail.com>, 2015
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -22,7 +23,7 @@ msgstr ""
 #: GroupFavoritedPlugin.php:51
 msgctxt "MENU"
 msgid "Popular"
-msgstr "Popüler"
+msgstr "Çok tutulan"
 
 #. TRANS: Tooltip for menu item in the group navigation page.
 #. TRANS: %s is the nickname of the group.
@@ -30,21 +31,21 @@ msgstr "Popüler"
 #, php-format
 msgctxt "TOOLTIP"
 msgid "Popular notices in %s group"
-msgstr "%s grubundaki popüler bildirimler"
+msgstr "%s grubundaki çok tutulan bildirimler"
 
 #. TRANS: Plugin description.
 #: GroupFavoritedPlugin.php:78
 msgid "This plugin adds a menu item for popular notices in groups."
-msgstr "Bu eklenti, gruplar halinde popüler bildirimler için menü öğesi ekler."
+msgstr "Bu eklenti, gruplardaki çok tutulan bildirimler için menü öğesi ekler."
 
 #. TRANS: %s is a group name.
 #: actions/groupfavorited.php:48
 #, php-format
 msgid "Popular posts in %s group"
-msgstr "%s grubundaki popüler gönderiler"
+msgstr "%s grubundaki çok tutulan gönderiler"
 
 #. TRANS: %1$s is a group name, %2$s is a group number.
 #: actions/groupfavorited.php:51
 #, php-format
 msgid "Popular posts in %1$s group, page %2$d"
-msgstr "%1$s grubundaki popüler gönderiler, sayfa %2$d"
+msgstr "%1$s grubundaki çok tutulan gönderiler, sayfa %2$d"
