@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -22,7 +23,7 @@ msgstr ""
 #: LinkbackPlugin.php:206
 #, php-format
 msgid "%1$s's status on %2$s"
-msgstr "%1$s'in %2$s'deki durum mesajları "
+msgstr "%1$s'in %2$s'deki durumu "
 
 #. TRANS: Plugin description.
 #: LinkbackPlugin.php:243
@@ -32,4 +33,4 @@ msgid ""
 "or <a "
 "href=\"http://www.movabletype.org/docs/mttrackback.html\">Trackback</a> "
 "protocols."
-msgstr ""
+msgstr "<a href=\"http://www.hixie.ch/specs/pingback/pingback\">Pingback</a> veya <a href=\"http://www.hixie.ch/specs/pingback/pingback\">Pingback</a> protokollarını kullanarak, gönderileri mikroblog bildirimlerine bağlandığında blog yazarlarını bilgilendirin."
