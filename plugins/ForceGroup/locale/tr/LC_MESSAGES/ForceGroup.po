@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -29,4 +30,4 @@ msgstr "%1$s kullanıcısı, %2$s grubuna katılamadı."
 msgid ""
 "Allows forced group memberships and forces all notices to appear in groups "
 "that users were forced in."
-msgstr ""
+msgstr "Zorunlu grup üyeliklerine izin verir ve tüm bildirimleri, kullanıcıların zorunlu girdiği gruplarda görünmeye zorlar."
