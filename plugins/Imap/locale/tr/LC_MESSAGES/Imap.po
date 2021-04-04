@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,7 +21,7 @@ msgstr ""
 #. TRANS: E-mail subject in case of an error.
 #: lib/imapmailhandler.php:31
 msgid "Error"
-msgstr ""
+msgstr "Hata"
 
 #. TRANS: Exception thrown when the ImapManager is used incorrectly in the
 #. code.
@@ -28,32 +29,32 @@ msgstr ""
 msgid ""
 "ImapManager should be created using its constructor, not using the static "
 "\"get()\" method."
-msgstr ""
+msgstr "ImapManager, durağan \"get()\" yöntemi kullanılmadan kurucusu kullanılarak oluşturulmalıdır."
 
 #. TRANS: Exception thrown when configuration of the IMAP plugin is incorrect.
 #: ImapPlugin.php:55
 msgid "A mailbox must be specified."
-msgstr ""
+msgstr "Bir posta kutusu belirtilmelidir."
 
 #. TRANS: Exception thrown when configuration of the IMAP plugin is incorrect.
 #: ImapPlugin.php:59
 msgid "A user must be specified."
-msgstr ""
+msgstr "Bir kullanıcı belirtilmelidir."
 
 #. TRANS: Exception thrown when configuration of the IMAP plugin is incorrect.
 #: ImapPlugin.php:63
 msgid "A password must be specified."
-msgstr ""
+msgstr "Bir parola belirtilmelidir."
 
 #. TRANS: Exception thrown when configuration of the IMAP plugin is incorrect.
 #. TRANS: poll_frequency is a setting that should not be translated.
 #: ImapPlugin.php:68
 msgid "A poll_frequency must be specified."
-msgstr ""
+msgstr "Bir anket_sıklığı belirtilmelidir."
 
 #. TRANS: Plugin description.
 #: ImapPlugin.php:87
 msgid ""
 "The IMAP plugin allows for StatusNet to check a POP or IMAP mailbox for "
 "incoming mail containing user posts."
-msgstr ""
+msgstr "IMAP eklentisi, StatusNet'in, kullanıcı gönderilerini içeren gelen postalar için bir POP veya IMAP posta kutusunu kontrol etmesine izin verir."
