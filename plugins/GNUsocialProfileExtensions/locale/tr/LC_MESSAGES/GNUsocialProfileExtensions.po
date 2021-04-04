@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Uğur KUYU <ukuyu34@gmail.com>, 2015
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -21,7 +22,7 @@ msgstr ""
 #: actions/bio.php:62
 #, php-format
 msgid "%s's Bio."
-msgstr "%s kullanıcısının profili"
+msgstr "%s' Özgeçmişi"
 
 #: GNUsocialProfileExtensionsPlugin.php:124
 msgid "Profile Fields"
