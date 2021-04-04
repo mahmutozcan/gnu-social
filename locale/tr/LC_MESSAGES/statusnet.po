@@ -262,13 +262,13 @@ msgstr "%s kullanıcısının anasayfa zaman çizelgesi"
 #: actions/all.php:90 actions/showprofiletag.php:181
 #, php-format
 msgid "Feed for friends of %s (Activity Streams JSON)"
-msgstr "%s kullanıcısının arkadaşları için kaynak (Aktivite Akışı JSON)"
+msgstr "%s'nin arkadaşları için besleme (Etkinlik Akışları JSON)"
 
 #. TRANS: %s is user nickname.
 #: actions/all.php:98
 #, php-format
 msgid "Feed for friends of %s (RSS 1.0)"
-msgstr "%s ve arkadaşları için kaynak (RSS 1.0)"
+msgstr "%s ve arkadaşları için besleme (RSS 1.0)"
 
 #. TRANS: %s is user nickname.
 #. TRANS: Feed title.
@@ -276,13 +276,13 @@ msgstr "%s ve arkadaşları için kaynak (RSS 1.0)"
 #: actions/all.php:107 actions/showprofiletag.php:192
 #, php-format
 msgid "Feed for friends of %s (RSS 2.0)"
-msgstr "%s ve arkadaşları için kaynak (RSS 2.0)"
+msgstr "%s ve arkadaşları için besleme (RSS 2.0)"
 
 #. TRANS: %s is user nickname.
 #: actions/all.php:116
 #, php-format
 msgid "Feed for friends of %s (Atom)"
-msgstr "%s ve arkadaşları için kaynak (Atom)"
+msgstr "%s ve arkadaşları için besleme (Atom)"
 
 #. TRANS: Empty list message. %s is a user nickname.
 #: actions/all.php:123
@@ -736,15 +736,15 @@ msgstr "Kullanıcının engellemesini kaldırma başarısız oldu."
 
 #: actions/apicheckhub.php:57
 msgid "No URL."
-msgstr "URL yok."
+msgstr "Kaynak adresi yok."
 
 #: actions/apicheckhub.php:61 lib/invalidurlexception.php:50
 msgid "Invalid URL."
-msgstr "Geçersiz URL."
+msgstr "Geçersiz Kaynak Adresi."
 
 #: actions/apicheckhub.php:86
 msgid "No feed found"
-msgstr "Kaynak bulunamadı"
+msgstr "Besleme bulunamadı"
 
 #: actions/apicheckhub.php:88
 msgid "No hub found"
