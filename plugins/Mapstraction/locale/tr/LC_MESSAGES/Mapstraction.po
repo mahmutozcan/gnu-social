@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -22,21 +23,21 @@ msgstr ""
 #: actions/usermap.php:66
 #, php-format
 msgid "%s map"
-msgstr ""
+msgstr "%s haritası"
 
 #. TRANS: Page title.
 #. TRANS: %s is a user nickname.
 #: actions/allmap.php:68
 #, php-format
 msgid "%s friends map"
-msgstr ""
+msgstr "%s'nin arkadaş haritası"
 
 #. TRANS: Page title.
 #. TRANS: %1$s is a user nickname, %2$d is a page number.
 #: actions/allmap.php:74
 #, php-format
 msgid "%1$s friends map, page %2$d"
-msgstr ""
+msgstr "%s'nin arkadaş haritası, %2$d.sayfa"
 
 #. TRANS: Client error displayed when referring to a non-existing user.
 #: actions/map.php:72
@@ -51,16 +52,16 @@ msgstr "Kullanıcının profili yok."
 #. TRANS: Header for Map widget that displays a map with geodata for notices.
 #: MapstractionPlugin.php:155
 msgid "Map"
-msgstr ""
+msgstr "Harita"
 
 #. TRANS: Clickable item to allow opening the map in full size.
 #: MapstractionPlugin.php:167
 msgid "Full size"
-msgstr ""
+msgstr "Tam boyut"
 
 #. TRANS: Plugin description.
 #: MapstractionPlugin.php:180
 msgid ""
 "Show maps of users' and friends' notices with <a "
 "href=\"http://www.mapstraction.com/\">Mapstraction</a>."
-msgstr ""
+msgstr "<a href=\"http://www.mapstraction.com/\">Mapstraction</a> ile kullanıcıların ve arkadaşların bildirimlerinin haritalarını gösterin."
