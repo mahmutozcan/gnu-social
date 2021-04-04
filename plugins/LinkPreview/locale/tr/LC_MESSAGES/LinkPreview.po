@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -27,14 +28,14 @@ msgstr "Oturum belirtecinizde bir sorun var. Lütfen, tekrar deneyin."
 #. JSON.
 #: actions/oembedproxy.php:65
 msgid "Invalid format; only JSON supported."
-msgstr ""
+msgstr "Geçersiz biçim; yalnızca JSON destekleniyor."
 
 #. TRANS: Client exception thrown when not providing a valid URL.
 #: actions/oembedproxy.php:71
 msgid "Invalid URL."
-msgstr "Geçersiz URL."
+msgstr "Geçersiz Kaynak Adresi."
 
 #. TRANS: Plugin description.
 #: LinkPreviewPlugin.php:40
 msgid "UI extension for previewing thumbnails from links."
-msgstr ""
+msgstr "Bağlantılardan küçük resimleri önizleme için kullanıcı arayüzü uzantısı."
