@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -21,7 +22,7 @@ msgstr ""
 #. because of an incorrect configuration.
 #: LdapAuthenticationPlugin.php:40
 msgid "You must specify a nickname attribute."
-msgstr ""
+msgstr "Bir takma ad özniteliği belirtmelisiniz."
 
 #. TRANS: Exception thrown when initialising the LDAP Auth plugin fails
 #. because of an incorrect configuration.
@@ -29,16 +30,16 @@ msgstr ""
 msgid ""
 "If password_changeable is set, the password attribute and password_encoding "
 "must also be specified."
-msgstr ""
+msgstr "Parola_değiştirilebilir ayarlanmışsa, parola özniteliği ve parola_kodlaması da belirtilmelidir."
 
 #. TRANS: Instructions for LDAP authentication.
 #: LdapAuthenticationPlugin.php:71 LdapAuthenticationPlugin.php:76
 msgid "Do you have an LDAP account? Use your standard username and password."
-msgstr ""
+msgstr "LDAP hesabınız var mı? Standart kullanıcı adınızı ve parolanızı kullanın."
 
 #. TRANS: Plugin description.
 #: LdapAuthenticationPlugin.php:153
 msgid ""
 "The LDAP Authentication plugin allows for StatusNet to handle authentication"
 " through LDAP."
-msgstr ""
+msgstr "LDAP Kimlik Doğrulama eklentisi, StatusNet'in LDAP aracılığıyla kimlik doğrulamasını işlemesine izin verir."
