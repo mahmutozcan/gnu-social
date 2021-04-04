@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -24,4 +25,4 @@ msgid ""
 "installation: When a user scrolls towards the bottom of the page, the next "
 "page of notices is automatically retrieved and appended. This means they "
 "never need to click \"Next Page\", which dramatically increases stickiness."
-msgstr ""
+msgstr "Sonsuz Kaydırma, StatusNet kurulumunuza aşağıdaki işlevselliği ekler: Bir kullanıcı sayfanın altına doğru kaydırdığında, sonraki bildirim sayfası otomatik olarak alınır ve sona eklenir. Bu, \"Sonraki Sayfa\"'yı hiç bir zaman tıklamaları gerekmeyeceği anlamına gelir, bu da yapışkanlığı önemli ölçüde artırır."
