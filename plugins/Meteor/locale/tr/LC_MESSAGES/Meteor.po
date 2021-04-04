@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -21,15 +22,15 @@ msgstr ""
 #: MeteorPlugin.php:127
 #, php-format
 msgid "Could not connect to %1$s on %2$s."
-msgstr ""
+msgstr "%2$s üzerinde %1$s ile bağlantı kurulamadı."
 
 #. TRANS: Exception. %s is the Meteor message that could not be added.
 #: MeteorPlugin.php:140
 #, php-format
 msgid "Error adding meteor message \"%s\"."
-msgstr ""
+msgstr "Meteor iletisi \"%s\" eklenirken hata oluştu."
 
 #. TRANS: Plugin description.
 #: MeteorPlugin.php:171
 msgid "Plugin to do \"real time\" updates using Meteor."
-msgstr ""
+msgstr "Meteor kullanarak \"gerçek zamanlı\" güncellemeler yapmak için eklenti. "
