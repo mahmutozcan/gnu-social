@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,9 +21,9 @@ msgstr ""
 #. TRANS: Checkbox label in form for profile settings.
 #: FollowEveryonePlugin.php:134
 msgid "Follow everyone"
-msgstr ""
+msgstr "Herkesi takip et"
 
 #. TRANS: Plugin description.
 #: FollowEveryonePlugin.php:176
 msgid "New users follow everyone at registration and are followed in return."
-msgstr ""
+msgstr "Yeni kullanıcılar kayıt sırasında herkesi takip eder ve karşılığında takip edilir."
