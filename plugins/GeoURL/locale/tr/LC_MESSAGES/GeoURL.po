@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -22,4 +23,4 @@ msgstr ""
 msgid ""
 "Ping <a href=\"http://geourl.org/\">GeoURL</a> when new geolocation-enhanced"
 " notices are posted."
-msgstr ""
+msgstr "Yeni konum belirleme özellikli bildirimler gönderildiğinde <a href=\"http://geourl.org/\"> GeoURL </a> 'ye ping atın."
