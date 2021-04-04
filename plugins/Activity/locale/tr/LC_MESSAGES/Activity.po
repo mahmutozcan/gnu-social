@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Uğur KUYU <ukuyu34@gmail.com>, 2015
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -24,7 +25,7 @@ msgstr ""
 #: ActivityPlugin.php:75
 #, php-format
 msgid "<a href=\"%1$s\">%2$s</a> started following <a href=\"%3$s\">%4$s</a>."
-msgstr "<a href=\"%1$s\">%2$s</a> takip etmeye başladı <a href=\"%3$s\">%4$s</a>."
+msgstr "<a href=\"%1$s\">%2$s</a>, <a href=\"%3$s\">%4$s</a>'yi takip etmeye başladı."
 
 #. TRANS: Text for "started following" item in activity plugin.
 #. TRANS: %1$s is a profile name, %2$s is a profile URL,
@@ -32,7 +33,7 @@ msgstr "<a href=\"%1$s\">%2$s</a> takip etmeye başladı <a href=\"%3$s\">%4$s</
 #: ActivityPlugin.php:83
 #, php-format
 msgid "%1$s (%2$s) started following %3$s (%4$s)."
-msgstr "%1$s (%2$s) takip etmeye başladı %3$s (%4$s)."
+msgstr "%1$s (%2$s), %3$s(%4$s)'i takip etmeye başladı."
 
 #. TRANS: Text for "stopped following" item in activity plugin.
 #. TRANS: %1$s is a profile URL, %2$s is a profile name,
@@ -40,7 +41,7 @@ msgstr "%1$s (%2$s) takip etmeye başladı %3$s (%4$s)."
 #: ActivityPlugin.php:113
 #, php-format
 msgid "<a href=\"%1$s\">%2$s</a> stopped following <a href=\"%3$s\">%4$s</a>."
-msgstr "<a href=\"%1$s\">%2$s</a> takibi bıraktı <a href=\"%3$s\">%4$s</a>."
+msgstr "<a href=\"%1$s\">%2$s</a> <a href=\"%3$s\">%4$s</a>'i takibi bıraktı."
 
 #. TRANS: Text for "stopped following" item in activity plugin.
 #. TRANS: %1$s is a profile name, %2$s is a profile URL,
@@ -48,7 +49,7 @@ msgstr "<a href=\"%1$s\">%2$s</a> takibi bıraktı <a href=\"%3$s\">%4$s</a>."
 #: ActivityPlugin.php:121
 #, php-format
 msgid "%1$s (%2$s) stopped following %3$s (%4$s)."
-msgstr "%1$s (%2$s) takibi bıraktı %3$s (%4$s)."
+msgstr "%1$s (%2$s) %3$s (%4$s)'i takibi bıraktı."
 
 #. TRANS: Text for "stopped liking" item in activity plugin.
 #. TRANS: %1$s is a profile URL, %2$s is a profile name,
@@ -56,7 +57,7 @@ msgstr "%1$s (%2$s) takibi bıraktı %3$s (%4$s)."
 #: ActivityPlugin.php:158
 #, php-format
 msgid "<a href=\"%1$s\">%2$s</a> stopped liking <a href=\"%3$s\">%4$s's update</a>."
-msgstr "<a href=\"%1$s\">%2$s</a>  <a href=\"%3$s\">%4$s'nin güncellemesini </a> beğenmekten vazgeçti ."
+msgstr "<a href=\"%1$s\">%2$s</a> <a href=\"%3$s\">%4$s'nin </a> güncellemesini beğenmekten vazgeçti ."
 
 #. TRANS: Text for "stopped liking" item in activity plugin.
 #. TRANS: %1$s is a profile name, %2$s is a profile URL,
@@ -64,7 +65,7 @@ msgstr "<a href=\"%1$s\">%2$s</a>  <a href=\"%3$s\">%4$s'nin güncellemesini </a
 #: ActivityPlugin.php:166
 #, php-format
 msgid "%1$s (%2$s) stopped liking %3$s's status (%4$s)."
-msgstr "%1$s (%2$s) , %3$s'un  durumunu beğenmekten vazgeçti (%4$s)."
+msgstr "%1$s (%2$s), %3$s (%4$s)'un  durumunu beğenmekten vazgeçti ."
 
 #. TRANS: Text for "joined group" item in activity plugin.
 #. TRANS: %1$s is a profile URL, %2$s is a profile name,
@@ -75,7 +76,7 @@ msgstr "%1$s (%2$s) , %3$s'un  durumunu beğenmekten vazgeçti (%4$s)."
 #: ActivityPlugin.php:203 lib/joinlistitem.php:64
 #, php-format
 msgid "<a href=\"%1$s\">%2$s</a> joined the group <a href=\"%3$s\">%4$s</a>."
-msgstr "<a href=\"%1$s\">%2$s</a> gruba katıldı <a href=\"%3$s\">%4$s</a>."
+msgstr "<a href=\"%1$s\">%2$s</a> <a href=\"%3$s\">%4$s</a> grubuna katıldı."
 
 #. TRANS: Text for "joined group" item in activity plugin.
 #. TRANS: %1$s is a profile name, %2$s is a profile URL,
@@ -83,7 +84,7 @@ msgstr "<a href=\"%1$s\">%2$s</a> gruba katıldı <a href=\"%3$s\">%4$s</a>."
 #: ActivityPlugin.php:211
 #, php-format
 msgid "%1$s (%2$s) joined the group %3$s (%4$s)."
-msgstr "%1$s (%2$s) gruba katıldı %3$s (%4$s)."
+msgstr "%1$s (%2$s) %3$s (%4$s) grubuna katıldı."
 
 #. TRANS: Text for "left group" item in activity plugin.
 #. TRANS: %1$s is a profile URL, %2$s is a profile name,
@@ -91,7 +92,7 @@ msgstr "%1$s (%2$s) gruba katıldı %3$s (%4$s)."
 #: ActivityPlugin.php:244
 #, php-format
 msgid "<a href=\"%1$s\">%2$s</a> left the group <a href=\"%3$s\">%4$s</a>."
-msgstr "<a href=\"%1$s\">%2$s</a> gruptan ayrıldı <a href=\"%3$s\">%4$s</a>."
+msgstr "<a href=\"%1$s\">%2$s</a> <a href=\"%3$s\">%4$s</a> grubundan ayrıldı."
 
 #. TRANS: Text for "left group" item in activity plugin.
 #. TRANS: %1$s is a profile name, %2$s is a profile URL,
@@ -99,9 +100,9 @@ msgstr "<a href=\"%1$s\">%2$s</a> gruptan ayrıldı <a href=\"%3$s\">%4$s</a>."
 #: ActivityPlugin.php:252
 #, php-format
 msgid "%1$s (%2$s) left the group %3$s (%4$s)."
-msgstr "%1$s (%2$s) gruptan ayrıldı %3$s (%4$s)."
+msgstr "%1$s (%2$s) %3$s (%4$s) grubundan ayrıldı."
 
 #. TRANS: Plugin description.
 #: ActivityPlugin.php:350
 msgid "Emits notices when social activities happen."
-msgstr "Sosyal etkinlikler gerçekleştiğinde bildirim yapar."
+msgstr "Sosyal etkinlikler olduğunda yayar."
