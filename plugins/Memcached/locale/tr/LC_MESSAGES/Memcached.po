@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -21,4 +22,4 @@ msgstr ""
 #: MemcachedPlugin.php:218
 msgid ""
 "Use <a href=\"http://memcached.org/\">Memcached</a> to cache query results."
-msgstr ""
+msgstr "Sorgu sonuçlarını önbelleğe almak için <a href=\"http://memcached.org/\">Memcached</a> kullanın."
