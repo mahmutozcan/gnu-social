@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -21,7 +22,7 @@ msgstr ""
 #. recent timeout.
 #: GeonamesPlugin.php:439
 msgid "Skipping due to recent web service timeout."
-msgstr ""
+msgstr "Son web hizmeti zaman aşımı nedeniyle atlanıyor."
 
 #. TRANS: Exception thrown when a geo names service does not return an
 #. expected response.
@@ -29,12 +30,12 @@ msgstr ""
 #: GeonamesPlugin.php:457
 #, php-format
 msgid "HTTP error code %s."
-msgstr ""
+msgstr "HTTP hata kodu %s."
 
 #. TRANS: Exception thrown when a geo names service returns an empty body.
 #: GeonamesPlugin.php:464
 msgid "Empty HTTP body in response."
-msgstr ""
+msgstr "Yanıt olarak boş HTTP gövdesi."
 
 #. TRANS: Exception thrown when a geo names service return a specific error
 #. number and error text.
@@ -42,11 +43,11 @@ msgstr ""
 #: GeonamesPlugin.php:482
 #, php-format
 msgid "Error #%1$s (\"%2$s\")."
-msgstr ""
+msgstr "Hata #%1$s (\"%2$s\")."
 
 #. TRANS: Plugin description.
 #: GeonamesPlugin.php:498
 msgid ""
 "Uses <a href=\"http://geonames.org/\">Geonames</a> service to get human-"
 "readable names for locations based on user-provided lat/long pairs."
-msgstr ""
+msgstr "Kullanıcı tarafından sağlanan enlem/boylam çiftlerine dayanan konumlar için okunabilir adlar almak üzere <a href=\"http://geonames.org/\">Geonames</a> hizmetini kullanır."
