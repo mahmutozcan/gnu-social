@@ -22,4 +22,4 @@ msgstr ""
 #: CronishPlugin.php:56
 msgid ""
 "Cronish plugin that executes events on a near-minutely/hour/day/week basis."
-msgstr "Cronish plugin etkinlikleri saat/gün/hafta temelinde yürütür."
+msgstr "Cronish eklentisi etkinlikleri saat/gün/hafta temelinde yürütür."
