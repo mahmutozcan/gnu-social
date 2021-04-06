@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -27,4 +28,4 @@ msgstr "\"text\" savı belirtilmelidir."
 msgid ""
 "ClientSideShorten causes the web interface's notice form to automatically "
 "shorten URLs as they entered, and before the notice is submitted."
-msgstr ""
+msgstr "ClientSideShorten, web arabiriminin bildirim formunun kaynak adresleri girildikçe ve bildirim gönderilmeden önce otomatik olarak kısaltır."
