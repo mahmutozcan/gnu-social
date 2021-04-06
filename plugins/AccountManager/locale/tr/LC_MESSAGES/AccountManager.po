@@ -23,4 +23,4 @@ msgstr ""
 #: AccountManagerPlugin.php:98
 msgid ""
 "The Account Manager plugin implements the Account Manager specification."
-msgstr "Hesap Yöneticisi eklentisi Hesap Yöneticisi özelliklerini uygular."
+msgstr "Hesap Yöneticisi eklentisi, Hesap Yöneticisi özelliklerini uygular."
