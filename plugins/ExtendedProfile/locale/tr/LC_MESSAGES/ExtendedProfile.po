@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,7 +21,7 @@ msgstr ""
 #. TRANS: Link title for link on user profile.
 #: actions/profiledetail.php:52
 msgid "Edit extended profile settings"
-msgstr ""
+msgstr "Genişletilmiş profil ayarlarını düzenleyin"
 
 #. TRANS: Link text for link on user profile.
 #: actions/profiledetail.php:54
@@ -30,7 +31,7 @@ msgstr "Düzenle"
 #. TRANS: Title for extended profile settings.
 #: actions/profiledetailsettings.php:29
 msgid "Extended profile settings"
-msgstr ""
+msgstr "Genişletilmiş profil ayarları"
 
 #. TRANS: Usage instructions for profile settings.
 #: actions/profiledetailsettings.php:40
@@ -48,46 +49,46 @@ msgstr "Oturum belirtecinizde bir sorun var. Lütfen, tekrar deneyin."
 #. TRANS: Message given submitting a form with an unknown action.
 #: actions/profiledetailsettings.php:74
 msgid "Unexpected form submission."
-msgstr "Beklenmeğen form girdisi."
+msgstr "Beklenmeyen form girdisi."
 
 #. TRANS: Success message after saving extended profile details.
 #: actions/profiledetailsettings.php:137
 msgid "Details saved."
-msgstr ""
+msgstr "Ayrıntılar kaydedildi."
 
 #. TRANS: Exception thrown when no date was entered in a required date field.
 #. TRANS: %s is the field name.
 #: actions/profiledetailsettings.php:148
 #, php-format
 msgid "You must supply a date for \"%s\"."
-msgstr ""
+msgstr "<<%s>> için bir tarih girmelisiniz."
 
 #. TRANS: Exception thrown on incorrect data input.
 #. TRANS: %1$s is a field name, %2$s is the incorrect input.
 #: actions/profiledetailsettings.php:160
 #, php-format
 msgid "Invalid date entered for \"%1$s\": %2$s."
-msgstr ""
+msgstr "\"%1$s\" için geçersiz tarih girildi: %2$s."
 
 #. TRANS: Exception thrown when entering an invalid URL.
 #. TRANS: %s is the invalid URL.
 #: actions/profiledetailsettings.php:273
 #, php-format
 msgid "Invalid URL: %s."
-msgstr ""
+msgstr "Geçersiz kaynak adresi: %s."
 
 #. TRANS: Server error displayed when a field could not be saved in the
 #. database.
 #: actions/profiledetailsettings.php:522 actions/profiledetailsettings.php:535
 msgid "Could not save profile details."
-msgstr ""
+msgstr "Profil ayrıntıları kaydedilemedi."
 
 #. TRANS: Validation error in form for profile settings.
 #. TRANS: %s is an invalid tag.
 #: actions/profiledetailsettings.php:580
 #, php-format
 msgid "Invalid tag: \"%s\"."
-msgstr ""
+msgstr "Geçersiz etiket: <<%s>>."
 
 #. TRANS: Server error thrown when user profile settings could not be saved.
 #: actions/profiledetailsettings.php:622
@@ -98,37 +99,37 @@ msgstr "Profil kaydedilemedi."
 #. saved.
 #: actions/profiledetailsettings.php:630
 msgid "Could not save tags."
-msgstr "Profil kaydedilemedi."
+msgstr "Etiketler kaydedilemedi."
 
 #. TRANS: Plugin description.
 #: ExtendedProfilePlugin.php:40
 msgid "UI extensions for additional profile fields."
-msgstr ""
+msgstr "Ek profil alanları için kullanıcı arayüzü uzantıları."
 
 #. TRANS: Link text on user profile page leading to extended profile page.
 #: ExtendedProfilePlugin.php:87
 msgid "More details..."
-msgstr ""
+msgstr "Daha fazla ayrıntı..."
 
 #. TRANS: Field label for extended profile properties.
 #: lib/extendedprofile.php:120 lib/extendedprofile.php:131
 msgid "Phone"
-msgstr ""
+msgstr "Telefon"
 
 #. TRANS: Field label for extended profile properties (Instant Messaging).
 #: lib/extendedprofile.php:153 lib/extendedprofile.php:160
 msgid "IM"
-msgstr "Anlık mesajlaşma"
+msgstr "Anlık İleti"
 
 #. TRANS: Field label for extended profile properties.
 #: lib/extendedprofile.php:181 lib/extendedprofile.php:188
 msgid "Website"
-msgstr ""
+msgstr "İnternet Sitesi"
 
 #. TRANS: Field label for extended profile properties.
 #: lib/extendedprofile.php:212 lib/extendedprofile.php:224
 msgid "Employer"
-msgstr ""
+msgstr "İşveren"
 
 #. TRANS: Field label for extended profile properties.
 #. TRANS: Field label in education area of extended profile.
@@ -136,17 +137,17 @@ msgstr ""
 #: lib/extendedprofile.php:251 lib/extendedprofile.php:264
 #: lib/extendedprofilewidget.php:416 lib/extendedprofilewidget.php:456
 msgid "Institution"
-msgstr ""
+msgstr "Kurum"
 
 #. TRANS: Field label for extended profile properties.
 #: lib/extendedprofile.php:289 lib/extendedprofile.php:338
 msgid "Personal"
-msgstr ""
+msgstr "Kişisel"
 
 #. TRANS: Field label for extended profile properties.
 #: lib/extendedprofile.php:293
 msgid "Full name"
-msgstr "Tam İsim"
+msgstr "Tam Ad"
 
 #. TRANS: Field label for extended profile properties.
 #: lib/extendedprofile.php:299
@@ -156,7 +157,7 @@ msgstr "Başlık"
 #. TRANS: Field label for extended profile properties.
 #: lib/extendedprofile.php:304
 msgid "Manager"
-msgstr ""
+msgstr "Yönetici"
 
 #. TRANS: Field label for extended profile properties.
 #: lib/extendedprofile.php:310
@@ -181,100 +182,100 @@ msgstr "İletişim"
 #. TRANS: Field label for extended profile properties.
 #: lib/extendedprofile.php:342
 msgid "Birthday"
-msgstr ""
+msgstr "Doğum Günü"
 
 #. TRANS: Field label for extended profile properties.
 #: lib/extendedprofile.php:348
 msgid "Spouse's name"
-msgstr ""
+msgstr "Eşinin adı"
 
 #. TRANS: Field label for extended profile properties.
 #: lib/extendedprofile.php:353
 msgid "Kids' names"
-msgstr ""
+msgstr "Çocuklarının adları"
 
 #. TRANS: Field label for extended profile properties.
 #: lib/extendedprofile.php:359
 msgid "Work experience"
-msgstr ""
+msgstr "İş deneyimi"
 
 #. TRANS: Field label for extended profile properties.
 #: lib/extendedprofile.php:366
 msgid "Education"
-msgstr ""
+msgstr "Eğitim"
 
 #. TRANS: Title for extended profile entry deletion dialog.
 #: lib/extendedprofilewidget.php:84
 msgid "Confirmation Required"
-msgstr ""
+msgstr "Onaylama gerekli"
 
 #. TRANS: Confirmation text for extended profile entry deletion dialog.
 #: lib/extendedprofilewidget.php:87
 msgid "Really delete this entry?"
-msgstr ""
+msgstr "Bu girdi gerçekten silinsin mi?"
 
 #. TRANS: Value between parentheses (phone number, website, or IM address).
 #: lib/extendedprofilewidget.php:169 lib/extendedprofilewidget.php:182
 #: lib/extendedprofilewidget.php:206
 #, php-format
 msgid "(%s)"
-msgstr ""
+msgstr "(%s)"
 
 #. TRANS: Field label in experience area of extended profile.
 #. TRANS: Field label in experience edit area of extended profile (which
 #. company does one work for).
 #: lib/extendedprofilewidget.php:326 lib/extendedprofilewidget.php:372
 msgid "Company"
-msgstr ""
+msgstr "Şirket"
 
 #. TRANS: Field label in extended profile (when did one start a position or
 #. education).
 #: lib/extendedprofilewidget.php:332 lib/extendedprofilewidget.php:380
 #: lib/extendedprofilewidget.php:426 lib/extendedprofilewidget.php:481
 msgid "Start"
-msgstr ""
+msgstr "Başlangıç"
 
 #. TRANS: Field label in extended profile (when did one end a position or
 #. education).
 #: lib/extendedprofilewidget.php:340 lib/extendedprofilewidget.php:388
 #: lib/extendedprofilewidget.php:434 lib/extendedprofilewidget.php:490
 msgid "End"
-msgstr ""
+msgstr "Bitiş"
 
 #. TRANS: Field value in experience area of extended profile (one still holds
 #. a position).
 #: lib/extendedprofilewidget.php:353
 msgid "(Current)"
-msgstr ""
+msgstr "(Güncel)"
 
 #. TRANS: Checkbox label in experience edit area of extended profile (one
 #. still works at a company).
 #: lib/extendedprofilewidget.php:403
 msgid "Current"
-msgstr ""
+msgstr "Güncel"
 
 #. TRANS: Field label in extended profile for specifying an academic degree.
 #: lib/extendedprofilewidget.php:420 lib/extendedprofilewidget.php:464
 msgid "Degree"
-msgstr ""
+msgstr "Ünvan"
 
 #. TRANS: Field label in education area of extended profile.
 #. TRANS: Field label in education edit area of extended profile.
 #: lib/extendedprofilewidget.php:423 lib/extendedprofilewidget.php:472
 msgid "Description"
-msgstr "Tanım"
+msgstr "Açıklama"
 
 #. TRANS: Link description in extended profile page to add another profile
 #. element.
 #: lib/extendedprofilewidget.php:522
 msgid "Add another item"
-msgstr ""
+msgstr "Başka bir öğe ekle"
 
 #. TRANS: Field label for undefined field in extended profile.
 #: lib/extendedprofilewidget.php:633
 #, php-format
 msgid "TYPE: %s"
-msgstr ""
+msgstr "TÜR: %s"
 
 #. TRANS: Button text for saving extended profile properties.
 #: lib/extendedprofilewidget.php:647
@@ -286,4 +287,4 @@ msgstr "Kaydet"
 #. TRANS: Button title for saving extended profile properties.
 #: lib/extendedprofilewidget.php:652
 msgid "Save details"
-msgstr ""
+msgstr "Ayrıntıları kaydet"
