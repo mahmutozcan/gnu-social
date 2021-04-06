@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -21,7 +22,7 @@ msgstr ""
 #. on.
 #: actions/caslogin.php:29
 msgid "Already logged in."
-msgstr "Zaten giriş yapılmış."
+msgstr "Zaten oturum açılmış."
 
 #. TRANS: Server error displayed when trying to log in with incorrect username
 #. or password.
@@ -33,17 +34,17 @@ msgstr "Yanlış kullanıcı adı veya parola."
 #. plugin.
 #: actions/caslogin.php:47
 msgid "Error setting user. You are probably not authorized."
-msgstr ""
+msgstr "Kullanıcı ayarı hatası. Büyük olasılıkla yetkili değilsiniz."
 
 #. TRANS: Menu item. CAS is Central Authentication Service.
 #: CasAuthenticationPlugin.php:83
 msgid "CAS"
-msgstr ""
+msgstr "Merkezi Yetkilendirme Hizmeti"
 
 #. TRANS: Tooltip for menu item. CAS is Central Authentication Service.
 #: CasAuthenticationPlugin.php:85
 msgid "Login or register with CAS."
-msgstr ""
+msgstr "MYH ile oturum açın veya kaydolun."
 
 #. TRANS: Invitation to users with a CAS account to log in using the service.
 #. TRANS: "[CAS login]" is a link description. (%%action.caslogin%%) is the
@@ -58,23 +59,23 @@ msgstr ""
 #. configured incorrectly.
 #: CasAuthenticationPlugin.php:129
 msgid "Specifying a server is required."
-msgstr ""
+msgstr "Bir sunucunun belirtilmesi gerekir."
 
 #. TRANS: Exception thrown when the CAS Authentication plugin has been
 #. configured incorrectly.
 #: CasAuthenticationPlugin.php:133
 msgid "Specifying a port is required."
-msgstr ""
+msgstr "Bir bağlanma noktası belirtilmesi gerekir."
 
 #. TRANS: Exception thrown when the CAS Authentication plugin has been
 #. configured incorrectly.
 #: CasAuthenticationPlugin.php:137
 msgid "Specifying a path is required."
-msgstr ""
+msgstr "Bir yol belirtilmesi gerekir."
 
 #. TRANS: Plugin description. CAS is Central Authentication Service.
 #: CasAuthenticationPlugin.php:157
 msgid ""
 "The CAS Authentication plugin allows for StatusNet to handle authentication "
 "through CAS (Central Authentication Service)."
-msgstr ""
+msgstr "MYH Kimlik Doğrulama eklentisi, StatusNet'in MYH (Merkezi Yetkilendirme Hizmeti) aracılığıyla kimlik doğrulamasını işlemesine izin verir."
