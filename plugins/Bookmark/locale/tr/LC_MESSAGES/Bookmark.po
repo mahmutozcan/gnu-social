@@ -290,7 +290,7 @@ msgstr ""
 #. TRANS: Plugin description.
 #: BookmarkPlugin.php:192
 msgid "Simple extension for supporting bookmarks. "
-msgstr "Yer imlerini desteklemek için basit eklenti."
+msgstr "Yer imlerini desteklemek için basit eklenti. "
 
 #. TRANS: Menu item in sample plugin.
 #: BookmarkPlugin.php:263
@@ -305,7 +305,7 @@ msgstr "Yer imlerinizin listesi"
 #. TRANS: Client exception thrown when a bookmark is formatted incorrectly.
 #: BookmarkPlugin.php:312
 msgid "Expected exactly 1 link rel=related in a Bookmark."
-msgstr ""
+msgstr "Tam olarak beklenen 1 bağlantı=bir yer imi ile ilgili."
 
 #. TRANS: Server exception thrown when a bookmark has multiple attachments.
 #: BookmarkPlugin.php:405
@@ -334,4 +334,4 @@ msgstr "Özel yer imini atlama."
 #: scripts/importbookmarks.php:84
 #, php-format
 msgid "Getting backup from file \"%s\"."
-msgstr "\"%s\" dosyasından yedek alma."
+msgstr "<<%s>> dosyasından yedek alınıyor."
