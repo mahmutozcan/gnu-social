@@ -21,7 +21,7 @@ msgstr ""
 #. TRANS: Title of administration panel.
 #: actions/bitlyadminpanel.php:53
 msgid "bit.ly URL shortening"
-msgstr "bit.ly internet adresi kısaltma"
+msgstr "bit.ly kaynak adresi kısaltma"
 
 #. TRANS: Instructions for administration panel.
 #. TRANS: This message contains Markdown links in the form
@@ -32,7 +32,7 @@ msgid ""
 "key](http://bit.ly/a/your_api_key). This verifies that this is an authorized"
 " account, and allow you to use bit.ly's tracking features and custom "
 "domains."
-msgstr ""
+msgstr "Bit.ly ile URL kısaltması [bir bit.ly hesabı ve API anahtarı](http://bit.ly/a/your_api_key) gerektirir. Bu, yetkili bir hesap olduğunu doğrular ve bit.ly'nin izleme özelliklerini ve özel alanlarını kullanmanıza izin verir."
 
 #. TRANS: Client error displayed when using too long a key.
 #: actions/bitlyadminpanel.php:131
@@ -88,7 +88,7 @@ msgstr "bit.ly ayarlarını kaydet"
 #. incorrectly.
 #: BitlyUrlPlugin.php:47
 msgid "You must specify a serviceUrl for bit.ly URL shortening."
-msgstr "Bit.ly internet adresi kısaltması için bir serviceUrl belirtmelisiniz. "
+msgstr "Bit.ly kaynak adresi kısaltması için bir serviceUrl belirtmelisiniz. "
 
 
 #. TRANS: Plugin description. %1$s is the URL shortening service base URL (for
@@ -96,7 +96,7 @@ msgstr "Bit.ly internet adresi kısaltması için bir serviceUrl belirtmelisiniz
 #: BitlyUrlPlugin.php:156
 #, php-format
 msgid "Uses <a href=\"http://%1$s/\">%1$s</a> URL-shortener service."
-msgstr "<a href=\"http://%1$s/\">%1$s</a> adres kısaltıcı hizmeti kullanıyor."
+msgstr "<a href=\"http://%1$s/\">%1$s</a> kaynak adresi kısaltma hizmeti kullanıyor."
 
 #. TRANS: Menu item in administration menus for bit.ly URL shortening
 #. settings.
@@ -108,4 +108,4 @@ msgstr "bit.ly"
 #. shortening settings.
 #: BitlyUrlPlugin.php:200
 msgid "bit.ly URL shortening."
-msgstr "bit.ly internet adresi kısaltma."
+msgstr "bit.ly kaynak adresi kısaltma."
