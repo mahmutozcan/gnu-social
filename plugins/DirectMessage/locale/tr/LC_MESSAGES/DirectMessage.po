@@ -33,7 +33,7 @@ msgstr "İleti"
 #. TRANS: Plugin description.
 #: DirectMessagePlugin.php:168
 msgid "Direct Message to other local users (broken out of core)."
-msgstr ""
+msgstr "Diğer yerel kullanıcılara Doğrudan İleti (çekirdekten kopan)."
 
 #. TRANS: Form validation error displayed when message content is too long.
 #. TRANS: %d is the maximum number of characters for a message.
@@ -94,10 +94,10 @@ msgstr "posta"
 #: lib/messagelistitem.php:143
 msgctxt "SOURCE"
 msgid "omb"
-msgstr ""
+msgstr "omb"
 
 #. TRANS: A possible notice source (Application Programming Interface).
 #: lib/messagelistitem.php:145
 msgctxt "SOURCE"
 msgid "api"
-msgstr ""
+msgstr "api"
