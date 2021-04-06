@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -20,7 +21,7 @@ msgstr ""
 #. TRANS: Form legend.
 #: forms/whitelistinvite.php:89
 msgid "Invite collegues"
-msgstr "Arkadaşlarınızı davet edin"
+msgstr "İş arkadaşlarınızı davet edin"
 
 #. TRANS: Field label for a personal message to send to invitees.
 #: forms/whitelistinvite.php:106
@@ -30,7 +31,7 @@ msgstr "Kişisel ileti"
 #. TRANS: Field title for a personal message to send to invitees.
 #: forms/whitelistinvite.php:109
 msgid "Optionally add a personal message to the invitation."
-msgstr "Davetiyeye kişisel bir mesaj eklemek isteğe bağlıdır. "
+msgstr "Davete kişisel bir ileti eklemek isteğe bağlıdır. "
 
 #. TRANS: Link description to action to add another item to a list.
 #: forms/whitelistinvite.php:158
@@ -69,23 +70,23 @@ msgstr "E-posta adresi bu alan adlarından birinden olmalı: %s."
 #: DomainWhitelistPlugin.php:97
 msgctxt "SEPARATOR"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #. TRANS: Exception thrown when an e-mail address does not match the site's
 #. domain whitelist.
 #: DomainWhitelistPlugin.php:109
 msgid "That email address is not allowed on this site."
-msgstr "Bu eposta adresine bu sitede izin verilmiyor."
+msgstr "Bu e-posta adresine bu sitede izin verilmiyor."
 
 #. TRANS: Title for invitiation deletion dialog.
 #: DomainWhitelistPlugin.php:238
 msgid "Confirmation Required"
-msgstr "Doğrulama Gerekiyor"
+msgstr "Doğrulama Gerekli"
 
 #. TRANS: Confirmation text for invitation deletion dialog.
 #: DomainWhitelistPlugin.php:241
 msgid "Really delete this invitation?"
-msgstr "Bu davetiye gerçekten silinsin mi?"
+msgstr "Bu davet gerçekten silinsin mi?"
 
 #. TRANS: Plugin description.
 #: DomainWhitelistPlugin.php:278
