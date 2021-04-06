@@ -21,7 +21,7 @@ msgstr ""
 #. TRANS: Plugin description.
 #: AutoSandboxPlugin.php:67
 msgid "Automatically sandboxes newly registered members."
-msgstr "Yeni kaydolan üyeleri otomatik olarak istenmeyen bildirim ayırma alanına alır"
+msgstr "Yeni kaydolan üyeleri otomatik olarak korumalı alana alır"
 
 #. TRANS: User instructions after registration.
 #: AutoSandboxPlugin.php:74
@@ -29,8 +29,7 @@ msgid ""
 "Note you will initially be \"sandboxed\" so your posts will not appear in "
 "the public timeline."
 msgstr
-"Başlangıçta \"istenmeyen posta korumasında\" olacağınızı ve postalarınızı görünmeyeceğini unutmayın"
-"herkese açık zaman çizgisi"
+"Başlangıçta \"korumalı alanda\" olacağınızı,bu nedenle postalarınızın herkese açık zaman çizelgesinde görünmeyeceğini unutmayın."
 
 #. TRANS: User instructions after registration.
 #. TRANS: %s is a clickable OStatus profile URL.
@@ -40,5 +39,4 @@ msgid ""
 "Note you will initially be \"sandboxed\" so your posts will not appear in "
 "the public timeline. Send a message to %s to speed up the unsandboxing "
 "process."
-msgstr "Başlangıçta \"istenmeyen posta korumasında\" olacağınızı ve postalarınızı görünmeyeceğini unutmayın"
-"herkese açık zaman çizgisi. İstenmeyen posta korumasıdan hızla çıkmak için %s'ye bir ileti gönderin"
+msgstr "Başlangıçta \"korumalı alanda\" olacağınızı ve postalarınızın herkese açık zaman çizelgesinde görünmeyeceğini unutmayın. Korumalı alandan hızla çıkmak için %s'ye bir ileti gönderin."
