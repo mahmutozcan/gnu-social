@@ -32,7 +32,7 @@ msgstr "%1$s kaynaklı hata: %2$s"
 #: BlogspamNetPlugin.php:91
 #, php-format
 msgid "Spam checker results: %s"
-msgstr "İstenmeyen bildirim denetleyici sonuçları: %s"
+msgstr "İstenmeyen ileti denetleyici sonuçları: %s"
 
 #. TRANS: Server exception thrown when blogspam.net returns an unexpected
 #. status.
