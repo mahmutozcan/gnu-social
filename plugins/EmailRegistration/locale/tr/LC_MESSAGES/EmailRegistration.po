@@ -62,7 +62,7 @@ msgstr "Yukarıdaki parolanın aynısı."
 msgid ""
 "I agree to the <a href=\"%1$s\">Terms of service</a> and <a "
 "href=\"%1$s\">Privacy policy</a> of this site."
-msgstr ""
+msgstr "Bu sitenin <a href=\"%1$s\">Hizmet şartlarını</a> ve <a href=\"%1$s\">Gizlilik politikasını</a> kabul ediyorum."
 
 #. TRANS: Button text for action to register.
 #. TRANS: Button text for registering an account.
@@ -74,7 +74,7 @@ msgstr "Kayıt"
 #. TRANS: Form instructions.
 #: forms/emailregistration.php:61
 msgid "Enter your email address to register for an account."
-msgstr ""
+msgstr "Bir hesap kaydetmek için e-posta adresinizi girin."
 
 #. TRANS: Field label on form for registering an account.
 #: forms/emailregistration.php:69
@@ -127,7 +127,7 @@ msgstr "Tam kayıt"
 msgid ""
 "An email was sent to %s to confirm that address. Check your email inbox for "
 "instructions."
-msgstr ""
+msgstr "Bu adresi onaylamak için %s adresine bir e-posta gönderildi. Yönergeler için e-posta gelen kutunuzu kontrol edin."
 
 #. TRANS: Client exception trown when trying to set password with an invalid
 #. confirmation code.
@@ -166,7 +166,7 @@ msgstr "Kullanıcı kaydı başarısız oldu."
 #: actions/emailregister.php:350
 #, php-format
 msgid "Confirm your registration on %s"
-msgstr "% S üzerinde kaydınızı onaylayın "
+msgstr "%s üzerinde kaydınızı onaylayın "
 
 #. TRANS: Body for confirmation e-mail.
 #. TRANS: %1$s is the StatusNet sitename, %2$s is the confirmation URL.
@@ -177,7 +177,7 @@ msgid ""
 "To confirm the address, click the following URL or copy it into the address bar of your browser.\n"
 "%2$s\n"
 "If it was not you, you can safely ignore this message."
-msgstr ""
+msgstr "Birisi (olasılıkla siz) bu e-posta adresini kullanarak %1$s'de bir hesap talep etti.\nAdresi onaylamak için aşağıdaki kaynak adresini tıklayın veya tarayıcınızın adres çubuğuna kopyalayın.\n%2$s\n Eğer sen değilsen, bu iletiyi güvenle görmezden gelebilirsin."
 
 #. TRANS: Error text when trying to register with an already registered e-mail
 #. address.
@@ -187,7 +187,7 @@ msgstr ""
 msgid ""
 "A user with that email address already exists. You can use the <a "
 "href=\"%s\">password recovery</a> tool to recover a missing password."
-msgstr ""
+msgstr "Bu e-posta adresine sahip bir kullanıcı zaten var. Kayıp bir parolayı kurtarmak için <a href=\"%s\">parola kurtarma</a> kayıp parola kurtarma aracını kullanabilirsiniz."
 
 #. TRANS: Error text when trying to register with an invalid e-mail address.
 #: EmailRegistrationPlugin.php:106
