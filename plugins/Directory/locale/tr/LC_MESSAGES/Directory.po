@@ -54,13 +54,13 @@ msgstr "%%site.name%% sitesindeki kişileri adlarına, konumlarına ve ilgi alan
 #. TRANS: Fieldset legend.
 #: actions/userdirectory.php:271
 msgid "Search site"
-msgstr "Sitede ara"
+msgstr "Arama sitesi"
 
 #. TRANS: Field label for user directory filter.
 #. TRANS: Field label for input of one or more keywords.
 #: actions/userdirectory.php:276 actions/groupdirectory.php:288
 msgid "Keyword(s)"
-msgstr "Anahtar kelime(ler)"
+msgstr "Anahtar sözcük(ler)"
 
 #. TRANS: Button text.
 #. TRANS: Button text for searching group directory.
@@ -128,7 +128,7 @@ msgid ""
 "\n"
 "Browse groups, or search for groups by their name, location or topic.\n"
 "Separate the terms by spaces; they must be three characters or more."
-msgstr ""
+msgstr "Bir gruba katıldıktan sonra \"!grup adı\"\n sözdizimini kullanarak diğer tüm üyelere ileti gönderebilirsiniz.\n\n Gruplara göz atın veya onları adlarına, konumlarına veya konularına göre arayın.\n Terimleri boşluklarla ayırın; üç veya daha fazla karakter olmalıdır."
 
 #. TRANS: Link to create a new group on the group list page.
 #: actions/groupdirectory.php:218
