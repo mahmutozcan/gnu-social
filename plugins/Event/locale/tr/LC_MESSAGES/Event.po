@@ -366,7 +366,7 @@ msgstr "%s kimliği ile etkinlik yok."
 msgid ""
 "<span class='automatic event-rsvp'><a href='%1$s'>%2$s</a> is attending <a "
 "href='%3$s'>%4$s</a>.</span>"
-msgstr ""
+msgstr "<span class='automatic event-rsvp'><a href='%1$s'>%2$s</a> <a href='%3$s'>%4$s</a> katılıyor >.</span>"
 
 #. TRANS: HTML version of an RSVP ("please respond") status for a user.
 #. TRANS: %1$s is a profile URL, %2$s a profile name,
@@ -376,7 +376,7 @@ msgstr ""
 msgid ""
 "<span class='automatic event-rsvp'><a href='%1$s'>%2$s</a> is not attending "
 "<a href='%3$s'>%4$s</a>.</span>"
-msgstr ""
+msgstr "<span class='automatic event-rsvp'><a href='%1$s'>%2$s</a> <a href='%3$s'>%4$s</a> katılmıyor >.</span>"
 
 #. TRANS: HTML version of an RSVP ("please respond") status for a user.
 #. TRANS: %1$s is a profile URL, %2$s a profile name,
