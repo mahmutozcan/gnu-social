@@ -43,14 +43,14 @@ msgstr "bağlamda"
 #: lib/useremailsummaryhandler.php:198
 #, php-format
 msgid "<a href=\"%1$s\">change your email settings for %2$s</a>"
-msgstr "<a href=\"1$s\">%2$s</a> e-posta ayarlarını dğiştirin"
+msgstr "<a href=\"1$s\"> %2$s</a> e-posta ayarlarınızı dğiştirin"
 
 #. TRANS: Plugin description.
 #: EmailSummaryPlugin.php:77
 msgid "Send an email summary of the inbox to users."
-msgstr "Gelen kutusunun e-posta özetini kullanıcılara gönder."
+msgstr "Kullanıcıların gelen kutusunun özetini e-posta ile gönder."
 
 #. TRANS: Checkbox label in e-mail preferences form.
 #: EmailSummaryPlugin.php:108
 msgid "Send me a periodic summary of updates from my network"
-msgstr "Kendi ağımdan güncellemelerin özetini belirli aralıklarla düzenli olarak bana gönder"
+msgstr "Kendi ağımdan güncellemelerin özetini düzenli aralıklarla bana gönder"
