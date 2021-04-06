@@ -36,6 +36,7 @@ msgid "An error occurred."
 msgstr "Bir hata oluştu."
 
 #. TRANS: Error message displayed when there is no StatusNet configuration
+
 #. file.
 #: index.php:229
 #, php-format
@@ -710,7 +711,7 @@ msgstr "%s abonelikleri"
 #: actions/apiatomservice.php:116
 #, php-format
 msgid "%s favorites"
-msgstr "%s sık kullanılanlar"
+msgstr "%s beğendikleri"
 
 #. TRANS: Title for Atom feed with a user's memberships. %s is a user
 #. nickname.
@@ -1421,7 +1422,7 @@ msgstr "%s için tekrarlandı"
 #: actions/apitimelineretweetedtome.php:99
 #, php-format
 msgid "%1$s notices that were to repeated to %2$s / %3$s."
-msgstr ""
+msgstr "%2$s/%3$s için tekrarlanan %1$s bildirimleri."
 
 #. TRANS: Title of list of repeated notices of the logged in user.
 #. TRANS: %s is the nickname of the logged in user.
@@ -1487,7 +1488,7 @@ msgstr "Atom gönderisi bir Atom girdisi olmalıdır."
 #. translate POST.
 #: actions/apitimelineuser.php:360
 msgid "Can only handle POST activities."
-msgstr "Sadece GÖNDERİ faaliyetleri idare edilebilir."
+msgstr "Sadece POST etkinlikleri işlenebilir."
 
 #. TRANS: Client error displayed when using an unsupported activity object
 #. type.
@@ -1510,7 +1511,7 @@ msgstr "%d bildiriminin içeriği yok."
 #: actions/apitimelineuser.php:430
 #, php-format
 msgid "Notice with URI \"%s\" already exists."
-msgstr "<<%s>> adresi ile bildirim zaten var."
+msgstr "<<%s>> kaynak adresi ile bildirim zaten var."
 
 #. TRANS: Server error for unfinished API method showTrends.
 #: actions/apitrends.php:83
@@ -1648,13 +1649,13 @@ msgstr "%s, bu grup için denetim kuyruğunda değil."
 #. TRANS: Client error displayed trying to approve/deny subscription.
 #: actions/approvegroup.php:124 actions/approvesub.php:82
 msgid "Internal error: received neither cancel nor abort."
-msgstr ""
+msgstr "İç hata: ne iptal ne de ayrılma alındı."
 
 #. TRANS: Client error displayed trying to approve/deny group membership.
 #. TRANS: Client error displayed trying to approve/deny  subscription
 #: actions/approvegroup.php:128 actions/approvesub.php:86
 msgid "Internal error: received both cancel and abort."
-msgstr ""
+msgstr "İç hata: hem iptal hem ayrılma alındı."
 
 #. TRANS: Server error displayed when cancelling a queued group join request
 #. fails.
@@ -1809,7 +1810,7 @@ msgstr "Başkasının aboneliği silinemez."
 #: actions/atompubsubscriptionfeed.php:120
 #, php-format
 msgid "People %1$s has subscribed to on %2$s"
-msgstr ""
+msgstr "%1$s kişileri %2$s sitesinde abone oldu"
 
 #. TRANS: Client exception thrown when trying to subscribe another user.
 #: actions/atompubsubscriptionfeed.php:192
@@ -1825,7 +1826,7 @@ msgstr "Sadece Takip etkinlikleri yönetilebilir."
 #. person.
 #: actions/atompubsubscriptionfeed.php:221
 msgid "Can only follow people."
-msgstr "Yalnızca kişileri takip edebilir."
+msgstr "Yalnızca kişiler takip edilebilir."
 
 #. TRANS: Client exception thrown when subscribing to a non-existing profile.
 #. TRANS: %s is the unknown profile ID.
@@ -1999,7 +2000,7 @@ msgid ""
 "experimental feature and provides an incomplete backup; private account "
 "information like email and IM addresses is not backed up. Additionally, "
 "uploaded files and direct messages are not backed up."
-msgstr ""
+msgstr "Hesap verilerinizi <a href=\"http://activitystrea.ms/\">Etkinlik Akışları</a> biçiminde yedekleyebilirsiniz. Bu deneysel bir özelliktir ve eksik bir yedekleme sağlar; e-posta gibi özel hesap bilgileri ve anlık ileti adresleri yedeklenmez, ayrıca yüklenen dosyalar ve doğrudan iletiler yedeklenmez."
 
 #. TRANS: Submit button to backup an account on the backup account page.
 #: actions/backupaccount.php:250
@@ -2011,7 +2012,7 @@ msgstr "Yedekle"
 #. page.
 #: actions/backupaccount.php:254
 msgid "Backup your account."
-msgstr "Hesabını yedekle"
+msgstr "Hesabınızı yedekleyin"
 
 #. TRANS: Client error displayed when blocking a user that has already been
 #. blocked.
@@ -2024,7 +2025,7 @@ msgstr "O kullanıcıyı zaten engellediniz."
 #. TRANS: Fieldset legend for block user from group form.
 #: actions/block.php:103 actions/block.php:133 actions/groupblock.php:157
 msgid "Block user"
-msgstr "Kullanıcıyı engelle"
+msgstr "Kullanıcı engelleme"
 
 #. TRANS: Explanation of consequences when blocking a user on the block user
 #. page.
@@ -3012,7 +3013,7 @@ msgstr "Gelen e-posta adresi kaldırıldı."
 #. TRANS: Confirmation text after updating SMS settings.
 #: actions/emailsettings.php:551 actions/smssettings.php:591
 msgid "New incoming email address added."
-msgstr "Yeni gelen e-posta adresi eklendi."
+msgstr "Yeni, gelen e-posta adresi eklendi."
 
 #. TRANS: Page title for first page of featured users.
 #. TRANS: Title for featured users section.
