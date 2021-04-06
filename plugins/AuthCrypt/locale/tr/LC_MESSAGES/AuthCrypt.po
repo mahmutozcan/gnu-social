@@ -21,4 +21,4 @@ msgstr ""
 #. TRANS: Plugin description.
 #: AuthCryptPlugin.php:157
 msgid "Authentication and password hashing with crypt()"
-msgstr "Şifre ile parola karıştırma ve kimlik doğrulama"
+msgstr "Şifre() ile parola karıştırma ve kimlik doğrulama"
