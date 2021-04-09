@@ -1373,7 +1373,7 @@ msgstr "Desteklenmeyen biçim."
 #: actions/apitimelinelist.php:151
 #, php-format
 msgid "Could not generate feed for list - %s"
-msgstr "%S listesi için besleme oluşturulamadı"
+msgstr "%s listesi için besleme oluşturulamadı"
 
 #. TRANS: Title for timeline of most recent mentions of a user.
 #. TRANS: %1$s is the StatusNet sitename, %2$s is a user nickname.
@@ -5825,7 +5825,7 @@ msgstr "Düzenle"
 #. TRANS: Resets the OAuth consumer key and secret.
 #: actions/showapplication.php:222
 msgid "Reset key & secret"
-msgstr ""
+msgstr "Anahtarı ve gizli anahtarı sıfırla"
 
 #. TRANS: Header on the OAuth application page.
 #: actions/showapplication.php:249
@@ -5868,7 +5868,7 @@ msgstr ""
 #. OAuth application.
 #: actions/showapplication.php:292
 msgid "Are you sure you want to reset your consumer key and secret?"
-msgstr ""
+msgstr "Müşteri anahtarı ve gizli anahtarınızı sıfırlamak istediğinize emin misiniz?"
 
 #. TRANS: Page title for first group page. %s is a group name.
 #: actions/showgroup.php:75
