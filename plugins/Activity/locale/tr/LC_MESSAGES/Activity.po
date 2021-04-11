@@ -25,7 +25,7 @@ msgstr ""
 #: ActivityPlugin.php:75
 #, php-format
 msgid "<a href=\"%1$s\">%2$s</a> started following <a href=\"%3$s\">%4$s</a>."
-msgstr "<a href=\"%1$s\">%2$s</a>, <a href=\"%3$s\">%4$s</a>'yi takip etmeye başladı."
+msgstr "<a href=\"%1$s\">%2$s</a>, <a href=\"%3$s\">%4$s</a> kullanıcısını takip etmeye başladı."
 
 #. TRANS: Text for "started following" item in activity plugin.
 #. TRANS: %1$s is a profile name, %2$s is a profile URL,
@@ -33,7 +33,7 @@ msgstr "<a href=\"%1$s\">%2$s</a>, <a href=\"%3$s\">%4$s</a>'yi takip etmeye ba�
 #: ActivityPlugin.php:83
 #, php-format
 msgid "%1$s (%2$s) started following %3$s (%4$s)."
-msgstr "%1$s (%2$s), %3$s(%4$s)'i takip etmeye başladı."
+msgstr "%1$s (%2$s), %3$s(%4$s) kullanıcısını takip etmeye başladı."
 
 #. TRANS: Text for "stopped following" item in activity plugin.
 #. TRANS: %1$s is a profile URL, %2$s is a profile name,
@@ -41,7 +41,7 @@ msgstr "%1$s (%2$s), %3$s(%4$s)'i takip etmeye başladı."
 #: ActivityPlugin.php:113
 #, php-format
 msgid "<a href=\"%1$s\">%2$s</a> stopped following <a href=\"%3$s\">%4$s</a>."
-msgstr "<a href=\"%1$s\">%2$s</a> <a href=\"%3$s\">%4$s</a>'i takibi bıraktı."
+msgstr "<a href=\"%1$s\">%2$s</a> <a href=\"%3$s\">%4$s</a> kullanıcısını takibi bıraktı."
 
 #. TRANS: Text for "stopped following" item in activity plugin.
 #. TRANS: %1$s is a profile name, %2$s is a profile URL,
@@ -49,7 +49,7 @@ msgstr "<a href=\"%1$s\">%2$s</a> <a href=\"%3$s\">%4$s</a>'i takibi bıraktı."
 #: ActivityPlugin.php:121
 #, php-format
 msgid "%1$s (%2$s) stopped following %3$s (%4$s)."
-msgstr "%1$s (%2$s) %3$s (%4$s)'i takibi bıraktı."
+msgstr "%1$s (%2$s) %3$s (%4$s) kullanıcısını takibi bıraktı."
 
 #. TRANS: Text for "stopped liking" item in activity plugin.
 #. TRANS: %1$s is a profile URL, %2$s is a profile name,
@@ -65,7 +65,7 @@ msgstr "<a href=\"%1$s\">%2$s</a> <a href=\"%3$s\">%4$s'nin </a> güncellemesini
 #: ActivityPlugin.php:166
 #, php-format
 msgid "%1$s (%2$s) stopped liking %3$s's status (%4$s)."
-msgstr "%1$s (%2$s), %3$s (%4$s)'un  durumunu beğenmekten vazgeçti ."
+msgstr "%1$s (%2$s), %3$s kullanıcısının durumunu (%4$s) beğenmekten vazgeçti."
 
 #. TRANS: Text for "joined group" item in activity plugin.
 #. TRANS: %1$s is a profile URL, %2$s is a profile name,
