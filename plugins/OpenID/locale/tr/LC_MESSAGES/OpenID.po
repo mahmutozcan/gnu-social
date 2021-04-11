@@ -169,7 +169,7 @@ msgstr "OpenID ayarları"
 msgid ""
 "[OpenID](%%doc.openid%%) lets you log into many sites with the same user "
 "account. Manage your associated OpenIDs from here."
-msgstr "[OpenID](%% doc.openid %%), aynı kullanıcı hesabıyla birçok sitede oturum açmanıza izin verir. Bağlantılı OpenID'lerinizi buradan yönetin."
+msgstr "[OpenID](%%doc.openid%%), aynı kullanıcı hesabıyla birçok sitede oturum açmanıza izin verir. Bağlantılı OpenID'lerinizi buradan yönetin."
 
 #. TRANS: Fieldset legend.
 #: actions/openidsettings.php:100
