@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mahmut Özcan <mahmutozcan@yandex.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU social\n"
@@ -23,17 +24,17 @@ msgstr ""
 msgid ""
 "provider_name must be set. Use the provider_name from the LDAP "
 "Authentication plugin."
-msgstr ""
+msgstr "provider_name ayarlanmalıdır. LDAP Kimlik Doğrulama eklentisindeki provider_name'yi kullanın."
 
 #. TRANS: Exception thrown when initialising the LDAP Auth plugin fails
 #. because of an incorrect configuration.
 #: LdapAuthorizationPlugin.php:46
 msgid "uniqueMember_attribute must be set."
-msgstr ""
+msgstr "uniqueMember_attribute ayarlanmalıdır."
 
 #. TRANS: Plugin description.
 #: LdapAuthorizationPlugin.php:129
 msgid ""
 "The LDAP Authorization plugin allows for StatusNet to handle authorization "
 "through LDAP."
-msgstr ""
+msgstr "LDAP Yetkilendirme eklentisi, StatusNet'in LDAP üzerinden yetkilendirmeyi yönetmesine izin verir."
