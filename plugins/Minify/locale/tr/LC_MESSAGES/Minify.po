@@ -22,12 +22,12 @@ msgstr ""
 #. "f".
 #: actions/minify.php:50
 msgid "The parameter \"f\" is not a valid path."
-msgstr "\"F\" değişkeni geçerli bir yol değil."
+msgstr "\"f\" değişkeni geçerli bir yol değil."
 
 #. TRANS: Client error displayed when not providing parameter "f".
 #: actions/minify.php:54
 msgid "The parameter \"f\" is required but missing."
-msgstr "\"F\" değişkeni gerekli ancak eksik. "
+msgstr "\"f\" değişkeni gerekli ancak eksik. "
 
 #. TRANS: Client error displayed when trying to minify an unsupported file
 #. type.
