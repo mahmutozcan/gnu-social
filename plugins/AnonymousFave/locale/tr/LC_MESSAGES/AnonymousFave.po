@@ -23,7 +23,7 @@ msgstr ""
 #: actions/anonfavor.php:58
 msgid ""
 "Could not favor notice! Please make sure your browser has cookies enabled."
-msgstr "Bildirim kabul edilemedi! Lütfen çerezlerin etkin olduğundan emin olun."
+msgstr "Bildirim beğenilemedi! Lütfen tarayıcınızın çerezlerinin etkin olduğundan emin olun."
 
 #. TRANS: Client error.
 #: actions/anonfavor.php:67
