@@ -42,7 +42,7 @@ msgstr "Her satıra bir tane olmak üzere engellenecek takma adların örüntül
 #. TRANS: Field label in blacklist plugin administration panel.
 #: actions/blacklistadminpanel.php:187
 msgid "URLs"
-msgstr "Kayak adresleri"
+msgstr "Kaynak adresleri"
 
 #. TRANS: Field title in blacklist plugin administration panel.
 #: actions/blacklistadminpanel.php:190
