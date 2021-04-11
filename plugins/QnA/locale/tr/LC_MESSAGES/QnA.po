@@ -89,7 +89,7 @@ msgstr "Kapat"
 #. TRANS: Title for button text for closing a question.
 #: forms/qnashowquestion.php:155
 msgid "Close the question to no one can answer it anymore."
-msgstr ""
+msgstr "Soruyu artık kimsenin yanıtlayamayacağı biçimde kapatın. "
 
 #. TRANS: Field label.
 #: forms/qnanewanswer.php:114
